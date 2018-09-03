@@ -1,0 +1,364 @@
+{
+  "websites": [
+    {
+      "category": "Design",
+      "content": [
+        {
+          "title": "Seeseed",
+          "subtitle": "无穷尽设计可能",
+          "url": "https://www.seeseed.com/"
+        },
+        {
+          "title": "[字由]",
+          "subtitle": "设计师必备字体利器",
+          "url": "http://www.hellofont.cn/"
+        },
+        {
+          "title": "创造狮",
+          "subtitle": "创意工作者导航",
+          "url": "http://chuangzaoshi.com/"
+        },
+        {
+          "title": "seeseed",
+          "subtitle": "无穷尽设计可能",
+          "url": "https://www.seeseed.com/"
+        }
+      ]
+    },
+    {
+      "category": "UI",
+      "content": [
+        {
+          "title": "MDUI",
+          "subtitle": "Material Design User Interface",
+          "url": "https://www.mdui.org/"
+        },
+        {
+          "title": "[字由]",
+          "subtitle": "设计师必备字体利器",
+          "url": "http://www.hellofont.cn/"
+        },
+        {
+          "title": "创造狮",
+          "subtitle": "创意工作者导航",
+          "url": "http://chuangzaoshi.com/"
+        },
+        {
+          "title": "seeseed",
+          "subtitle": "无穷尽设计可能",
+          "url": "https://www.seeseed.com/"
+        }
+      ]
+    },
+    {
+      "category": "Develop",
+      "content": [
+        {
+          "title": "代码片段",
+          "subtitle": "",
+          "url": "http://www.codesnippet.cn/"
+        },
+        {
+          "title": "Carbon",
+          "subtitle": "",
+          "url": "https://carbon.now.sh"
+        },
+        {
+          "title": "Beyondcow",
+          "subtitle": "",
+          "url": "https://www.beyondcow.com/"
+        },
+        {
+          "title": "DevDocs API Documentation",
+          "subtitle": "",
+          "url": "http://devdocs.io/"
+        },
+        {
+          "title": "Zeal",
+          "subtitle": "Offline Documentation Browser",
+          "url": "https://zealdocs.org/"
+        },
+        {
+          "title": "Cacher",
+          "subtitle": "Code snippet organizer for pros",
+          "url": "https://www.cacher.io/"
+        },
+        {
+          "title": "Dash for macOS",
+          "subtitle": "API Documentation Browser, Snippet Manager - Kapeli",
+          "url": "https://kapeli.com"
+        },
+        {
+          "title": "Python Extension Packages for Windows",
+          "subtitle": "Unofficial Windows Binaries for Python Extension Packages",
+          "url": "https://www.lfd.uci.edu/~gohlke/pythonlibs/"
+        },
+        {
+          "title": "Isotope",
+          "subtitle": "Filter & sort magical layouts",
+          "url": "https://isotope.metafizzy.co/"
+        },
+        {
+          "title": "Zeal",
+          "subtitle": "Offline Documentation Browser",
+          "url": "https://zealdocs.org/"
+        },
+        {
+          "title": "Zeal",
+          "subtitle": "Offline Documentation Browser",
+          "url": "https://zealdocs.org/"
+        }
+      ]
+    },
+    {
+      "category": "Tool",
+      "content": [
+        {
+          "title": "她的工具箱",
+          "subtitle": "",
+          "url": "https://toolher.com/"
+        },
+        {
+          "title": "IPIP.NET",
+          "subtitle": "最专业的 IP 地址库",
+          "url": "https://www.ipip.net/"
+        },
+        {
+          "title": "Apowersoft",
+          "subtitle": "为您提供专业的商务办公及日常生活的桌面软件和在线应用",
+          "url": "https://www.apowersoft.cn/"
+        },
+        {
+          "title": "PA口袋动画",
+          "subtitle": "一款让PPT动画炫酷起来的插件",
+          "url": "http://www.papocket.com/"
+        },
+        {
+          "title": "速盘",
+          "subtitle": "不一样的度盘神器，百度网盘资源搜索下载不限速工具",
+          "url": "https://www.speedpan.com/"
+        },
+        {
+          "title": "Amazing Apps",
+          "subtitle": "致力于寻找各大系统平台下最佳的应用程序，并提供一个便于搜索的简化目录供所有用户游览查阅",
+          "url": "http://amazingapps.org/"
+        },
+        {
+          "title": "PPT美化大师",
+          "subtitle": "不会做PPT,也能做好PPT-PPT模版|PPT图示|PPT素材|PPT形状|PPT画册|图片素材",
+          "url": "http://meihua.docer.com/"
+        },
+        {
+          "title": "有啦拼字幕",
+          "subtitle": "视频字幕拼接",
+          "url": "https://www.yoo.la"
+        },
+        {
+          "title": "img.top",
+          "subtitle": "智能在线图像压缩",
+          "url": "https://img.top/"
+        },
+        {
+          "title": "Image Converter Online",
+          "subtitle": "Convert image format Online",
+          "url": "https://jinaconvert.com/"
+        },
+        {
+          "title": "TinyPNG",
+          "subtitle": "Compress PNG images while preserving transparency",
+          "url": "https://tinypng.com/"
+        },
+        {
+          "title": "PPT美化大师",
+          "subtitle": "不会做PPT,也能做好PPT-PPT模版|PPT图示|PPT素材|PPT形状|PPT画册|图片素材",
+          "url": "http://meihua.docer.com/"
+        },
+        {
+          "title": "Google空间官网，又名XSpace、洋游码头",
+          "subtitle": "畅享Google Play商店精彩内容",
+          "url": "http://gplayspace.com/"
+        }
+      ]
+    },
+    {
+      "category": "Language Learning",
+      "content": [
+        {
+          "title": "Forvo",
+          "subtitle": "发音指南，世界上所有词语的母语发音",
+          "url": "https://zh.forvo.com/"
+        }
+      ]
+    },
+    {
+      "category": "Color",
+      "content": [
+        {
+          "title": "Trianglify.io",
+          "subtitle": "Low Poly Pattern Generator",
+          "url": "https://trianglify.io/"
+        },
+        {
+          "title": "WebGradients.com 💎",
+          "subtitle": "Fresh Background Gradients",
+          "url": "https://webgradients.com/"
+        },
+        {
+          "title": "CoolHue 2.0",
+          "subtitle": "Coolest Gradient Hues and Swatches",
+          "url": "https://webkul.github.io/coolhue/"
+        },
+        {
+          "title": "Forvo",
+          "subtitle": "发音指南，世界上所有词语的母语发音",
+          "url": "https://trianglify.io/"
+        },
+        {
+          "title": "Forvo",
+          "subtitle": "发音指南，世界上所有词语的母语发音",
+          "url": "https://trianglify.io/"
+        }
+      ]
+    },
+    {
+      "category": "Excellent Website",
+      "content": [
+        {
+          "title": "Phoenix Startup UI kit",
+          "subtitle": "a tool based on Bootstrap",
+          "url": "https://phoenix-startup.com/"
+        },
+        {
+          "title": "Airnauts",
+          "subtitle": "Creativity meets technology",
+          "url": "https://airnauts.com/"
+        },
+        {
+          "title": "Marie Morelle",
+          "subtitle": "Illustratrice",
+          "url": "https://www.marie-morelle.com"
+        },
+        {
+          "title": "Forvo",
+          "subtitle": "发音指南，世界上所有词语的母语发音",
+          "url": "https://zh.forvo.com/"
+        }
+      ]
+    },
+    {
+      "category": "Picture & Photo",
+      "content": [
+        {
+          "title": "Foter",
+          "subtitle": "Premium Royalty-Free Stock Photos From The Foter Community",
+          "url": "https://foter.com/"
+        },
+        {
+          "title": "别样网-沙沙野",
+          "subtitle": "免费背景图片素材_网页设计图片素材网站",
+          "url": "https://www.ssyer.com/"
+        },
+        {
+          "title": "Unsplash",
+          "subtitle": "Beautiful Free Images & Pictures",
+          "url": "https://unsplash.com/"
+        },
+        {
+          "title": "wallhaven.cc",
+          "subtitle": "Awesome Wallpapers",
+          "url": "https://alpha.wallhaven.cc/"
+        },
+        {
+          "title": "Life of Pix",
+          "subtitle": "Free high resolution photography",
+          "url": "https://www.lifeofpix.com/"
+        },
+        {
+          "title": "FreeImages.com",
+          "subtitle": "Explore over 300,000 free stock photos and royalty free images",
+          "url": "https://cn.freeimages.com/"
+        },
+        {
+          "title": "Foter",
+          "subtitle": "Premium Royalty-Free Stock Photos From The Foter Community",
+          "url": "https://foter.com/"
+        },
+        {
+          "title": "Foter",
+          "subtitle": "Premium Royalty-Free Stock Photos From The Foter Community",
+          "url": "https://foter.com/"
+        }
+      ]
+    },
+    {
+      "category": "Icon",
+      "content": [
+        {
+          "title": "草莓图标库",
+          "subtitle": "A Free and Open Source Iconic Font Library for Developers",
+          "url": "http://chuangzaoshi.com/icon/"
+        },
+        {
+          "title": "IcoMoon",
+          "subtitle": "Icon Font & SVG Icon Sets",
+          "url": "https://icomoon.io/"
+        },
+        {
+          "title": "Forvo",
+          "subtitle": "发音指南，世界上所有词语的母语发音",
+          "url": "https://zh.forvo.com/"
+        },
+        {
+          "title": "Forvo",
+          "subtitle": "发音指南，世界上所有词语的母语发音",
+          "url": "https://zh.forvo.com/"
+        },
+        {
+          "title": "Forvo",
+          "subtitle": "发音指南，世界上所有词语的母语发音",
+          "url": "https://zh.forvo.com/"
+        },
+        {
+          "title": "Forvo",
+          "subtitle": "发音指南，世界上所有词语的母语发音",
+          "url": "https://zh.forvo.com/"
+        }
+      ]
+    },
+    {
+      "category": "Video",
+      "content": [
+        {
+          "title": "coverr",
+          "subtitle": "Beautiful, free stock video footage for your homepage",
+          "url": "http://www.coverr.co/"
+        }
+      ]
+    },
+    {
+      "category": "Blog",
+      "content": [
+        {
+          "title": "张鑫旭-鑫空间-鑫生活",
+          "subtitle": "张鑫旭的个人主页",
+          "url": "https://www.zhangxinxu.com/"
+        },
+        {
+          "title": "MikeTech",
+          "subtitle": "A Technology Blog",
+          "url": "https://miketech.it/"
+        },
+        {
+          "title": "Hello World",
+          "subtitle": "a York Chou brand",
+          "url": "https://yorkchou.com/"
+        },
+        {
+          "title": "追梦人物的博客",
+          "subtitle": "",
+          "url": "https://www.zmrenwu.com/"
+        }
+      ]
+    }
+  ]
+}
