@@ -1,7 +1,7 @@
 {
   "websites": [
     {
-      "category": "Design",
+      "class": "Design",
       "content": [
         {
           "title": "Seeseed",
@@ -17,16 +17,11 @@
           "title": "创造狮",
           "subtitle": "创意工作者导航",
           "url": "http://chuangzaoshi.com/"
-        },
-        {
-          "title": "seeseed",
-          "subtitle": "无穷尽设计可能",
-          "url": "https://www.seeseed.com/"
         }
       ]
     },
     {
-      "category": "UI",
+      "class": "UI",
       "content": [
         {
           "title": "MDUI",
@@ -34,24 +29,19 @@
           "url": "https://www.mdui.org/"
         },
         {
-          "title": "[字由]",
-          "subtitle": "设计师必备字体利器",
-          "url": "http://www.hellofont.cn/"
+          "title": "SUI Mobile",
+          "subtitle": "阿里巴巴国际UED前端出品移动端UI",
+          "url": "http://m.sui.taobao.org/"
         },
         {
-          "title": "创造狮",
-          "subtitle": "创意工作者导航",
-          "url": "http://chuangzaoshi.com/"
-        },
-        {
-          "title": "seeseed",
-          "subtitle": "无穷尽设计可能",
-          "url": "https://www.seeseed.com/"
+          "title": "Taro",
+          "subtitle": "京东前端-凹凸实验室",
+          "url": "https://taro.aotu.io/"
         }
       ]
     },
     {
-      "category": "Develop",
+      "class": "Develop",
       "content": [
         {
           "title": "代码片段",
@@ -89,7 +79,7 @@
           "url": "https://kapeli.com"
         },
         {
-          "title": "Python Extension Packages for Windows",
+          "title": "Python Extension Packages",
           "subtitle": "Unofficial Windows Binaries for Python Extension Packages",
           "url": "https://www.lfd.uci.edu/~gohlke/pythonlibs/"
         },
@@ -97,26 +87,41 @@
           "title": "Isotope",
           "subtitle": "Filter & sort magical layouts",
           "url": "https://isotope.metafizzy.co/"
-        },
-        {
-          "title": "Zeal",
-          "subtitle": "Offline Documentation Browser",
-          "url": "https://zealdocs.org/"
-        },
-        {
-          "title": "Zeal",
-          "subtitle": "Offline Documentation Browser",
-          "url": "https://zealdocs.org/"
         }
       ]
     },
     {
-      "category": "Tool",
+      "class": "Tool",
       "content": [
         {
           "title": "她的工具箱",
           "subtitle": "",
           "url": "https://toolher.com/"
+        },
+        {
+          "title": "我的文档",
+          "subtitle": "百度文库下载工具，某宝购买",
+          "url": "https://wenkubao.cc/"
+        },
+        {
+          "title": "石墨文档",
+          "subtitle": "可多人实时协作的云端文档与表格",
+          "url": "https://shimo.im/"
+        },
+        {
+          "title": "REG007",
+          "subtitle": "你注册过哪些网站？一搜便知",
+          "url": "https://www.reg007.com/"
+        },
+        {
+          "title": "找回你,注册过哪些网站",
+          "subtitle": "",
+          "url": "http://www.zhaohuini.com/"
+        },
+        {
+          "title": "上海卓安科技官网",
+          "subtitle": " 旗下拥有双开助手、Google空间、微信助手等多款工具类产品",
+          "url": "https://www.excean.com/"
         },
         {
           "title": "IPIP.NET",
@@ -174,14 +179,24 @@
           "url": "http://meihua.docer.com/"
         },
         {
-          "title": "Google空间官网，又名XSpace、洋游码头",
-          "subtitle": "畅享Google Play商店精彩内容",
+          "title": "Google空间",
+          "subtitle": "又名XSpace、洋游码头，畅享Google Play商店精彩内容",
+          "url": "http://gplayspace.com/"
+        },
+        {
+          "title": "Geometrize Web Demo",
+          "subtitle": "geometrizing images into geometric primitives",
+          "url": "http://www.samcodes.co.uk/project/geometrize-haxe-web/"
+        },
+        {
+          "title": "Google空间",
+          "subtitle": "又名XSpace、洋游码头，畅享Google Play商店精彩内容",
           "url": "http://gplayspace.com/"
         }
       ]
     },
     {
-      "category": "Language Learning",
+      "class": "Language Learning",
       "content": [
         {
           "title": "Forvo",
@@ -191,7 +206,7 @@
       ]
     },
     {
-      "category": "Color",
+      "class": "Color",
       "content": [
         {
           "title": "Trianglify.io",
@@ -207,21 +222,11 @@
           "title": "CoolHue 2.0",
           "subtitle": "Coolest Gradient Hues and Swatches",
           "url": "https://webkul.github.io/coolhue/"
-        },
-        {
-          "title": "Forvo",
-          "subtitle": "发音指南，世界上所有词语的母语发音",
-          "url": "https://trianglify.io/"
-        },
-        {
-          "title": "Forvo",
-          "subtitle": "发音指南，世界上所有词语的母语发音",
-          "url": "https://trianglify.io/"
         }
       ]
     },
     {
-      "category": "Excellent Website",
+      "class": "Excellent Website",
       "content": [
         {
           "title": "Phoenix Startup UI kit",
@@ -237,16 +242,11 @@
           "title": "Marie Morelle",
           "subtitle": "Illustratrice",
           "url": "https://www.marie-morelle.com"
-        },
-        {
-          "title": "Forvo",
-          "subtitle": "发音指南，世界上所有词语的母语发音",
-          "url": "https://zh.forvo.com/"
         }
       ]
     },
     {
-      "category": "Picture & Photo",
+      "class": "Picture & Photo",
       "content": [
         {
           "title": "Foter",
@@ -277,21 +277,11 @@
           "title": "FreeImages.com",
           "subtitle": "Explore over 300,000 free stock photos and royalty free images",
           "url": "https://cn.freeimages.com/"
-        },
-        {
-          "title": "Foter",
-          "subtitle": "Premium Royalty-Free Stock Photos From The Foter Community",
-          "url": "https://foter.com/"
-        },
-        {
-          "title": "Foter",
-          "subtitle": "Premium Royalty-Free Stock Photos From The Foter Community",
-          "url": "https://foter.com/"
         }
       ]
     },
     {
-      "category": "Icon",
+      "class": "Icon",
       "content": [
         {
           "title": "草莓图标库",
@@ -302,31 +292,11 @@
           "title": "IcoMoon",
           "subtitle": "Icon Font & SVG Icon Sets",
           "url": "https://icomoon.io/"
-        },
-        {
-          "title": "Forvo",
-          "subtitle": "发音指南，世界上所有词语的母语发音",
-          "url": "https://zh.forvo.com/"
-        },
-        {
-          "title": "Forvo",
-          "subtitle": "发音指南，世界上所有词语的母语发音",
-          "url": "https://zh.forvo.com/"
-        },
-        {
-          "title": "Forvo",
-          "subtitle": "发音指南，世界上所有词语的母语发音",
-          "url": "https://zh.forvo.com/"
-        },
-        {
-          "title": "Forvo",
-          "subtitle": "发音指南，世界上所有词语的母语发音",
-          "url": "https://zh.forvo.com/"
         }
       ]
     },
     {
-      "category": "Video",
+      "class": "Video",
       "content": [
         {
           "title": "coverr",
@@ -336,7 +306,347 @@
       ]
     },
     {
-      "category": "Blog",
+      "class": "Anime",
+      "content": [
+        {
+          "title": "WAIT",
+          "subtitle": "What Anime Is This? - Anime Scene Search Engine",
+          "url": "https://whatanime.ga/"
+        }
+      ]
+    },
+    {
+      "class": "Emoticon",
+      "content": [
+        {
+          "title": "表情锅",
+          "subtitle": "在线生成表情包",
+          "url": "https://sorry.xuty.tk"
+        }
+      ]
+    },
+    {
+      "class": "Nav（铺天盖地，各式各样[笑哭]）",
+      "content": [
+        {
+          "title": "Web前端导航",
+          "subtitle": "腾讯Web前端团队家的",
+          "url": "http://www.alloyteam.com/nav/"
+        },
+        {
+          "title": "AnywhereAnything",
+          "subtitle": "某网友做的",
+          "url": "http://lackar.com/aa/"
+        },
+        {
+          "title": "如眸导航",
+          "subtitle": "一个专注提供个性化与分享高质量的导航网址,一个属于任何人的的开放导航网站",
+          "url": "http://sucheye.com"
+        },
+        {
+          "title": "千山",
+          "subtitle": "简洁的网址导航",
+          "url": "http://qianshan.co/"
+        },
+        {
+          "title": "GitNavi",
+          "subtitle": "你的专属生活网址导航 - Sharing All The World",
+          "url": "http://www.gitnavi.com/"
+        },
+        {
+          "title": "泡泡网址导航",
+          "subtitle": "绿色无广告的上网主页",
+          "url": "https://www.pp93.com/"
+        },
+        {
+          "title": "笔点",
+          "subtitle": "用心做最简洁的网址导航",
+          "url": "https://www.bidianer.com"
+        },
+        {
+          "title": "星空导航",
+          "subtitle": "收集全网优秀站点",
+          "url": "https://www.starnavi.cn/"
+        },
+        {
+          "title": "鲤鱼搜索",
+          "subtitle": "好看的搜索导航网站",
+          "url": "http://www.liyuso.cn/so/"
+        },
+        {
+          "title": "柠檬搜索",
+          "subtitle": "清爽干净的上网入口，搜索净无止境！柠檬网",
+          "url": "http://www.llemon.cn/"
+        },
+        {
+          "title": "程序员的网站",
+          "subtitle": "网址导航",
+          "url": "http://fm126.xyz/"
+        },
+        {
+          "title": "导航186",
+          "subtitle": "最简约简洁的网址导航",
+          "url": "http://www.daohang186.com/"
+        },
+        {
+          "title": "聚神铺导航",
+          "subtitle": "轻松上网分享好资源",
+          "url": "http://www.jspoo.com/"
+        },
+        {
+          "title": "果汁导航",
+          "subtitle": "上网从这里开始",
+          "url": "http://guozhivip.com/nav/"
+        },
+        {
+          "title": "牛资料导航",
+          "subtitle": "让你拥有全世界",
+          "url": "http://www.ziliao6.com/"
+        },
+        {
+          "title": "阿猫阿狗导航",
+          "subtitle": "产品经理导航|运营导航|设计师导航",
+          "url": "http://dh.woshipm.com/"
+        },
+        {
+          "title": "钛导航",
+          "subtitle": "运营工作者专业导航网站",
+          "url": "https://web.geekji.cn/"
+        },
+        {
+          "title": "设计导航",
+          "subtitle": "精选最好的设计网站大全",
+          "url": "http://hao.shejidaren.com/"
+        },
+        {
+          "title": "小呆导航",
+          "subtitle": "可自定义的简洁网址导航",
+          "url": "http://webjike.com/"
+        },
+        {
+          "title": "快搜",
+          "subtitle": "搜索快人一步 - Google",
+          "url": "http://search.chongbuluo.com/"
+        },
+        {
+          "title": "KIM主页",
+          "subtitle": "主页从未如此惊艳",
+          "url": "https://www.zhuye.kim/"
+        },
+        {
+          "title": "老司机导航",
+          "subtitle": "懂你的年轻人导航",
+          "url": "http://www.itianxia.cn/"
+        },
+        {
+          "title": "魔导网",
+          "subtitle": "发现优秀的网站",
+          "url": "http://mdwhat.com"
+        },
+        {
+          "title": "比格张",
+          "subtitle": "发现更好的网站",
+          "url": "https://bigezhang.com/"
+        },
+        {
+          "title": "mlhub",
+          "subtitle": "机器学习导航站",
+          "url": "https://www.mlhub123.com/"
+        },
+        {
+          "title": "果壳任意门",
+          "subtitle": "发现你最爱的网站",
+          "url": "https://gate.guokr.com/"
+        },
+        {
+          "title": "1纳米学习网站导航",
+          "subtitle": "",
+          "url": "http://1nami.com/"
+        },
+        {
+          "title": "NaviSec.it",
+          "subtitle": "纳威安全导航",
+          "url": "https://navisec.it/"
+        },
+        {
+          "title": "龙轩导航",
+          "subtitle": "做个有用的导航",
+          "url": "http://ilxdh.com/"
+        },
+        {
+          "title": "100秒分享",
+          "subtitle": "让每一次阅读都有收获",
+          "url": "http://ybmfx.com/"
+        },
+        {
+          "title": "Fulck",
+          "subtitle": "就问你怕不怕",
+          "url": "https://fulck.com/"
+        },
+        {
+          "title": "IT专业领域导航网站",
+          "subtitle": "IT领域垂直导航 | IT人的导航网站",
+          "url": "http://www.its368.com/"
+        },
+        {
+          "title": "开源中国社区",
+          "subtitle": "开源项目大全",
+          "url": "https://www.oschina.net/project"
+        },
+        {
+          "title": "优设导航",
+          "subtitle": "学设计从这里开始",
+          "url": "https://hao.uisdc.com/"
+        },
+        {
+          "title": "Linux网站导航",
+          "subtitle": "做个有用的导航",
+          "url": "http://linux.ubuntu.org.cn/"
+        },
+        {
+          "title": "去瞧瞧",
+          "subtitle": "互联网创业者网址导航",
+          "url": "http://www.quqiaoqiao.com/"
+        },
+        {
+          "title": "医学导航(Meddir.cn)",
+          "subtitle": "最全最专业的医学网址导航网站",
+          "url": "http://www.meddir.cn/"
+        },
+        {
+          "title": "萌导航",
+          "subtitle": "你的二次元导航姬",
+          "url": "http://www.moe123.net/"
+        },
+        {
+          "title": "爱翻墙",
+          "subtitle": "墙外门户",
+          "url": "https://www.ifanqiang.com/"
+        },
+        {
+          "title": "Best of the Web Directory",
+          "subtitle": "",
+          "url": "https://botw.org/"
+        },
+        {
+          "title": "海外导航网",
+          "subtitle": "海外华人网站大全",
+          "url": "http://www.hhlink.com/"
+        },
+        {
+          "title": "学术网站大全",
+          "subtitle": "",
+          "url": "http://kbs.cnki.net/"
+        },
+        {
+          "title": "SK123网址之家",
+          "subtitle": "",
+          "url": "http://www.shake123.com/"
+        },
+        {
+          "title": "学UI网",
+          "subtitle": "UI设计师导航网，最专业的UI设计网站",
+          "url": "http://hao.xueui.cn/"
+        },
+        {
+          "title": "前端网址导航",
+          "subtitle": "H-ui前端框架官方网站",
+          "url": "http://www.h-ui.net/site.shtml"
+        },
+        {
+          "title": "前端氪导航",
+          "subtitle": "站在前方，为你导航",
+          "url": "https://csskr.com/"
+        },
+        {
+          "title": "简约导航",
+          "subtitle": "",
+          "url": "https://www.jianavi.cn/"
+        },
+        {
+          "title": "收库123",
+          "subtitle": "个性化可定制网址导航",
+          "url": "https://shouku123.com/"
+        },
+        {
+          "title": "野创职业导航",
+          "subtitle": "致力于提供优秀的垂直行业网站、工具",
+          "url": "http://www.yechuang.top/"
+        },
+        {
+          "title": "火星首页",
+          "subtitle": "银河系漫游指南",
+          "url": "https://www.goto-mars.com/"
+        },
+        {
+          "title": "果壳任意门",
+          "subtitle": "发现你最爱的网站",
+          "url": "http://gkbang.cn/link/"
+        },
+        {
+          "title": "Shillber",
+          "subtitle": "晓柏导航-简洁的网址导航",
+          "url": "http://www.shillber.com/"
+        },
+        {
+          "title": "偷渡鱼",
+          "subtitle": "最好用的网址导航",
+          "url": "https://touduyu.com/"
+        },
+        {
+          "title": "选择主页",
+          "subtitle": "不知道什么鬼的总结",
+          "url": "https://homepage.selectlist.cn"
+        },
+        {
+          "title": "搜趣搜索",
+          "subtitle": "最专业的网址导航及分享平台",
+          "url": "http://so.jutuit.com/zd/sousuo"
+        },
+        {
+          "title": "任意门",
+          "subtitle": "发现你最爱的网站",
+          "url": "https://anywhere.cool/"
+        },
+        {
+          "title": "蜗牛个人导航",
+          "subtitle": "",
+          "url": "https://s.eallion.com/"
+        },
+        {
+          "title": "FAKE 果壳任意门",
+          "subtitle": "发现你最爱的网站",
+          "url": "http://terest.top/gate/"
+        },
+        {
+          "title": "大马路",
+          "subtitle": "",
+          "url": "https://dama.lu/"
+        },
+        {
+          "title": "学术搜索引擎",
+          "subtitle": "开阔你的眼界",
+          "url": "http://www.yuekaoxue.com/so/"
+        },
+        {
+          "title": "火狐移动联盟",
+          "subtitle": "免费的APP、公众号、头条号、小程序展示和推广平台",
+          "url": "https://www.huohu123.com/"
+        },
+        {
+          "title": "老司机导航",
+          "subtitle": "来不及了",
+          "url": "http://www.giffox.com/"
+        },
+        {
+          "title": "小熊时光机",
+          "subtitle": "你的网站奇趣之旅",
+          "url": "http://www.smallbear.me/"
+        }
+      ]
+    },
+    {
+      "class": "Blog",
       "content": [
         {
           "title": "张鑫旭-鑫空间-鑫生活",
@@ -357,6 +667,21 @@
           "title": "追梦人物的博客",
           "subtitle": "",
           "url": "https://www.zmrenwu.com/"
+        },
+        {
+          "title": "不死鸟",
+          "subtitle": "分享为王",
+          "url": "https://lai.yuweining.cn/"
+        },
+        {
+          "title": "土木坛子",
+          "subtitle": "一切过往皆是经历",
+          "url": "https://tumutanzi.com/"
+        },
+        {
+          "title": "Mac玩儿法",
+          "subtitle": "应用提高设备生产力",
+          "url": "https://www.waerfa.com/"
         }
       ]
     }

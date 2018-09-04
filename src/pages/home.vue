@@ -3,20 +3,20 @@
     <div class="serach-wrapper">
       <Form ref="formSearch" :model="formSearch" :rules="ruleSearch">
         <FormItem prop="keyword">
-          <Input type="text" v-model="formSearch.keyword" size="large" icon="ios-search" class="search-bar" @on-click="handleSubmit('formSearch')"></Input>
+          <Input type="text" v-model="formSearch.keyword" size="large" icon="ios-search" @on-click="handleSubmit('formSearch')"></Input>
         </FormItem>
       </Form>
     </div>
     <div class="navigation-wrapper">
       <div class="navigation" v-for="(website, index) in websites" :key="index">
         <div class="header">
-          <h2 class="title">{{ website.category }}</h2>
+          <h2 class="title">{{ website.class }}</h2>
         </div>
         <div class="content">
-          <Card :padding="0" v-for="(item, index) in website.content" :key="index">
+          <Card :bordered="false" :padding="0" v-for="(item, index) in website.content" :key="index">
             <!-- 'https://www.google.com/s2/favicons?domain='+website.url -->
             <a class="link" :href="item.url">
-              <img :src="'https://www.google.com/s2/favicons?domain='+item.url" alt="">
+              <img :src="'https://www.google.com/s2/favicons?domain='+item.url" :alt="item.title">
               <h3>{{ item.title }}</h3>
               <p v-if="item.subtitle">{{ item.subtitle }}</p>
             </a>
@@ -77,20 +77,23 @@ export default {
   flex-direction: column
   justify-content: space-around
   .serach-wrapper
-    width: 90%
-    max-width: 500px
-    .search-bar
-      .ivu-input-icon
-        width: 60px
-        font-size: 20px
-        color: #fff
-        background: #57a3f3
-        border-radius: 0 18px 18px 0
-        cursor: pointer
-      .ivu-input
-        padding-left: 15px
-        padding-right: 60px
-        border-radius: 18px
+    background: #ffffff
+    .ivu-form
+      max-width: 600px
+      margin: 24px auto 28px
+      .ivu-form-item
+        margin-bottom: 0
+        .ivu-input-icon
+          width: 60px
+          font-size: 20px
+          color: #fff
+          background: #57a3f3
+          border-radius: 0 18px 18px 0
+          cursor: pointer
+        .ivu-input
+          padding-left: 15px
+          padding-right: 60px
+          border-radius: 18px
   .navigation-wrapper
     display: flex
     flex-direction: column
@@ -109,5 +112,15 @@ export default {
           text-align: center
           .link
             display: block
-            padding: 20px
+            padding: 20px 10px
+            img, h3
+              display: inline-block
+              height: 24px
+            img
+              padding: 4px 2px
+              vertical-align: top
+            h3
+              line-height: 24px
+            p
+              margin-top: 5px
 </style>
