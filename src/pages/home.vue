@@ -14,9 +14,10 @@
         </div>
         <div class="content">
           <Card :bordered="false" :padding="0" v-for="(item, index) in website.content" :key="index">
-            <!-- 'https://www.google.com/s2/favicons?domain='+website.url -->
+            <!-- https://ico.mikelin.cn -->
+            <!-- https://www.google.com/s2/favicons?domain= -->
             <a class="link" :href="item.url">
-              <img :src="'https://www.google.com/s2/favicons?domain='+item.url" :alt="item.title">
+              <img :src="'https://ico.mikelin.cn/'+item.url" :alt="item.title">
               <h3>{{ item.title }}</h3>
               <p v-if="item.subtitle">{{ item.subtitle }}</p>
             </a>
@@ -24,12 +25,14 @@
         </div>
       </div>
     </div>
+    <looter></looter>
   </div>
 </template>
 
 <script>
 
 import $ from 'jquery'
+import footer from '@/components/footer'
 
 export default {
   data () {
@@ -65,6 +68,9 @@ export default {
         this.websites = response.websites
       })
     }
+  },
+  components: {
+    'looter': footer
   }
 }
 </script>
@@ -97,19 +103,21 @@ export default {
   .navigation-wrapper
     display: flex
     flex-direction: column
+    padding: 30px 0
     align-items: center
     .navigation
-      width: 90%
-      margin: 0 auto
+      width: 96%
+      margin: 10px auto
       .header
         padding: 10px
       .content
         display: flex
         flex-wrap: wrap
         .ivu-card
-          width: 280px
+          width: 260px
           margin: 10px
           text-align: center
+          border-radius: 2px
           .link
             display: block
             padding: 20px 10px
