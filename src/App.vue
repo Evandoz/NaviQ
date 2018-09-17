@@ -18,6 +18,4 @@ export default {
   flex-direction: column
   justify-content: space-around
   align-items: center
-  min-height: 100%
-  background: #f2f2f2
 </style>

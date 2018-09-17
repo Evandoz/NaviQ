@@ -1,72 +1,93 @@
 {
-  "websites": [
+  "search": [
     {
-      "class": "Engine",
-      "content": [
-        {
-          "title": "DuckDuckGo",
-          "subtitle": "Privacy, simplified.",
-          "url": "https://duckduckgo.com/"
-        },
-        {
-          "title": "Рамблер/поиск",
-          "subtitle": "Рамблер/поиск",
-          "url": "https://r0.ru/"
-        },
-        {
-          "title": "Yandex",
-          "subtitle": "Primarily serves audiences in Russia and the CIS",
-          "url": "https://yandex.com/"
-        },
-        {
-          "title": "Wolfram|Alpha",
-          "subtitle": "Computational Intelligence",
-          "url": "https://www.wolframalpha.com/"
-        },
-        {
-          "title": "Listen Notes",
-          "subtitle": "Best podcast search engine & podcast database",
-          "url": "https://www.listennotes.com/"
-        }
-      ]
+      "title": "DuckDuckGo",
+      "desc": "Privacy, simplified.",
+      "tag": "Tool",
+      "url": "https://duckduckgo.com/"
     },
+    {
+      "title": "Рамблер/поиск",
+      "desc": "Рамблер/поиск",
+      "tag": "Tool",
+      "url": "https://r0.ru/"
+    },
+    {
+      "title": "Yandex",
+      "desc": "Primarily serves audiences in Russia and the CIS",
+      "tag": "Tool",
+      "url": "https://yandex.com/"
+    },
+    {
+      "title": "Wolfram|Alpha",
+      "desc": "Computational Intelligence",
+      "tag": "Tool",
+      "url": "https://www.wolframalpha.com/"
+    },
+    {
+      "title": "MEZW搜索",
+      "desc": "聚合搜索引擎，提供准确、干净的网页内容搜索服务",
+      "tag": "Tool",
+      "url": "https://so.mezw.com/"
+    },
+    {
+      "title": "Listen Notes",
+      "desc": "Best podcast search engine & podcast database",
+      "tag": "Tool",
+      "url": "https://www.listennotes.com/"
+    }
+  ],
+  "websites": [
     {
       "class": "Statistics",
       "content": [
         {
           "title": "Diycode Trends",
-          "subtitle": "GitHub 全球 Developers, Organizations and Repositories 排行榜",
+          "desc": "GitHub 全球 Developers, Organizations and Repositories 排行榜",
+          "tag": "Tool",
           "url": "https://www.diycode.cc/trends"
         },
         {
           "title": "GitHub Trending",
-          "subtitle": "Trending repositories on GitHub today",
+          "desc": "Trending repositories on GitHub today",
+          "tag": "Tool",
           "url": "https://github.com/trending"
         },
         {
           "title": "GitHub Ranking",
-          "subtitle": "Repositories & Users Ranking",
+          "desc": "Repositories & Users Ranking",
+          "tag": "Tool",
           "url": "https://github-ranking.anytao.net"
         },
         {
           "title": "Github Rank (China)",
-          "subtitle": "Github Users Ranking in China",
+          "desc": "Github Users Ranking in China",
+          "tag": "Tool",
           "url": "http://www.githubrank.com/"
         },
         {
           "title": "StaticGen",
-          "subtitle": "Top Open Source Static Site Generators",
+          "desc": "Top Open Source Static Site Generators",
+          "tag": "Tool",
           "url": "https://www.staticgen.com/"
         },
         {
           "title": "Libscore",
-          "subtitle": "Collect stats on JavaScript library usage",
+          "desc": "Collect stats on JavaScript library usage",
+          "tag": "Tool",
           "url": "http://libscore.com/"
         },
         {
           "title": "HelloGitHub",
-          "subtitle": "分享 GitHub 入门级、有趣的开源项目",
+          "desc": "分享 GitHub 入门级、有趣的开源项目",
+          "tag": "Tool",
           "url": "https://hellogithub.com/"
+        },
+        {
+          "title": "Hunter TechLookup",
+          "desc": "Find the websites using certain technologies",
+          "tag": "Tool",
+          "url": "https://techlookup.hunter.io/"
         }
       ]
     },
@@ -75,62 +96,80 @@
       "content": [
         {
           "title": "掘金",
-          "subtitle": "一个帮助开发者成长的社区",
+          "desc": "一个帮助开发者成长的社区",
+          "tag": "Tool",
           "url": "https://juejin.im/"
         },
         {
           "title": "DiyCode",
-          "subtitle": "致力于构建开发工程师高端交流分享社区",
+          "desc": "致力于构建开发工程师高端交流分享社区",
+          "tag": "Tool",
           "url": "https://www.diycode.cc/"
         },
         {
           "title": "CNode",
-          "subtitle": "Node.js专业中文社区",
+          "desc": "Node.js专业中文社区",
+          "tag": "Tool",
           "url": "https://cnodejs.org/"
         },
         {
           "title": "SegmentFault 思否",
-          "subtitle": "SegmentFault 思否",
+          "desc": "SegmentFault 思否",
+          "tag": "Tool",
           "url": "https://segmentfault.com/"
         },
         {
           "title": "Stack Overflow",
-          "subtitle": "Where Developers Learn, Share, & Build Careers",
+          "desc": "Where Developers Learn, Share, & Build Careers",
+          "tag": "Tool",
           "url": "https://stackoverflow.com/"
         },
         {
           "title": "黑客派",
-          "subtitle": "为未来而构建的社区",
+          "desc": "为未来而构建的社区",
+          "tag": "Tool",
           "url": "https://hacpai.com/"
         },
         {
+          "title": "小专栏",
+          "desc": "专业人士的创作知识社区",
+          "tag": "Tool",
+          "url": "https://xiaozhuanlan.com/"
+        },
+        {
           "title": "Ruby China",
-          "subtitle": "由众多爱好者共同维护的 Ruby 中文社区",
+          "desc": "由众多爱好者共同维护的 Ruby 中文社区",
+          "tag": "Tool",
           "url": "https://ruby-china.org/"
         },
         {
           "title": "V2EX",
-          "subtitle": "一个关于分享和探索的地方",
+          "desc": "一个关于分享和探索的地方",
+          "tag": "Tool",
           "url": "https://www.v2ex.com/"
         },
         {
           "title": "GitHuber",
-          "subtitle": "Github 开发者社区",
+          "desc": "Github 开发者社区",
+          "tag": "Tool",
           "url": "https://githuber.cn/"
         },
         {
           "title": "LaTeX科技排版工作室",
-          "subtitle": "分享与学习LaTeX的王国",
+          "desc": "分享与学习LaTeX的王国",
+          "tag": "Tool",
           "url": "http://www.latexstudio.net/"
         },
         {
           "title": "泡在网上的日子",
-          "subtitle": "做最好的移动开发社区",
+          "desc": "做最好的移动开发社区",
+          "tag": "Tool",
           "url": "http://www.jcodecraeer.com/"
         },
         {
           "title": "Quora",
-          "subtitle": "A place to share knowledge and better understand the world",
+          "desc": "A place to share knowledge and better understand the world",
+          "tag": "Tool",
           "url": "https://www.quora.com/"
         }
       ]
@@ -139,99 +178,154 @@
       "class": "News",
       "content": [
         {
+          "title": "机器之心",
+          "desc": "全球人工智能信息服务",
+          "tag": "Source",
+          "url": "https://www.jiqizhixin.com/"
+        },
+        {
+          "title": "爱范儿",
+          "desc": "让未来触手可及",
+          "tag": "Tool",
+          "url": "https://www.ifanr.com/"
+        },
+        {
           "title": "Hacker News",
-          "subtitle": "News",
+          "desc": "News",
+          "tag": "Tool",
           "url": "https://news.ycombinator.com/"
         },
         {
+          "title": "AppSo",
+          "desc": "App推荐",
+          "tag": "Tool",
+          "url": "https://www.ifanr.com/app"
+        },
+        {
           "title": "Echo JS",
-          "subtitle": "JavaScript News",
+          "desc": "JavaScript News",
+          "tag": "Tool",
           "url": "http://www.echojs.com/"
         },
         {
           "title": "开发者头条",
-          "subtitle": "程序员分享平台",
+          "desc": "程序员分享平台",
+          "tag": "Tool",
           "url": "https://toutiao.io/"
         },
         {
+          "title": "饭否精选",
+          "desc": "饭否每日精选",
+          "tag": "Tool",
+          "url": "http://blog.fanfou.com/digest/"
+        },
+        {
           "title": "干货集中营",
-          "subtitle": "又双叒叕攒攒攒了一波",
+          "desc": "又双叒叕攒攒攒了一波",
+          "tag": "Tool",
           "url": "https://gank.io/"
         },
         {
           "title": "Product Hunt",
-          "subtitle": "The best new products in tech.",
+          "desc": "The best new products in tech.",
+          "tag": "Tool",
           "url": "https://www.producthunt.com/"
         },
         {
           "title": "Startup News",
-          "subtitle": "Startup News",
+          "desc": "Startup News",
+          "tag": "Tool",
           "url": "http://news.dbanotes.net/"
         },
         {
           "title": "奇舞周刊",
-          "subtitle": "来自奇虎360前端团队",
+          "desc": "来自奇虎360前端团队",
+          "tag": "Tool",
           "url": "https://weekly.75team.com/"
         },
         {
           "title": "湾区日报",
-          "subtitle": "关注创业与技术，每天推送5篇优质英文文章",
+          "desc": "关注创业与技术，每天推送5篇优质英文文章",
+          "tag": "Tool",
           "url": "https://wanqu.co/"
         },
         {
           "title": "酷壳",
-          "subtitle": "CoolShell.cn",
+          "desc": "CoolShell.cn",
+          "tag": "Tool",
           "url": "https://coolshell.cn/"
         },
         {
           "title": "One App",
-          "subtitle": "All In One",
+          "desc": "All In One",
+          "tag": "Tool",
           "url": "http://reader.one/"
         },
         {
           "title": "Readhub",
-          "subtitle": "Readhub",
+          "desc": "Readhub",
+          "tag": "Tool",
           "url": "https://readhub.cn"
         },
         {
           "title": "It's FOSS",
-          "subtitle": "A Linux and Open Source Web Portal",
+          "desc": "A Linux and Open Source Web Portal",
+          "tag": "Tool",
           "url": "https://itsfoss.com/"
         },
         {
           "title": "ZEALER",
-          "subtitle": "科技生活方式第一站",
+          "desc": "科技生活方式第一站",
+          "tag": "Tool",
           "url": "http://www.zealer.com/"
         },
         {
           "title": "ZEALER",
-          "subtitle": "科技生活方式第一站",
+          "desc": "科技生活方式第一站",
+          "tag": "Tool",
           "url": "http://liqi.io/"
         },
         {
           "title": "利器",
-          "subtitle": "创造者和他们的工具",
+          "desc": "创造者和他们的工具",
+          "tag": "Tool",
           "url": "http://www.zealer.com/"
         },
         {
           "title": "数字尾巴 ",
-          "subtitle": "分享美好数字生活",
+          "desc": "分享美好数字生活",
+          "tag": "Tool",
           "url": "http://www.dgtle.com/"
         },
         {
           "title": "Medium",
-          "subtitle": "a place to read and write big ideas and important stories",
+          "desc": "a place to read and write big ideas and important stories",
+          "tag": "Tool",
           "url": "https://medium.com"
         },
         {
           "title": "W3Schools",
-          "subtitle": "Online Web Tutorials",
+          "desc": "Online Web Tutorials",
+          "tag": "Tool",
           "url": "https://www.w3schools.com/"
         },
         {
           "title": "w3cplus",
-          "subtitle": "引领web前沿，打造前端精品教程",
+          "desc": "引领web前沿，打造前端精品教程",
+          "tag": "Tool",
           "url": "https://www.w3cplus.com/"
+        },
+        {
+          "title": "知晓程序",
+          "desc": "小程序商店",
+          "tag": "Source",
+          "url": "https://minapp.com"
+        },
+        {
+          "title": "特赞营销日历",
+          "desc": "一份时时更新的营销热点日历",
+          "tag": "Tool",
+          "url": "https://event.tezign.com"
         }
       ]
     },
@@ -240,63 +334,87 @@
       "content": [
         {
           "title": "UI中国",
-          "subtitle": "专业用户体验设计平台",
+          "desc": "专业用户体验设计平台",
+          "tag": "Tool",
           "url": "http://www.ui.cn/"
         },
         {
           "title": "站酷 (ZCOOL)",
-          "subtitle": "设计师互动平台 - 打开站酷，发现更好的设计！",
+          "desc": "设计师互动平台 - 打开站酷，发现更好的设计！",
+          "tag": "Tool",
           "url": "https://www.zcool.com.cn"
         },
         {
           "title": "Seeseed",
-          "subtitle": "无穷尽设计可能",
+          "desc": "无穷尽设计可能",
+          "tag": "Tool",
           "url": "https://www.seeseed.com/"
         },
         {
           "title": "[字由]",
-          "subtitle": "设计师必备字体利器",
+          "desc": "设计师必备字体利器",
+          "tag": "Tool",
           "url": "http://www.hellofont.cn/"
         },
         {
+          "title": "DesignMunk",
+          "desc": "Best Homepage Design Inspiration",
+          "tag": "Tool",
+          "url": "https://designmunk.com"
+        },
+        {
           "title": "创造狮",
-          "subtitle": "创意工作者导航",
+          "desc": "创意工作者导航",
+          "tag": "Tool",
           "url": "http://chuangzaoshi.com/"
         },
         {
           "title": "牛大拿设计师导航",
-          "subtitle": "设计师导航",
+          "desc": "设计师导航",
+          "tag": "Tool",
           "url": "http://www.niudana.com/"
         },
         {
           "title": "Ant Design",
-          "subtitle": "蚂蚁金服设计平台",
+          "desc": "蚂蚁金服设计平台",
+          "tag": "Tool",
           "url": "http://design.alipay.com/"
         },
         {
           "title": "优设-UISDC",
-          "subtitle": "优秀设计联盟-SDC",
+          "desc": "优秀设计联盟-SDC",
+          "tag": "Tool",
           "url": "http://www.uisdc.com/"
         },
         {
           "title": "Novapattern",
-          "subtitle": "Curated Collection of High-Quality Patterns",
+          "desc": "Curated Collection of High-Quality Patterns",
+          "tag": "Tool",
           "url": "https://www.novapattern.com/"
         },
         {
           "title": "优设导航",
-          "subtitle": "学设计从这里开始",
+          "desc": "学设计从这里开始",
+          "tag": "Tool",
           "url": "https://hao.uisdc.com/"
         },
         {
           "title": "优优教程网",
-          "subtitle": "设计教程-马了再练不如马上练",
+          "desc": "设计教程-马了再练不如马上练",
+          "tag": "Tool",
           "url": "https://uiiiuiii.com/"
         },
         {
           "title": "图说设计模式",
-          "subtitle": "Graphic Design Patterns",
+          "desc": "Graphic Design Patterns",
+          "tag": "Tool",
           "url": "https://design-patterns.readthedocs.io/zh_CN/latest/index.html"
+        },
+        {
+          "title": "STUDIO",
+          "desc": "Create your website from scratch without coding",
+          "tag": "Tool",
+          "url": "https://studio.design/"
         }
       ]
     },
@@ -305,17 +423,20 @@
       "content": [
         {
           "title": "MDUI",
-          "subtitle": "Material Design User Interface",
+          "desc": "Material Design User Interface",
+          "tag": "Tool",
           "url": "https://www.mdui.org/"
         },
         {
           "title": "SUI Mobile",
-          "subtitle": "阿里巴巴国际UED前端出品移动端UI",
+          "desc": "阿里巴巴国际UED前端出品移动端UI",
+          "tag": "Tool",
           "url": "http://m.sui.taobao.org/"
         },
         {
           "title": "Taro",
-          "subtitle": "一套遵循 React 语法规范的多端统一开发框架-凹凸实验室",
+          "desc": "一套遵循 React 语法规范的多端统一开发框架-凹凸实验室",
+          "tag": "Tool",
           "url": "https://taro.aotu.io/"
         }
       ]
@@ -325,23 +446,128 @@
       "content": [
         {
           "title": "奇舞团",
-          "subtitle": "奇虎360最大的前端团队",
+          "desc": "奇虎360最大的前端团队",
+          "tag": "Tool",
           "url": "https://75team.com/"
         },
         {
           "title": "Aotu.io「凹凸实验室」",
-          "subtitle": "京东前端-凹凸实验室",
+          "desc": "京东前端-凹凸实验室",
+          "tag": "Tool",
           "url": "https://aotu.io/"
         },
         {
+          "title": "JDC",
+          "desc": "京东设计中心",
+          "tag": "Tool",
+          "url": "http://jdc.jd.com/"
+        },
+        {
           "title": "TGideas",
-          "subtitle": "腾讯互动娱乐创意设计团队",
+          "desc": "腾讯互动娱乐创意设计团队",
+          "tag": "Tool",
           "url": "https://tgideas.qq.com"
         },
         {
+          "title": "阿里中间件团队博客",
+          "desc": "阿里中间件团队博客",
+          "tag": "Tool",
+          "url": "http://jm.taobao.org/"
+        },
+        {
           "title": "前端先生",
-          "subtitle": "前端技术分享学习",
+          "desc": "前端技术分享学习",
+          "tag": "Tool",
           "url": "http://www.mrfront.com/"
+        }
+      ]
+    },
+    {
+      "class": "Work & Documents",
+      "content": [
+        {
+          "title": "Worktile",
+          "desc": "更好的企业协作平台",
+          "tag": "Tool",
+          "url": "https://worktile.com/"
+        },
+        {
+          "title": "一起写",
+          "desc": "可能是最好用的实时协作文档",
+          "tag": "Tool",
+          "url": "https://yiqixie.com/"
+        },
+        {
+          "title": "我的文档",
+          "desc": "百度文库下载工具，某宝购买",
+          "tag": "Tool",
+          "url": "https://wenkubao.cc/"
+        },
+        {
+          "title": "石墨文档",
+          "desc": "可多人实时协作的云端文档与表格",
+          "tag": "Tool",
+          "url": "https://shimo.im/"
+        },
+        {
+          "title": "氢",
+          "desc": "基于Git的笔记、任务、待办管理工具",
+          "tag": "Tool",
+          "url": "http://origingroup.tech"
+        },
+        {
+          "title": "Laverna",
+          "desc": "keep your notes private",
+          "tag": "Tool",
+          "url": "https://laverna.cc/"
+        },
+        {
+          "title": "轻流",
+          "desc": "无需开发，快速搭建业务流程",
+          "tag": "Tool",
+          "url": "https://qingflow.com/"
+        },
+        {
+          "title": "Apowersoft",
+          "desc": "为您提供专业的商务办公及日常生活的桌面软件和在线应用",
+          "tag": "Tool",
+          "url": "https://www.apowersoft.cn/"
+        },
+        {
+          "title": "PA口袋动画",
+          "desc": "一款让PPT动画炫酷起来的插件",
+          "tag": "Tool",
+          "url": "http://www.papocket.com/"
+        },
+        {
+          "title": "PPT美化大师",
+          "desc": "PPT模版|PPT图示|PPT素材|PPT形状|PPT画册|图片素材",
+          "tag": "Tool",
+          "url": "http://meihua.docer.com/"
+        },
+        {
+          "title": "Online converter",
+          "desc": "convert video, images, audio and documents for free",
+          "tag": "Tool",
+          "url": "https://online-convert.com"
+        },
+        {
+          "title": "免费在线文件转换器",
+          "desc": "免费在线转换视频,在线音频转换,在线图形转换,在线文档转换和在线压缩格式",
+          "tag": "Tool",
+          "url": "https://cn.office-converter.com/"
+        },
+        {
+          "title": "Paper Sizes",
+          "desc": "The best resource for International Paper Sizes, Dimensions & Formats",
+          "tag": "Tool",
+          "url": "https://papersizes.io/"
+        },
+        {
+          "title": "Free Online OCR",
+          "desc": "convert PDF to Word or Image to text",
+          "tag": "Tool",
+          "url": "https://www.onlineocr.net/"
         }
       ]
     },
@@ -350,142 +576,182 @@
       "content": [
         {
           "title": "代码片段",
-          "subtitle": "",
+          "desc": "",
+          "tag": "Tool",
           "url": "http://www.codesnippet.cn/"
         },
         {
           "title": "nodei.co",
-          "subtitle": "classy node.js badges, that's all",
+          "desc": "classy node.js badges, that's all",
+          "tag": "Tool",
           "url": "https://nodei.co/"
         },
         {
           "title": "CodePen",
-          "subtitle": "Create a New Pen",
+          "desc": "Create a New Pen",
+          "tag": "Tool",
           "url": "https://codepen.io"
         },
         {
+          "title": "Console Compiler",
+          "desc": "Console Compiler",
+          "tag": "Tool",
+          "url": "https://compiler.run/"
+        },
+        {
+          "title": "Animista",
+          "desc": "CSS Animations",
+          "tag": "Tool",
+          "url": "http://animista.net/"
+        },
+        {
           "title": "Unicode®字符百科",
-          "subtitle": "",
+          "desc": "",
+          "tag": "Tool",
           "url": "https://unicode-table.com"
         },
         {
           "title": "favicon.ico Generator",
-          "subtitle": "",
+          "desc": "",
+          "tag": "Tool",
           "url": "https://www.favicon.cc/"
         },
         {
           "title": "Carbon",
-          "subtitle": "",
+          "desc": "",
+          "tag": "Tool",
           "url": "https://carbon.now.sh"
         },
         {
           "title": "Algorithm Visualizer",
-          "subtitle": "如题",
+          "desc": "如题",
+          "tag": "Tool",
           "url": "http://algo-visualizer.jasonpark.me"
         },
         {
           "title": "前端库",
-          "subtitle": "前端开发，JQUERY特效，全栈开发，vue开发",
+          "desc": "前端开发，JQUERY特效，全栈开发，vue开发",
+          "tag": "Tool",
           "url": "http://www.jqhtml.com/"
         },
         {
           "title": "易百教程™",
-          "subtitle": "专注于IT教程和实例",
+          "desc": "专注于IT教程和实例",
+          "tag": "Tool",
           "url": "https://www.yiibai.com/"
         },
         {
           "title": "RegExr",
-          "subtitle": "Learn, Build, & Test RegEx",
+          "desc": "Learn, Build, & Test RegEx",
+          "tag": "Tool",
           "url": "https://regexr.com/"
         },
         {
           "title": "Beyondcow",
-          "subtitle": "",
+          "desc": "",
+          "tag": "Tool",
           "url": "https://www.beyondcow.com/"
         },
         {
           "title": "DevDocs API Documentation",
-          "subtitle": "",
+          "desc": "",
+          "tag": "Tool",
           "url": "http://devdocs.io/"
         },
         {
           "title": "Libraries.io",
-          "subtitle": "The Open Source Discovery Service",
+          "desc": "The Open Source Discovery Service",
+          "tag": "Tool",
           "url": "https://libraries.io/"
         },
         {
           "title": "DevDocs API Documentation",
-          "subtitle": "",
+          "desc": "",
+          "tag": "Tool",
           "url": "http://devdocs.io/"
         },
         {
           "title": "Zeal",
-          "subtitle": "Offline Documentation Browser",
+          "desc": "Offline Documentation Browser",
+          "tag": "Tool",
           "url": "https://zealdocs.org/"
         },
         {
           "title": "Cacher",
-          "subtitle": "Code snippet organizer for pros",
+          "desc": "Code snippet organizer for pros",
+          "tag": "Tool",
           "url": "https://www.cacher.io/"
         },
         {
           "title": "Dash for macOS",
-          "subtitle": "API Documentation Browser, Snippet Manager - Kapeli",
+          "desc": "API Documentation Browser, Snippet Manager - Kapeli",
+          "tag": "Tool",
           "url": "https://kapeli.com"
         },
         {
           "title": "Python Extension Packages",
-          "subtitle": "Unofficial Windows Binaries for Python Extension Packages",
+          "desc": "Unofficial Windows Binaries for Python Extension Packages",
+          "tag": "Tool",
           "url": "https://www.lfd.uci.edu/~gohlke/pythonlibs/"
         },
         {
           "title": "CSS Reference",
-          "subtitle": "A free visual guide to CSS",
+          "desc": "A free visual guide to CSS",
+          "tag": "Tool",
           "url": "https://cssreference.io/"
         },
         {
           "title": "HTML Reference",
-          "subtitle": "A free guide to all HTML elements and attributes",
+          "desc": "A free guide to all HTML elements and attributes",
+          "tag": "Tool",
           "url": "https://htmlreference.io/"
         },
         {
           "title": "explainshell.com",
-          "subtitle": "match command-line arguments to their help text",
+          "desc": "match command-line arguments to their help text",
+          "tag": "Tool",
           "url": "https://explainshell.com/"
         },
         {
           "title": "Tutorialspoint",
-          "subtitle": "You are browsing the best resource for Online Education",
+          "desc": "You are browsing the best resource for Online Education",
+          "tag": "Tool",
           "url": "http://www.tutorialspoint.com/"
         },
         {
           "title": "Kaggle",
-          "subtitle": "Your Home for Data Science",
+          "desc": "Your Home for Data Science",
+          "tag": "Tool",
           "url": "https://www.kaggle.com/"
         },
         {
           "title": "Mergely",
-          "subtitle": "Diff text documents online",
+          "desc": "Diff text documents online",
+          "tag": "Tool",
           "url": "http://www.mergely.com/"
         },
         {
           "title": "Isotope",
-          "subtitle": "Filter & sort magical layouts",
+          "desc": "Filter & sort magical layouts",
+          "tag": "Tool",
           "url": "https://isotope.metafizzy.co/"
         },
         {
           "title": "Swiper中文网",
-          "subtitle": "一款免费以及轻量级的移动设备触控滑块的js框架",
+          "desc": "一款免费以及轻量级的移动设备触控滑块的js框架",
+          "tag": "Tool",
           "url": "https://www.swiper.com.cn/"
         },
         {
           "title": "蒲公英",
-          "subtitle": "高效安全的内测应用发布、管理平台",
+          "desc": "高效安全的内测应用发布、管理平台",
+          "tag": "Tool",
           "url": "https://www.pgyer.com/"
         },
         {
           "title": "UZER.ME",
-          "subtitle": "您的云端超级应用空间",
+          "desc": "您的云端超级应用空间",
+          "tag": "Tool",
           "url": "https://uzer.me/"
         }
       ]
@@ -495,22 +761,26 @@
       "content": [
         {
           "title": "众成翻译",
-          "subtitle": "翻译，从此起步",
+          "desc": "翻译，从此起步",
+          "tag": "Tool",
           "url": "https://www.zcfy.cc/"
         },
         {
           "title": "掘金翻译计划",
-          "subtitle": "一个翻译优质互联网技术文章的社区（https://github.com/xitu/gold-miner）",
+          "desc": "一个翻译优质互联网技术文章的社区（https://github.com/xitu/gold-miner）",
+          "tag": "Tool",
           "url": "https://juejin.im/tag/掘金翻译计划"
         },
         {
           "title": "译言古登堡计划",
-          "subtitle": "",
+          "desc": "",
+          "tag": "Tool",
           "url": "http://g.yeeyan.org/"
         },
         {
           "title": "OpenWrt Project",
-          "subtitle": "Welcome to the OpenWrt Project",
+          "desc": "Welcome to the OpenWrt Project",
+          "tag": "Tool",
           "url": "https://openwrt.org/"
         }
       ]
@@ -520,27 +790,32 @@
       "content": [
         {
           "title": "Sphere Online Judge (SPOJ)",
-          "subtitle": "",
+          "desc": "",
+          "tag": "Tool",
           "url": "https://www.spoj.com/"
         },
         {
           "title": "hihoCoder",
-          "subtitle": "通过高水平的程序设计比赛提升编程水平，得到名企offer",
+          "desc": "通过高水平的程序设计比赛提升编程水平，得到名企offer",
+          "tag": "Tool",
           "url": "http://www.hihocoder.com/"
         },
         {
           "title": "LeetCode",
-          "subtitle": "The World's Leading Online Programming Learning Platform",
+          "desc": "The World's Leading Online Programming Learning Platform",
+          "tag": "Tool",
           "url": "https://leetcode.com/"
         },
         {
           "title": "LintCode",
-          "subtitle": "编程面试题在线训练平台",
+          "desc": "编程面试题在线训练平台",
+          "tag": "Tool",
           "url": "https://www.lintcode.com"
         },
         {
           "title": "牛客网",
-          "subtitle": "专业IT笔试面试备考平台,C++JAVA前端求职题库,全面提升IT编程能力",
+          "desc": "专业IT笔试面试备考平台,C++JAVA前端求职题库,全面提升IT编程能力",
+          "tag": "Tool",
           "url": "https://www.nowcoder.com/"
         }
       ]
@@ -550,107 +825,134 @@
       "content": [
         {
           "title": "异步社区",
-          "subtitle": "国内领先的IT专业图书社区",
+          "desc": "国内领先的IT专业图书社区",
+          "tag": "Tool",
           "url": "https://www.epubit.com/"
         },
         {
           "title": "O'Reilly Media",
-          "subtitle": "Technology and Business Training",
+          "desc": "Technology and Business Training",
+          "tag": "Tool",
           "url": "https://www.oreilly.com/"
         },
         {
           "title": "Manning",
-          "subtitle": "Manning Publications",
+          "desc": "Manning Publications",
+          "tag": "Tool",
           "url": "https://www.manning.com/"
         },
         {
           "title": "书格",
-          "subtitle": "有品格的数字估计图书馆",
+          "desc": "有品格的数字估计图书馆",
+          "tag": "Tool",
           "url": "https://shuge.org/"
         },
         {
           "title": "Gutenberg",
-          "subtitle": "Free ebooks - Project Gutenberg",
+          "desc": "Free ebooks - Project Gutenberg",
+          "tag": "Tool",
           "url": "http://www.gutenberg.org/"
         },
         {
           "title": "bookset",
-          "subtitle": "我的精品电子书柜",
+          "desc": "我的精品电子书柜",
+          "tag": "Tool",
           "url": "https://bookset.me/"
         },
         {
+          "title": "Library Genesis",
+          "desc": "Books on natural science disciplines and engineering.",
+          "tag": "Tool",
+          "url": "http://gen.lib.rus.ec/"
+        },
+        {
           "title": "Planet eBook",
-          "subtitle": "100% Free Literature for Win, Mac, iOS, Android and Kindle",
+          "desc": "100% Free Literature for Win, Mac, iOS, Android and Kindle",
+          "tag": "Tool",
           "url": "https://www.planetebook.com/"
         },
         {
           "title": "扫地僧的橱柜",
-          "subtitle": "为您提供专业的商务办公及日常生活的桌面软件和在线应用",
+          "desc": "为您提供专业的商务办公及日常生活的桌面软件和在线应用",
+          "tag": "Tool",
           "url": "http://ebooksplan.club/"
         },
         {
-          "title": "Share And Download IT Ebook",
-          "subtitle": "",
+          "title": " IT Ebook",
+          "desc": "Share And Download IT Ebook",
+          "tag": "Tool",
           "url": "http://www.it-ebooks.com/"
         },
         {
           "title": "All IT eBooks",
-          "subtitle": "Free IT eBooks Download",
+          "desc": "Free IT eBooks Download",
+          "tag": "Tool",
           "url": "http://www.allitebooks.com/"
         },
         {
           "title": "IT eBooks",
-          "subtitle": "Free Download - New Releases",
+          "desc": "Free Download - New Releases",
+          "tag": "Tool",
           "url": "http://it-ebooks.info/"
         },
         {
           "title": "IT eBooks Download",
-          "subtitle": "Free Trial information technology ebook download pdf or read online",
+          "desc": "Free Trial information technology ebook download pdf or read online",
+          "tag": "Tool",
           "url": "http://itebook.org/"
         },
         {
           "title": "书伴（Kindle 伴侣）",
-          "subtitle": "为静心阅读而生",
+          "desc": "为静心阅读而生",
+          "tag": "Tool",
           "url": "https://bookfere.com/"
         },
         {
           "title": "蚂蚁搬书",
-          "subtitle": "",
+          "desc": "",
+          "tag": "Tool",
           "url": "http://book.mybanshu.win/"
         },
         {
           "title": "苦瓜书盘",
-          "subtitle": "",
+          "desc": "",
+          "tag": "Tool",
           "url": "https://kgbook.com/"
         },
         {
           "title": "Kindle人社区",
-          "subtitle": "Kindle人都爱的Kindle论坛",
+          "desc": "Kindle人都爱的Kindle论坛",
+          "tag": "Tool",
           "url": "https://kindleren.com"
         },
         {
           "title": "Blah 书库",
-          "subtitle": "",
+          "desc": "",
+          "tag": "Tool",
           "url": "http://blah.me/"
         },
         {
           "title": "亚马逊免费Kindle电子书",
-          "subtitle": "免费Kindle电子书下载_Kindle免费资源_txt电子书免费下载",
+          "desc": "免费Kindle电子书下载_Kindle免费资源_txt电子书免费下载",
+          "tag": "Tool",
           "url": "https://www.amazon.cn/Kindle%E5%85%8D%E8%B4%B9%E7%94%B5%E5%AD%90%E4%B9%A6/b/ref=amb_link_30927692_12?ie=UTF8&node=116175071&pf_rd_m=A1AJ19PSB66TGU&pf_rd_s=left-2&pf_rd_r=019VVFFWQYQAVAHCRP80&pf_rd_t=101&pf_rd_p=81488872&pf_rd"
         },
         {
           "title": "我的小书屋",
-          "subtitle": "最新最全电子书免费下载",
+          "desc": "最新最全电子书免费下载",
+          "tag": "Tool",
           "url": "http://mebook.cc/"
         },
         {
           "title": "ePUBee电子书库",
-          "subtitle": "最大的电子书库，对外开放，免费使用",
+          "desc": "最大的电子书库，对外开放，免费使用",
+          "tag": "Tool",
           "url": "http://gplayspace.com/"
         },
         {
           "title": "七彩英语",
-          "subtitle": "英文电子书下载站 PDF|TXT格式英文原版原著下载",
+          "desc": "英文电子书下载站 PDF|TXT格式英文原版原著下载",
+          "tag": "Tool",
           "url": "http://www.qcenglish.com/"
         }
       ]
@@ -660,42 +962,50 @@
       "content": [
         {
           "title": "MAP",
-          "subtitle": "Kaspersky Cyberthreat real-time map",
+          "desc": "Kaspersky Cyberthreat real-time map",
+          "tag": "Tool",
           "url": "https://cybermap.kaspersky.com/"
         },
         {
           "title": "Digital Attack Map",
-          "subtitle": "Top daily DDoS attacks worldwide",
+          "desc": "Top daily DDoS attacks worldwide",
+          "tag": "Tool",
           "url": "http://www.digitalattackmap.com"
         },
         {
           "title": "Norse Attack Map",
-          "subtitle": "Attack real-time map",
+          "desc": "Attack real-time map",
+          "tag": "Tool",
           "url": "http://map.norsecorp.com"
         },
         {
           "title": "Norse Attack Map",
-          "subtitle": "Attack real-time map in Hidden Web",
+          "desc": "Attack real-time map in Hidden Web",
+          "tag": "Tool",
           "url": "http://www.norse-corp.com/map/"
         },
         {
           "title": "Submarine Cable Map",
-          "subtitle": "A free and regularly updated resource from TeleGeography",
+          "desc": "A free and regularly updated resource from TeleGeography",
+          "tag": "Tool",
           "url": "https://www.submarinecablemap.com/"
         },
         {
           "title": "Flight Tracker",
-          "subtitle": "Flightradar24 | Track Planes In Real-Time",
+          "desc": "Flightradar24 | Track Planes In Real-Time",
+          "tag": "Tool",
           "url": "https://www.flightradar24.com"
         },
         {
           "title": "Variflight 航线图",
-          "subtitle": "航线网络图",
+          "desc": "航线网络图",
+          "tag": "Tool",
           "url": "http://map.variflight.com/"
         },
         {
           "title": "全球最有趣的在线地图网站",
-          "subtitle": "全球最有趣的在线地图网站收集",
+          "desc": "全球最有趣的在线地图网站收集",
+          "tag": "Tool",
           "url": "http://blog.sina.com.cn/s/blog_571641ee0102x0pg.html"
         }
       ]
@@ -705,208 +1015,159 @@
       "content": [
         {
           "title": "code2flow",
-          "subtitle": "online interactive code to flowchart converter",
+          "desc": "online interactive code to flowchart converter",
+          "tag": "Tool",
           "url": "https://code2flow.com/"
         },
         {
           "title": "Chart Mage",
-          "subtitle": "Draw sequence diagrams and flowcharts at lightning speed",
+          "desc": "Draw sequence diagrams and flowcharts at lightning speed",
+          "tag": "Tool",
           "url": "http://chartmage.com"
         },
         {
           "title": "GitPitch",
-          "subtitle": "The Markdown Presentation Service on Git",
+          "desc": "The Markdown Presentation Service on Git",
+          "tag": "Tool",
           "url": "https://gitpitch.com/"
         },
         {
           "title": "OSBoxes",
-          "subtitle": "Virtual Machines for VirtualBox & VMware",
+          "desc": "Virtual Machines for VirtualBox & VMware",
+          "tag": "Tool",
           "url": "https://www.osboxes.org/"
         },
         {
           "title": "Receive SMS Online",
-          "subtitle": "Temporary SMS and Disposable Numbers",
+          "desc": "Temporary SMS and Disposable Numbers",
+          "tag": "Tool",
           "url": "https://smsreceivefree.com/"
         },
         {
           "title": "Receive Free SMS Online",
-          "subtitle": "Virtual Phone Number Verification",
+          "desc": "Virtual Phone Number Verification",
+          "tag": "Tool",
           "url": "http://www.freesmsverifications.com/"
         },
         {
           "title": "Formspree",
-          "subtitle": "A Contact Form to Email Service",
+          "desc": "A Contact Form to Email Service",
+          "tag": "Tool",
           "url": "https://formspree.io/"
         },
         {
           "title": "她的工具箱",
-          "subtitle": "",
+          "desc": "",
+          "tag": "Tool",
           "url": "https://toolher.com/"
         },
         {
-          "title": "我的文档",
-          "subtitle": "百度文库下载工具，某宝购买",
-          "url": "https://wenkubao.cc/"
-        },
-        {
-          "title": "石墨文档",
-          "subtitle": "可多人实时协作的云端文档与表格",
-          "url": "https://shimo.im/"
-        },
-        {
-          "title": "小视频下载",
-          "subtitle": "",
-          "url": "http://www.downfi.com/video/"
-        },
-        {
-          "title": "视频解析网",
-          "subtitle": "微博、秒拍、汤不热视频解析下载网站",
-          "url": "https://www.parsevideo.com/"
-        },
-        {
           "title": "REG007",
-          "subtitle": "你注册过哪些网站？一搜便知",
+          "desc": "你注册过哪些网站？一搜便知",
+          "tag": "Tool",
           "url": "https://www.reg007.com/"
         },
         {
           "title": "找回你,注册过哪些网站",
-          "subtitle": "",
+          "desc": "",
+          "tag": "Tool",
           "url": "http://www.zhaohuini.com/"
         },
         {
           "title": "上海卓安科技官网",
-          "subtitle": " 旗下拥有双开助手、Google空间、微信助手等多款工具类产品",
+          "desc": "旗下拥有双开助手、Google空间、微信助手等多款工具类产品",
+          "tag": "Tool",
           "url": "https://www.excean.com/"
         },
         {
+          "title": "Raindrop.io",
+          "desc": " All in One Bookmarks Manager",
+          "tag": "Tool",
+          "url": "https://raindrop.io/"
+        },
+        {
           "title": "IPIP.NET",
-          "subtitle": "最专业的 IP 地址库",
+          "desc": "最专业的 IP 地址库",
+          "tag": "Tool",
           "url": "https://www.ipip.net/"
         },
         {
           "title": "RTBAsia ODX",
-          "subtitle": "Open Data Exchange",
+          "desc": "Open Data Exchange",
+          "tag": "Tool",
           "url": "https://ip.rtbasia.com/"
         },
         {
-          "title": "Apowersoft",
-          "subtitle": "为您提供专业的商务办公及日常生活的桌面软件和在线应用",
-          "url": "https://www.apowersoft.cn/"
-        },
-        {
-          "title": "PA口袋动画",
-          "subtitle": "一款让PPT动画炫酷起来的插件",
-          "url": "http://www.papocket.com/"
-        },
-        {
           "title": "速盘",
-          "subtitle": "不一样的度盘神器，百度网盘资源搜索下载不限速工具",
+          "desc": "不一样的度盘神器，百度网盘资源搜索下载不限速工具",
+          "tag": "Tool",
           "url": "https://www.speedpan.com/"
         },
         {
           "title": "Amazing Apps",
-          "subtitle": "致力于寻找各大系统平台下最佳的应用程序，并提供一个便于搜索的简化目录供所有用户游览查阅",
+          "desc": "致力于寻找各大系统平台下最佳的应用程序，并提供一个便于搜索的简化目录供所有用户游览查阅",
+          "tag": "Tool",
           "url": "http://amazingapps.org/"
         },
         {
           "title": "Audio Rip",
-          "subtitle": "Download direct from youtube - Just copy and paste !",
+          "desc": "Download direct from youtube - Just copy and paste !",
+          "tag": "Tool",
           "url": "https://audio.rip/"
         },
         {
           "title": "有啦拼字幕",
-          "subtitle": "视频字幕拼接",
+          "desc": "视频字幕拼接",
+          "tag": "Tool",
           "url": "https://www.yoo.la"
         },
         {
-          "title": "img.top",
-          "subtitle": "智能在线图像压缩",
-          "url": "https://img.top/"
-        },
-        {
-          "title": "iLoveIMG",
-          "subtitle": "图像文件在线编辑工具",
-          "url": "https://www.iloveimg.com"
-        },
-        {
-          "title": "Image Converter Online",
-          "subtitle": "Convert image format Online",
-          "url": "https://jinaconvert.com/"
-        },
-        {
-          "title": "TinyPNG",
-          "subtitle": "Compress PNG images while preserving transparency",
-          "url": "https://tinypng.com/"
-        },
-        {
-          "title": "PPT美化大师",
-          "subtitle": "PPT模版|PPT图示|PPT素材|PPT形状|PPT画册|图片素材",
-          "url": "http://meihua.docer.com/"
-        },
-        {
-          "title": "Free Online OCR",
-          "subtitle": "convert PDF to Word or Image to text",
-          "url": "https://www.onlineocr.net/"
-        },
-        {
           "title": "Geometrize Web Demo",
-          "subtitle": "geometrizing images into geometric primitives",
+          "desc": "geometrizing images into geometric primitives",
+          "tag": "Tool",
           "url": "http://www.samcodes.co.uk/project/geometrize-haxe-web/"
         },
         {
           "title": "Google空间",
-          "subtitle": "又名XSpace、洋游码头，畅享Google Play商店精彩内容",
+          "desc": "又名XSpace、洋游码头，畅享Google Play商店精彩内容",
+          "tag": "Tool",
           "url": "http://gplayspace.com/"
         },
         {
-          "title": "Online converter",
-          "subtitle": "convert video, images, audio and documents for free",
-          "url": "https://online-convert.com"
-        },
-        {
-          "title": "免费在线文件转换器",
-          "subtitle": "免费在线转换视频,在线音频转换,在线图形转换,在线文档转换和在线压缩格式",
-          "url": "https://cn.office-converter.com/"
-        },
-        {
-          "title": "Paper Sizes",
-          "subtitle": "The best resource for International Paper Sizes, Dimensions & Formats",
-          "url": "https://papersizes.io/"
-        },
-        {
           "title": "Pixlr Editor",
-          "subtitle": "Online Photo Editor",
+          "desc": "Online Photo Editor",
+          "tag": "Tool",
           "url": "https://pixlr.com"
         },
         {
           "title": "ASCIIFlow Infinity",
-          "subtitle": "ASCIIFlow Infinity",
+          "desc": "ASCIIFlow Infinity",
+          "tag": "Tool",
           "url": "http://asciiflow.com/"
         },
         {
           "title": "SVG-editr",
-          "subtitle": "Online SVG editor",
+          "desc": "Online SVG editor",
+          "tag": "Tool",
           "url": "https://svg-edit.github.io/svgedit/releases/latest/editor/svg-editor.html"
         },
         {
           "title": "Painter",
-          "subtitle": "Painter",
+          "desc": "Painter",
+          "tag": "Tool",
           "url": "http://painter.crick.wang/"
         },
         {
           "title": "Sketch.IO",
-          "subtitle": "The Maker of Sketchpad",
+          "desc": "The Maker of Sketchpad",
+          "tag": "Tool",
           "url": "https://sketch.io"
         },
         {
           "title": "国内首家在线屏幕测试网站",
-          "subtitle": "屏幕检测工具 - 显示器检测软件 - 手机屏幕测试图片",
+          "desc": "屏幕检测工具 - 显示器检测软件 - 手机屏幕测试图片",
+          "tag": "Tool",
           "url": "http://pingmu.zh-ang.com/"
-        },
-        {
-          "title": "飞常准",
-          "subtitle": "航班延误、准点、动态、跟踪信息, 让世界更准点",
-          "url": "http://www.variflight.com/"
         }
       ]
     },
@@ -915,7 +1176,8 @@
       "content": [
         {
           "title": "Forvo",
-          "subtitle": "发音指南，世界上所有词语的母语发音",
+          "desc": "发音指南，世界上所有词语的母语发音",
+          "tag": "Tool",
           "url": "https://zh.forvo.com/"
         }
       ]
@@ -924,23 +1186,27 @@
       "class": "Color",
       "content": [
         {
-          "title": "Trianglify.io",
-          "subtitle": "Low Poly Pattern Generator",
+          "title": "Trianglify",
+          "desc": "Low Poly Pattern Generator",
+          "tag": "Tool",
           "url": "https://trianglify.io/"
         },
         {
-          "title": "WebGradients.com 💎",
-          "subtitle": "Fresh Background Gradients",
+          "title": "WebGradients",
+          "desc": "Fresh Background Gradients",
+          "tag": "Tool",
           "url": "https://webgradients.com/"
         },
         {
           "title": "CoolHue 2.0",
-          "subtitle": "Coolest Gradient Hues and Swatches",
+          "desc": "Coolest Gradient Hues and Swatches",
+          "tag": "Tool",
           "url": "https://webkul.github.io/coolhue/"
         },
         {
           "title": "HSL Color Picker",
-          "subtitle": "CREATED FOR YOUR ENJOYMENT",
+          "desc": "CREATED FOR YOUR ENJOYMENT",
+          "tag": "Tool",
           "url": "http://hslpicker.com/"
         }
 
@@ -951,28 +1217,45 @@
       "content": [
         {
           "title": "Phoenix Startup UI kit",
-          "subtitle": "a tool based on Bootstrap",
+          "desc": "a tool based on Bootstrap",
+          "tag": "Tool",
           "url": "https://phoenix-startup.com/"
         },
         {
           "title": "Airnauts",
-          "subtitle": "Creativity meets technology",
+          "desc": "Creativity meets technology",
+          "tag": "Tool",
           "url": "https://airnauts.com/"
         },
         {
           "title": "Marie Morelle",
-          "subtitle": "Illustratrice",
+          "desc": "Illustratrice",
+          "tag": "Tool",
           "url": "https://www.marie-morelle.com"
         },
         {
           "title": "HTML5 Demos and Examples",
-          "subtitle": "HTML5 Demos and Examples",
+          "desc": "HTML5 Demos and Examples",
+          "tag": "Tool",
           "url": "https://html5up.net/"
         },
         {
           "title": "HTML5 UP!",
-          "subtitle": "Responsive HTML5 and CSS3 Site Templates",
+          "desc": "Responsive HTML5 and CSS3 Site Templates",
+          "tag": "Tool",
           "url": "https://html5demos.com/"
+        },
+        {
+          "title": "stacksort",
+          "desc": "",
+          "tag": "Tool",
+          "url": "http://gkoberger.github.io/stacksort/"
+        },
+        {
+          "title": "xkcd",
+          "desc": "A webcomic of romance,sarcasm, math, and language",
+          "tag": "Tool",
+          "url": "https://xkcd.com/"
         }
       ]
     },
@@ -981,93 +1264,147 @@
       "content": [
         {
           "title": "Foter",
-          "subtitle": "Premium Royalty-Free Stock Photos From The Foter Community",
+          "desc": "Premium Royalty-Free Stock Photos From The Foter Community",
+          "tag": "Tool",
           "url": "https://foter.com/"
         },
         {
           "title": "别样网-沙沙野",
-          "subtitle": "免费背景图片素材_网页设计图片素材网站",
+          "desc": "免费背景图片素材_网页设计图片素材网站",
+          "tag": "Tool",
           "url": "https://www.ssyer.com/"
         },
         {
           "title": "Unsplash",
-          "subtitle": "Beautiful Free Images & Pictures",
+          "desc": "Beautiful Free Images & Pictures",
+          "tag": "Tool",
           "url": "https://unsplash.com/"
         },
         {
           "title": "wallhaven.cc",
-          "subtitle": "Awesome Wallpapers",
+          "desc": "Awesome Wallpapers",
+          "tag": "Tool",
           "url": "https://alpha.wallhaven.cc/"
         },
         {
           "title": "Life of Pix",
-          "subtitle": "Free high resolution photography",
+          "desc": "Free high resolution photography",
+          "tag": "Tool",
           "url": "https://www.lifeofpix.com/"
         },
         {
           "title": "FreeImages.com",
-          "subtitle": "Explore over 300,000 free stock photos and royalty free images",
+          "desc": "Explore over 300,000 free stock photos and royalty free images",
+          "tag": "Tool",
           "url": "https://cn.freeimages.com/"
         },
         {
           "title": "500px",
-          "subtitle": "最出色的摄影社区",
+          "desc": "最出色的摄影社区",
+          "tag": "Tool",
           "url": "https://500px.com/"
         },
         {
           "title": "必应每日高清壁纸",
-          "subtitle": "精彩，从这里开始",
+          "desc": "精彩，从这里开始",
+          "tag": "Tool",
           "url": "https://bing.ioliu.cn/"
         },
         {
           "title": "Avatars.io",
-          "subtitle": "Every app needs an avatar. We make it hassle free",
+          "desc": "Every app needs an avatar. We make it hassle free",
+          "tag": "Tool",
           "url": "https://www.avatars.io/"
         },
         {
           "title": "Lorem Picsum",
-          "subtitle": "Random Photo Service",
+          "desc": "Random Photo Service",
+          "tag": "Tool",
           "url": "https://picsum.photos/"
         },
         {
           "title": "Placeholder.com",
-          "subtitle": "Quick & Simple Placeholder Images, Text & Mo",
+          "desc": "Quick & Simple Placeholder Images, Text & Mo",
+          "tag": "Tool",
           "url": "https://placeholder.com/"
         },
         {
           "title": "Z4A图床",
-          "subtitle": "Z4A图床-做国内最良心的免费图床",
+          "desc": "Z4A图床-做国内最良心的免费图床",
+          "tag": "Tool",
           "url": "https://www.z4a.net/"
         },
         {
           "title": "SM.MS",
-          "subtitle": "Simple Free Image Hosting",
+          "desc": "Simple Free Image Hosting",
+          "tag": "Tool",
           "url": "https://sm.ms/"
         },
         {
           "title": "ArtStation",
-          "subtitle": "艺术作品社区",
+          "desc": "艺术作品社区",
+          "tag": "Tool",
           "url": "https://www.artstation.com/"
         },
         {
           "title": "pixiv",
-          "subtitle": "插画交流网站",
+          "desc": "插画交流网站",
+          "tag": "Tool",
           "url": "https://www.pixiv.net/"
         },
         {
           "title": "avogadr.io",
-          "subtitle": "Molecular Wallpaper Generator",
+          "desc": "Molecular Wallpaper Generator",
+          "tag": "Tool",
           "url": "https://avogadr.io"
         },
         {
           "title": "Free PNG images clipart",
-          "subtitle": "PNG images with transparent background",
+          "desc": "PNG images with transparent background",
+          "tag": "Tool",
           "url": "http://pngimg.com/"
         },
         {
           "title": "DeviantArt",
-          "subtitle": "Browse Popular 24 Hours",
+          "desc": "Browse Popular 24 Hours",
+          "tag": "Tool",
           "url": "https://www.deviantart.com/"
+        },
+        {
+          "title": "Smart Resize",
+          "desc": "最智能的在线批量图片裁剪工具",
+          "tag": "Tool",
+          "url": "https://www.smartresize.com/zh-cn"
+        },
+        {
+          "title": "img.top",
+          "desc": "智能在线图像压缩",
+          "tag": "Tool",
+          "url": "https://img.top/"
+        },
+        {
+          "title": "iLoveIMG",
+          "desc": "图像文件在线编辑工具",
+          "tag": "Tool",
+          "url": "https://www.iloveimg.com"
+        },
+        {
+          "title": "Image Converter Online",
+          "desc": "Convert image format Online",
+          "tag": "Tool",
+          "url": "https://jinaconvert.com/"
+        },
+        {
+          "title": "TinyPNG",
+          "desc": "Compress PNG images while preserving transparency",
+          "tag": "Tool",
+          "url": "https://tinypng.com/"
+        },
+        {
+          "title": "BgRemover",
+          "desc": "在线图片去底工具-背景变透明|图片底色去除去掉",
+          "tag": "Tool",
+          "url": "http://www.aigei.com/bgremover"
         }
       ]
     },
@@ -1076,12 +1413,14 @@
       "content": [
         {
           "title": "草莓图标库",
-          "subtitle": "A Free and Open Source Iconic Font Library for Developers",
+          "desc": "A Free and Open Source Iconic Font Library for Developers",
+          "tag": "Tool",
           "url": "http://chuangzaoshi.com/icon/"
         },
         {
           "title": "IcoMoon",
-          "subtitle": "Icon Font & SVG Icon Sets",
+          "desc": "Icon Font & SVG Icon Sets",
+          "tag": "Tool",
           "url": "https://icomoon.io/"
         }
       ]
@@ -1090,9 +1429,64 @@
       "class": "Video",
       "content": [
         {
+          "title": "来画",
+          "desc": "AI动画短视频制作平台",
+          "tag": "Tool",
+          "url": "https://www.laihua.com/"
+        },
+        {
           "title": "coverr",
-          "subtitle": "Beautiful, free stock video footage for your homepage",
+          "desc": "Beautiful, free stock video footage for your homepage",
+          "tag": "Tool",
           "url": "http://www.coverr.co/"
+        },
+        {
+          "title": "Soda Player",
+          "desc": "Introducing the most feature-packed video player ever made.",
+          "tag": "Tool",
+          "url": "https://www.sodaplayer.com/"
+        },
+        {
+          "title": "WebTorrent",
+          "desc": "Streaming browser torrent client",
+          "tag": "Tool",
+          "url": "https://webtorrent.io/"
+        },
+        {
+          "title": "Shotcut",
+          "desc": "A free, open source, cross-platform video editor",
+          "tag": "Tool",
+          "url": "https://shotcut.org/"
+        },
+        {
+          "title": "Stampede.it",
+          "desc": "Free audio-visual packs",
+          "tag": "Source",
+          "url": "http://stampede.it/"
+        },
+        {
+          "title": "小视频下载",
+          "desc": "",
+          "tag": "Tool",
+          "url": "http://www.downfi.com/video/"
+        },
+        {
+          "title": "视频解析网",
+          "desc": "微博、秒拍、汤不热视频解析下载网站",
+          "tag": "Tool",
+          "url": "https://www.parsevideo.com/"
+        },
+        {
+          "title": "悟空视频",
+          "desc": "最新电视剧,高清电影下载,免费在线观看",
+          "tag": "Source",
+          "url": "http://www.wukongshipin.com/"
+        },
+        {
+          "title": "Online converter",
+          "desc": "convert video, images, audio and documents for free",
+          "tag": "Tool",
+          "url": "https://online-convert.com"
         }
       ]
     },
@@ -1101,7 +1495,8 @@
       "content": [
         {
           "title": "Spotify.me",
-          "subtitle": "You are what you stream",
+          "desc": "You are what you stream",
+          "tag": "Tool",
           "url": "https://spotify.me"
         }
       ]
@@ -1111,12 +1506,14 @@
       "content": [
         {
           "title": "WAIT",
-          "subtitle": "What Anime Is This? - Anime Scene Search Engine",
+          "desc": "What Anime Is This? - Anime Scene Search Engine",
+          "tag": "Tool",
           "url": "https://whatanime.ga/"
         },
         {
           "title": "AGE动漫",
-          "subtitle": "在线动画 动漫下载",
+          "desc": "在线动画 动漫下载",
+          "tag": "Tool",
           "url": "http://donghua.agefans.com/"
         }
       ]
@@ -1126,7 +1523,8 @@
       "content": [
         {
           "title": "表情锅",
-          "subtitle": "在线生成表情包",
+          "desc": "在线生成表情包",
+          "tag": "Tool",
           "url": "https://sorry.xuty.tk"
         }
       ]
@@ -1136,38 +1534,80 @@
       "content": [
         {
           "title": "Domcomp",
-          "subtitle": "Domain Name Price and Availability",
+          "desc": "Domain Name Price and Availability",
+          "tag": "Tool",
           "url": "https://www.domcomp.com/"
         },
         {
           "title": "BrowserFrame",
-          "subtitle": "Wrap screenshots in browser frames",
+          "desc": "Wrap screenshots in browser frames",
+          "tag": "Tool",
           "url": "https://browserframe.com/"
         },
         {
           "title": "Google Analytics",
-          "subtitle": "SEO",
+          "desc": "SEO",
+          "tag": "Tool",
           "url": "https://analytics.google.com"
         },
         {
+          "title": "闲聊么",
+          "desc": "社交+盈利=每个网站的成功",
+          "tag": "Tool",
+          "url": "https://www.xianliao.me/"
+        },
+        {
           "title": "域名",
-          "subtitle": "通过 Name.com 注册域名等",
+          "desc": "通过 Name.com 注册域名等",
+          "tag": "Tool",
           "url": "https://www.name.com"
         },
         {
           "title": "Gauges",
-          "subtitle": "Real Time Web Analytics & Marketing Attribution Tools",
+          "desc": "Real Time Web Analytics & Marketing Attribution Tools",
+          "tag": "Tool",
           "url": "https://get.gaug.es/"
         },
         {
           "title": "Uptime Robot",
-          "subtitle": "Downtime Happens. Get Notified!",
+          "desc": "Downtime Happens. Get Notified!",
+          "tag": "Tool",
           "url": "https://uptimerobot.com"
         },
         {
           "title": "TLD List",
-          "subtitle": "比较所有顶级域名的价格",
+          "desc": "比较所有顶级域名的价格",
+          "tag": "Tool",
           "url": "https://zh-hans.tld-list.com/"
+        }
+      ]
+    },
+    {
+      "class": "Life",
+      "content": [
+        {
+          "title": "Skyscanner",
+          "desc": "Compare Cheap Flights, Hotels & Car Hire",
+          "tag": "Tool",
+          "url": "https://www.skyscanner.net/"
+        },
+        {
+          "title": "天巡网",
+          "desc": "廉价航空、国际机票、特价机票查询预订、Skyscanner中国",
+          "tag": "Tool",
+          "url": "https://www.tianxun.com/"
+        },
+        {
+          "title": "momondo",
+          "desc": "特价机票搜索比价",
+          "tag": "Tool",
+          "url": "https://www.momondo.com/"
+        },
+        {
+          "title": "飞常准",
+          "desc": "航班延误、准点、动态、跟踪信息, 让世界更准点",
+          "tag": "Tool",
+          "url": "http://www.variflight.com/"
         }
       ]
     },
@@ -1176,338 +1616,99 @@
       "content": [
         {
           "title": "唯历史",
-          "subtitle": "关注中国历史",
+          "desc": "关注中国历史",
+          "tag": "Source",
           "url": "http://www.weilishi.org/"
         },
         {
+          "title": "历史剧里看历史",
+          "desc": "看历史，通天下",
+          "tag": "Source",
+          "url": "http://www.lishiju.net/"
+        },
+        {
+          "title": "世界数字图书馆",
+          "desc": "世界数字图书馆",
+          "tag": "Source",
+          "url": "https://www.wdl.org/zh/"
+        },
+        {
+          "title": "History Timeline",
+          "desc": "历史时间线",
+          "tag": "Source",
+          "url": "http://gonnavis.com"
+        },
+        {
+          "title": "Timeline",
+          "desc": "Timeline",
+          "tag": "Source",
+          "url": "http://www.simile-widgets.org/timeline/"
+        },
+        {
           "title": "历史上的今天",
-          "subtitle": "历史上的今天",
+          "desc": "历史上的今天",
+          "tag": "Source",
           "url": "http://www.lssdjt.com/"
         },
         {
           "title": "故宮Open Data專區",
-          "subtitle": "國立故宮博物院",
+          "desc": "國立故宮博物院",
+          "tag": "Source",
           "url": "https://theme.npm.edu.tw/opendata/"
-        }
-      ]
-    },
-    {
-      "class": "Nav",
-      "content": [
-        {
-          "title": "开发者酷站",
-          "subtitle": "DiyCode",
-          "url": "https://www.diycode.cc/sites"
         },
         {
-          "title": "Web前端导航",
-          "subtitle": "腾讯Web前端团队家的",
-          "url": "http://www.alloyteam.com/nav/"
+          "title": "TimeSearch",
+          "desc": "Search the Web through Timelines",
+          "tag": "Source",
+          "url": "http://www.timesearch.info"
         },
         {
-          "title": "AnywhereAnything",
-          "subtitle": "某网友做的",
-          "url": "http://lackar.com/aa/"
+          "title": "Histography",
+          "desc": "Timeline of History",
+          "tag": "Source",
+          "url": "http://histography.io/"
         },
         {
-          "title": "如眸导航",
-          "subtitle": "一个专注提供个性化与分享高质量的导航网址,一个属于任何人的的开放导航网站",
-          "url": "http://sucheye.com"
+          "title": "GeaCron",
+          "desc": "World History Maps & Timelines",
+          "tag": "Source",
+          "url": "http://geacron.com"
         },
         {
-          "title": "千山",
-          "subtitle": "简洁的网址导航",
-          "url": "http://qianshan.co/"
+          "title": "The Timeline Project",
+          "desc": "Timeline documentation",
+          "tag": "Source",
+          "url": "http://thetimelineproj.sourceforge.net/"
         },
         {
-          "title": "GitNavi",
-          "subtitle": "你的专属生活网址导航 - Sharing All The World",
-          "url": "http://www.gitnavi.com/"
+          "title": "The Timeline",
+          "desc": "Source Code",
+          "tag": "Source",
+          "url": "https://sourceforge.net/projects/thetimelineproj/"
         },
         {
-          "title": "泡泡网址导航",
-          "subtitle": "绿色无广告的上网主页",
-          "url": "https://www.pp93.com/"
+          "title": "TimeGraphics",
+          "desc": "Free online timeline maker",
+          "tag": "Tool",
+          "url": "https://time.graphics/"
         },
         {
-          "title": "笔点",
-          "subtitle": "用心做最简洁的网址导航",
-          "url": "https://www.bidianer.com"
+          "title": "Aeon Timeline",
+          "desc": "Visual Timeline Software",
+          "tag": "Tool",
+          "url": "https://www.aeontimeline.com/"
         },
         {
-          "title": "星空导航",
-          "subtitle": "收集全网优秀站点",
-          "url": "https://www.starnavi.cn/"
+          "title": "Tiki-Toki Timeline Maker",
+          "desc": "Beautiful web-based timeline software",
+          "tag": "Tool",
+          "url": "https://www.tiki-toki.com/"
         },
         {
-          "title": "鲤鱼搜索",
-          "subtitle": "好看的搜索导航网站",
-          "url": "http://www.liyuso.cn/so/"
-        },
-        {
-          "title": "柠檬搜索",
-          "subtitle": "清爽干净的上网入口，搜索净无止境！柠檬网",
-          "url": "http://www.llemon.cn/"
-        },
-        {
-          "title": "程序员的网站",
-          "subtitle": "网址导航",
-          "url": "http://fm126.xyz/"
-        },
-        {
-          "title": "导航186",
-          "subtitle": "最简约简洁的网址导航",
-          "url": "http://www.daohang186.com/"
-        },
-        {
-          "title": "聚神铺导航",
-          "subtitle": "轻松上网分享好资源",
-          "url": "http://www.jspoo.com/"
-        },
-        {
-          "title": "果汁导航",
-          "subtitle": "上网从这里开始",
-          "url": "http://guozhivip.com/nav/"
-        },
-        {
-          "title": "牛资料导航",
-          "subtitle": "让你拥有全世界",
-          "url": "http://www.ziliao6.com/"
-        },
-        {
-          "title": "阿猫阿狗导航",
-          "subtitle": "产品经理导航|运营导航|设计师导航",
-          "url": "http://dh.woshipm.com/"
-        },
-        {
-          "title": "钛导航",
-          "subtitle": "运营工作者专业导航网站",
-          "url": "https://web.geekji.cn/"
-        },
-        {
-          "title": "设计导航",
-          "subtitle": "精选最好的设计网站大全",
-          "url": "http://hao.shejidaren.com/"
-        },
-        {
-          "title": "小呆导航",
-          "subtitle": "可自定义的简洁网址导航",
-          "url": "http://webjike.com/"
-        },
-        {
-          "title": "快搜",
-          "subtitle": "搜索快人一步 - Google",
-          "url": "http://search.chongbuluo.com/"
-        },
-        {
-          "title": "KIM主页",
-          "subtitle": "主页从未如此惊艳",
-          "url": "https://www.zhuye.kim/"
-        },
-        {
-          "title": "老司机导航",
-          "subtitle": "懂你的年轻人导航",
-          "url": "http://www.itianxia.cn/"
-        },
-        {
-          "title": "魔导网",
-          "subtitle": "发现优秀的网站",
-          "url": "http://mdwhat.com"
-        },
-        {
-          "title": "比格张",
-          "subtitle": "发现更好的网站",
-          "url": "https://bigezhang.com/"
-        },
-        {
-          "title": "mlhub",
-          "subtitle": "机器学习导航站",
-          "url": "https://www.mlhub123.com/"
-        },
-        {
-          "title": "果壳任意门",
-          "subtitle": "发现你最爱的网站",
-          "url": "https://gate.guokr.com/"
-        },
-        {
-          "title": "1纳米学习网站导航",
-          "subtitle": "",
-          "url": "http://1nami.com/"
-        },
-        {
-          "title": "NaviSec.it",
-          "subtitle": "纳威安全导航",
-          "url": "https://navisec.it/"
-        },
-        {
-          "title": "龙轩导航",
-          "subtitle": "做个有用的导航",
-          "url": "http://ilxdh.com/"
-        },
-        {
-          "title": "100秒分享",
-          "subtitle": "让每一次阅读都有收获",
-          "url": "http://ybmfx.com/"
-        },
-        {
-          "title": "Fulck",
-          "subtitle": "就问你怕不怕",
-          "url": "https://fulck.com/"
-        },
-        {
-          "title": "IT专业领域导航网站",
-          "subtitle": "IT领域垂直导航 | IT人的导航网站",
-          "url": "http://www.its368.com/"
-        },
-        {
-          "title": "开源中国社区",
-          "subtitle": "开源项目大全",
-          "url": "https://www.oschina.net/project"
-        },
-        {
-          "title": "Linux网站导航",
-          "subtitle": "做个有用的导航",
-          "url": "http://linux.ubuntu.org.cn/"
-        },
-        {
-          "title": "去瞧瞧",
-          "subtitle": "互联网创业者网址导航",
-          "url": "http://www.quqiaoqiao.com/"
-        },
-        {
-          "title": "医学导航(Meddir.cn)",
-          "subtitle": "最全最专业的医学网址导航网站",
-          "url": "http://www.meddir.cn/"
-        },
-        {
-          "title": "萌导航",
-          "subtitle": "你的二次元导航姬",
-          "url": "http://www.moe123.net/"
-        },
-        {
-          "title": "爱翻墙",
-          "subtitle": "墙外门户",
-          "url": "https://www.ifanqiang.com/"
-        },
-        {
-          "title": "Best of the Web Directory",
-          "subtitle": "",
-          "url": "https://botw.org/"
-        },
-        {
-          "title": "海外导航网",
-          "subtitle": "海外华人网站大全",
-          "url": "http://www.hhlink.com/"
-        },
-        {
-          "title": "学术网站大全",
-          "subtitle": "",
-          "url": "http://kbs.cnki.net/"
-        },
-        {
-          "title": "SK123网址之家",
-          "subtitle": "",
-          "url": "http://www.shake123.com/"
-        },
-        {
-          "title": "学UI网",
-          "subtitle": "UI设计师导航网，最专业的UI设计网站",
-          "url": "http://hao.xueui.cn/"
-        },
-        {
-          "title": "前端网址导航",
-          "subtitle": "H-ui前端框架官方网站",
-          "url": "http://www.h-ui.net/site.shtml"
-        },
-        {
-          "title": "前端氪导航",
-          "subtitle": "站在前方，为你导航",
-          "url": "https://csskr.com/"
-        },
-        {
-          "title": "简约导航",
-          "subtitle": "",
-          "url": "https://www.jianavi.cn/"
-        },
-        {
-          "title": "收库123",
-          "subtitle": "个性化可定制网址导航",
-          "url": "https://shouku123.com/"
-        },
-        {
-          "title": "野创职业导航",
-          "subtitle": "致力于提供优秀的垂直行业网站、工具",
-          "url": "http://www.yechuang.top/"
-        },
-        {
-          "title": "火星首页",
-          "subtitle": "银河系漫游指南",
-          "url": "https://www.goto-mars.com/"
-        },
-        {
-          "title": "果壳任意门",
-          "subtitle": "发现你最爱的网站",
-          "url": "http://gkbang.cn/link/"
-        },
-        {
-          "title": "Shillber",
-          "subtitle": "晓柏导航-简洁的网址导航",
-          "url": "http://www.shillber.com/"
-        },
-        {
-          "title": "偷渡鱼",
-          "subtitle": "最好用的网址导航",
-          "url": "https://touduyu.com/"
-        },
-        {
-          "title": "选择主页",
-          "subtitle": "不知道什么鬼的总结",
-          "url": "https://homepage.selectlist.cn"
-        },
-        {
-          "title": "搜趣搜索",
-          "subtitle": "最专业的网址导航及分享平台",
-          "url": "http://so.jutuit.com/zd/sousuo"
-        },
-        {
-          "title": "任意门",
-          "subtitle": "发现你最爱的网站",
-          "url": "https://anywhere.cool/"
-        },
-        {
-          "title": "蜗牛个人导航",
-          "subtitle": "",
-          "url": "https://s.eallion.com/"
-        },
-        {
-          "title": "FAKE 果壳任意门",
-          "subtitle": "发现你最爱的网站",
-          "url": "http://terest.top/gate/"
-        },
-        {
-          "title": "大马路",
-          "subtitle": "",
-          "url": "https://dama.lu/"
-        },
-        {
-          "title": "学术搜索引擎",
-          "subtitle": "开阔你的眼界",
-          "url": "http://www.yuekaoxue.com/so/"
-        },
-        {
-          "title": "火狐移动联盟",
-          "subtitle": "免费的APP、公众号、头条号、小程序展示和推广平台",
-          "url": "https://www.huohu123.com/"
-        },
-        {
-          "title": "老司机导航",
-          "subtitle": "来不及了",
-          "url": "http://www.giffox.com/"
-        },
-        {
-          "title": "小熊时光机",
-          "subtitle": "你的网站奇趣之旅",
-          "url": "http://www.smallbear.me/"
+          "title": "Knightlab-Timeline",
+          "desc": "Easy-to-make, beautiful timelines",
+          "tag": "Tool",
+          "url": "http://timeline.knightlab.com/"
         }
       ]
     },
@@ -1516,65 +1717,457 @@
       "content": [
         {
           "title": "志也",
-          "subtitle": "思行笔记",
+          "desc": "思行笔记",
+          "tag": "Tool",
           "url": "https://floretten.com/Evandoz"
         },
         {
           "title": "张鑫旭-鑫空间-鑫生活",
-          "subtitle": "张鑫旭的个人主页",
+          "desc": "张鑫旭的个人主页",
+          "tag": "Tool",
           "url": "https://www.zhangxinxu.com/"
         },
         {
           "title": "MikeTech",
-          "subtitle": "A Technology Blog",
+          "desc": "A Technology Blog",
+          "tag": "Tool",
           "url": "https://miketech.it/"
         },
         {
           "title": "Hello World",
-          "subtitle": "a York Chou brand",
+          "desc": "a York Chou brand",
+          "tag": "Tool",
           "url": "https://yorkchou.com/"
         },
         {
           "title": "追梦人物的博客",
-          "subtitle": "",
+          "desc": "",
+          "tag": "Tool",
           "url": "https://www.zmrenwu.com/"
         },
         {
           "title": "不死鸟",
-          "subtitle": "分享为王",
+          "desc": "分享为王",
+          "tag": "Tool",
           "url": "https://lai.yuweining.cn/"
         },
         {
           "title": "土木坛子",
-          "subtitle": "一切过往皆是经历",
+          "desc": "一切过往皆是经历",
+          "tag": "Tool",
           "url": "https://tumutanzi.com/"
         },
         {
           "title": "Mac玩儿法",
-          "subtitle": "应用提高设备生产力",
+          "desc": "应用提高设备生产力",
+          "tag": "Tool",
           "url": "https://www.waerfa.com/"
         },
         {
           "title": "浏览迷",
-          "subtitle": "我们只关注浏览器",
+          "desc": "我们只关注浏览器",
+          "tag": "Tool",
           "url": "https://liulanmi.com/"
         },
         {
           "title": "纸小墨",
-          "subtitle": "构建只为纯粹书写的博客",
+          "desc": "构建只为纯粹书写的博客",
+          "tag": "Tool",
           "url": "https://www.chole.io/"
         },
         {
           "title": "当然我在扯淡",
-          "subtitle": "王垠博客",
+          "desc": "王垠博客",
+          "tag": "Tool",
           "url": "http://www.yinwang.org/"
         },
         {
           "title": "卜卜口",
-          "subtitle": "卜卜口",
+          "desc": "卜卜口",
+          "tag": "Tool",
           "url": "http://mouto.org/"
         }
       ]
+    }
+  ],
+  "navsites": [
+    {
+      "title": "开发者酷站",
+      "desc": "DiyCode",
+      "tag": "Tool",
+      "url": "https://www.diycode.cc/sites"
+    },
+    {
+      "title": "Web前端导航",
+      "desc": "腾讯Web前端团队家的",
+      "tag": "Tool",
+      "url": "http://www.alloyteam.com/nav/"
+    },
+    {
+      "title": "AnywhereAnything",
+      "desc": "某网友做的",
+      "tag": "Tool",
+      "url": "http://lackar.com/aa/"
+    },
+    {
+      "title": "如眸导航",
+      "desc": "一个专注提供个性化与分享高质量的导航网址,一个属于任何人的的开放导航网站",
+      "tag": "Tool",
+      "url": "http://sucheye.com"
+    },
+    {
+      "title": "千山",
+      "desc": "简洁的网址导航",
+      "tag": "Tool",
+      "url": "http://qianshan.co/"
+    },
+    {
+      "title": "GitNavi",
+      "desc": "你的专属生活网址导航 - Sharing All The World",
+      "tag": "Tool",
+      "url": "http://www.gitnavi.com/"
+    },
+    {
+      "title": "泡泡网址导航",
+      "desc": "绿色无广告的上网主页",
+      "tag": "Tool",
+      "url": "https://www.pp93.com/"
+    },
+    {
+      "title": "笔点",
+      "desc": "用心做最简洁的网址导航",
+      "tag": "Tool",
+      "url": "https://www.bidianer.com"
+    },
+    {
+      "title": "星空导航",
+      "desc": "收集全网优秀站点",
+      "tag": "Tool",
+      "url": "https://www.starnavi.cn/"
+    },
+    {
+      "title": "鲤鱼搜索",
+      "desc": "好看的搜索导航网站",
+      "tag": "Tool",
+      "url": "http://www.liyuso.cn/so/"
+    },
+    {
+      "title": "柠檬搜索",
+      "desc": "清爽干净的上网入口，搜索净无止境！柠檬网",
+      "tag": "Tool",
+      "url": "http://www.llemon.cn/"
+    },
+    {
+      "title": "程序员的网站",
+      "desc": "网址导航",
+      "tag": "Tool",
+      "url": "http://fm126.xyz/"
+    },
+    {
+      "title": "导航186",
+      "desc": "最简约简洁的网址导航",
+      "tag": "Tool",
+      "url": "http://www.daohang186.com/"
+    },
+    {
+      "title": "聚神铺导航",
+      "desc": "轻松上网分享好资源",
+      "tag": "Tool",
+      "url": "http://www.jspoo.com/"
+    },
+    {
+      "title": "果汁导航",
+      "desc": "上网从这里开始",
+      "tag": "Tool",
+      "url": "http://guozhivip.com/nav/"
+    },
+    {
+      "title": "牛资料导航",
+      "desc": "让你拥有全世界",
+      "tag": "Tool",
+      "url": "http://www.ziliao6.com/"
+    },
+    {
+      "title": "阿猫阿狗导航",
+      "desc": "产品经理导航|运营导航|设计师导航",
+      "tag": "Tool",
+      "url": "http://dh.woshipm.com/"
+    },
+    {
+      "title": "钛导航",
+      "desc": "运营工作者专业导航网站",
+      "tag": "Tool",
+      "url": "https://web.geekji.cn/"
+    },
+    {
+      "title": "设计导航",
+      "desc": "精选最好的设计网站大全",
+      "tag": "Tool",
+      "url": "http://hao.shejidaren.com/"
+    },
+    {
+      "title": "小呆导航",
+      "desc": "可自定义的简洁网址导航",
+      "tag": "Tool",
+      "url": "http://webjike.com/"
+    },
+    {
+      "title": "快搜",
+      "desc": "搜索快人一步 - Google",
+      "tag": "Tool",
+      "url": "http://search.chongbuluo.com/"
+    },
+    {
+      "title": "KIM主页",
+      "desc": "主页从未如此惊艳",
+      "tag": "Tool",
+      "url": "https://www.zhuye.kim/"
+    },
+    {
+      "title": "老司机导航",
+      "desc": "懂你的年轻人导航",
+      "tag": "Tool",
+      "url": "http://www.itianxia.cn/"
+    },
+    {
+      "title": "魔导网",
+      "desc": "发现优秀的网站",
+      "tag": "Tool",
+      "url": "http://mdwhat.com"
+    },
+    {
+      "title": "比格张",
+      "desc": "发现更好的网站",
+      "tag": "Tool",
+      "url": "https://bigezhang.com/"
+    },
+    {
+      "title": "mlhub",
+      "desc": "机器学习导航站",
+      "tag": "Tool",
+      "url": "https://www.mlhub123.com/"
+    },
+    {
+      "title": "果壳任意门",
+      "desc": "发现你最爱的网站",
+      "tag": "Tool",
+      "url": "https://gate.guokr.com/"
+    },
+    {
+      "title": "1纳米学习网站导航",
+      "desc": "",
+      "tag": "Tool",
+      "url": "http://1nami.com/"
+    },
+    {
+      "title": "NaviSec.it",
+      "desc": "纳威安全导航",
+      "tag": "Tool",
+      "url": "https://navisec.it/"
+    },
+    {
+      "title": "龙轩导航",
+      "desc": "做个有用的导航",
+      "tag": "Tool",
+      "url": "http://ilxdh.com/"
+    },
+    {
+      "title": "100秒分享",
+      "desc": "让每一次阅读都有收获",
+      "tag": "Tool",
+      "url": "http://ybmfx.com/"
+    },
+    {
+      "title": "Fulck",
+      "desc": "就问你怕不怕",
+      "tag": "Tool",
+      "url": "https://fulck.com/"
+    },
+    {
+      "title": "IT专业领域导航网站",
+      "desc": "IT领域垂直导航 | IT人的导航网站",
+      "tag": "Tool",
+      "url": "http://www.its368.com/"
+    },
+    {
+      "title": "开源中国社区",
+      "desc": "开源项目大全",
+      "tag": "Tool",
+      "url": "https://www.oschina.net/project"
+    },
+    {
+      "title": "Linux网站导航",
+      "desc": "做个有用的导航",
+      "tag": "Tool",
+      "url": "http://linux.ubuntu.org.cn/"
+    },
+    {
+      "title": "去瞧瞧",
+      "desc": "互联网创业者网址导航",
+      "tag": "Tool",
+      "url": "http://www.quqiaoqiao.com/"
+    },
+    {
+      "title": "医学导航(Meddir.cn)",
+      "desc": "最全最专业的医学网址导航网站",
+      "tag": "Tool",
+      "url": "http://www.meddir.cn/"
+    },
+    {
+      "title": "萌导航",
+      "desc": "你的二次元导航姬",
+      "tag": "Tool",
+      "url": "http://www.moe123.net/"
+    },
+    {
+      "title": "爱翻墙",
+      "desc": "墙外门户",
+      "tag": "Tool",
+      "url": "https://www.ifanqiang.com/"
+    },
+    {
+      "title": "Best of the Web Directory",
+      "desc": "",
+      "tag": "Tool",
+      "url": "https://botw.org/"
+    },
+    {
+      "title": "海外导航网",
+      "desc": "海外华人网站大全",
+      "tag": "Tool",
+      "url": "http://www.hhlink.com/"
+    },
+    {
+      "title": "学术网站大全",
+      "desc": "",
+      "tag": "Tool",
+      "url": "http://kbs.cnki.net/"
+    },
+    {
+      "title": "SK123网址之家",
+      "desc": "",
+      "tag": "Tool",
+      "url": "http://www.shake123.com/"
+    },
+    {
+      "title": "学UI网",
+      "desc": "UI设计师导航网，最专业的UI设计网站",
+      "tag": "Tool",
+      "url": "http://hao.xueui.cn/"
+    },
+    {
+      "title": "前端网址导航",
+      "desc": "H-ui前端框架官方网站",
+      "tag": "Tool",
+      "url": "http://www.h-ui.net/site.shtml"
+    },
+    {
+      "title": "前端氪导航",
+      "desc": "站在前方，为你导航",
+      "tag": "Tool",
+      "url": "https://csskr.com/"
+    },
+    {
+      "title": "简约导航",
+      "desc": "",
+      "tag": "Tool",
+      "url": "https://www.jianavi.cn/"
+    },
+    {
+      "title": "收库123",
+      "desc": "个性化可定制网址导航",
+      "tag": "Tool",
+      "url": "https://shouku123.com/"
+    },
+    {
+      "title": "野创职业导航",
+      "desc": "致力于提供优秀的垂直行业网站、工具",
+      "tag": "Tool",
+      "url": "http://www.yechuang.top/"
+    },
+    {
+      "title": "火星首页",
+      "desc": "银河系漫游指南",
+      "tag": "Tool",
+      "url": "https://www.goto-mars.com/"
+    },
+    {
+      "title": "果壳任意门",
+      "desc": "发现你最爱的网站",
+      "tag": "Tool",
+      "url": "http://gkbang.cn/link/"
+    },
+    {
+      "title": "Shillber",
+      "desc": "晓柏导航-简洁的网址导航",
+      "tag": "Tool",
+      "url": "http://www.shillber.com/"
+    },
+    {
+      "title": "偷渡鱼",
+      "desc": "最好用的网址导航",
+      "tag": "Tool",
+      "url": "https://touduyu.com/"
+    },
+    {
+      "title": "选择主页",
+      "desc": "不知道什么鬼的总结",
+      "tag": "Tool",
+      "url": "https://homepage.selectlist.cn"
+    },
+    {
+      "title": "搜趣搜索",
+      "desc": "最专业的网址导航及分享平台",
+      "tag": "Tool",
+      "url": "http://so.jutuit.com/zd/sousuo"
+    },
+    {
+      "title": "任意门",
+      "desc": "发现你最爱的网站",
+      "tag": "Tool",
+      "url": "https://anywhere.cool/"
+    },
+    {
+      "title": "蜗牛个人导航",
+      "desc": "",
+      "tag": "Tool",
+      "url": "https://s.eallion.com/"
+    },
+    {
+      "title": "FAKE 果壳任意门",
+      "desc": "发现你最爱的网站",
+      "tag": "Tool",
+      "url": "http://terest.top/gate/"
+    },
+    {
+      "title": "大马路",
+      "desc": "",
+      "tag": "Tool",
+      "url": "https://dama.lu/"
+    },
+    {
+      "title": "学术搜索引擎",
+      "desc": "开阔你的眼界",
+      "tag": "Tool",
+      "url": "http://www.yuekaoxue.com/so/"
+    },
+    {
+      "title": "火狐移动联盟",
+      "desc": "免费的APP、公众号、头条号、小程序展示和推广平台",
+      "tag": "Tool",
+      "url": "https://www.huohu123.com/"
+    },
+    {
+      "title": "老司机导航",
+      "desc": "来不及了",
+      "tag": "Tool",
+      "url": "http://www.giffox.com/"
+    },
+    {
+      "title": "小熊时光机",
+      "desc": "你的网站奇趣之旅",
+      "tag": "Tool",
+      "url": "http://www.smallbear.me/"
     }
   ]
 }
