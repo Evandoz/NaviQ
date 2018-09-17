@@ -11,14 +11,12 @@
               <Card :bordered="false" :padding="0" v-for="(item, index) in website.content" :key="index">
                 <!-- https://ico.mikelin.cn -->
                 <!-- https://www.google.com/s2/favicons?domain= -->
-                <!-- <Tooltip v-if="item.desc" :content="item.desc" placement="top" :max-width="280"> -->
-                  <a class="link" :href="item.url">
-                    <span class="tag">{{ item.tag }}</span>
-                    <img :src="'https://ico.mikelin.cn/'+item.url" :alt="item.title">
-                    <h3>{{ item.title }}</h3>
-                    <p v-if="item.desc">{{ item.desc }}</p>
-                  </a>
-                <!-- </Tooltip> -->
+                <a class="link" :href="item.url">
+                  <span class="tag">{{ item.tag }}</span>
+                  <img :src="'https://ico.mikelin.cn/'+item.url" :alt="item.title">
+                  <h3>{{ item.title }}</h3>
+                  <p v-if="item.desc">{{ item.desc }}</p>
+                </a>
               </Card>
             </div>
           </div>
@@ -45,18 +43,11 @@ export default {
       this._loadSite()
     })
   },
-  mounted () {
-    this.resizeHight()
-  },
   methods: {
     _loadSite () {
       $.getJSON('static/json/websites.json', (response) => {
         this.websites = response.websites
       })
-    },
-    resizeHight () {
-      let child = this.$refs.tabPane
-      console.log(child)
     }
   },
   components: {
