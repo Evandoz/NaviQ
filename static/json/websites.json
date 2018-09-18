@@ -415,34 +415,29 @@
           "desc": "Create your website from scratch without coding",
           "tag": "Tool",
           "url": "https://studio.design/"
-        }
-      ]
-    },
-    {
-      "class": "UI",
-      "content": [
+        },
         {
           "title": "MDUI",
           "desc": "Material Design User Interface",
-          "tag": "Tool",
+          "tag": "UI",
           "url": "https://www.mdui.org/"
         },
         {
           "title": "SUI Mobile",
           "desc": "阿里巴巴国际UED前端出品移动端UI",
-          "tag": "Tool",
+          "tag": "UI",
           "url": "http://m.sui.taobao.org/"
         },
         {
           "title": "Taro",
           "desc": "一套遵循 React 语法规范的多端统一开发框架-凹凸实验室",
-          "tag": "Tool",
+          "tag": "UI",
           "url": "https://taro.aotu.io/"
         }
       ]
     },
     {
-      "class": "Teams",
+      "class": "Team",
       "content": [
         {
           "title": "奇舞团",
@@ -483,7 +478,7 @@
       ]
     },
     {
-      "class": "Work & Documents",
+      "class": "Work & Doc",
       "content": [
         {
           "title": "Worktile",
@@ -757,7 +752,7 @@
       ]
     },
     {
-      "class": "Plan & Project",
+      "class": "Project",
       "content": [
         {
           "title": "众成翻译",
@@ -786,7 +781,7 @@
       ]
     },
     {
-      "class": "Coding Exercise",
+      "class": "Coding",
       "content": [
         {
           "title": "Sphere Online Judge (SPOJ)",
@@ -817,6 +812,12 @@
           "desc": "专业IT笔试面试备考平台,C++JAVA前端求职题库,全面提升IT编程能力",
           "tag": "Tool",
           "url": "https://www.nowcoder.com/"
+        },
+        {
+          "title": "SoloLearn",
+          "desc": "Learn to Code for Free",
+          "tag": "Tool",
+          "url": "https://www.sololearn.com/"
         }
       ]
     },
@@ -1011,7 +1012,7 @@
       ]
     },
     {
-      "class": "Tools",
+      "class": "Tool",
       "content": [
         {
           "title": "code2flow",
@@ -1172,7 +1173,7 @@
       ]
     },
     {
-      "class": "Language Learning",
+      "class": "Learn",
       "content": [
         {
           "title": "Forvo",
@@ -1260,7 +1261,60 @@
       ]
     },
     {
-      "class": "Picture & Photo",
+      "class": "Website Tool",
+      "content": [
+        {
+          "title": "Domcomp",
+          "desc": "Domain Name Price and Availability",
+          "tag": "Tool",
+          "url": "https://www.domcomp.com/"
+        },
+        {
+          "title": "BrowserFrame",
+          "desc": "Wrap screenshots in browser frames",
+          "tag": "Tool",
+          "url": "https://browserframe.com/"
+        },
+        {
+          "title": "Google Analytics",
+          "desc": "SEO",
+          "tag": "Tool",
+          "url": "https://analytics.google.com"
+        },
+        {
+          "title": "闲聊么",
+          "desc": "社交+盈利=每个网站的成功",
+          "tag": "Tool",
+          "url": "https://www.xianliao.me/"
+        },
+        {
+          "title": "域名",
+          "desc": "通过 Name.com 注册域名等",
+          "tag": "Tool",
+          "url": "https://www.name.com"
+        },
+        {
+          "title": "Gauges",
+          "desc": "Real Time Web Analytics & Marketing Attribution Tools",
+          "tag": "Tool",
+          "url": "https://get.gaug.es/"
+        },
+        {
+          "title": "Uptime Robot",
+          "desc": "Downtime Happens. Get Notified!",
+          "tag": "Tool",
+          "url": "https://uptimerobot.com"
+        },
+        {
+          "title": "TLD List",
+          "desc": "比较所有顶级域名的价格",
+          "tag": "Tool",
+          "url": "https://zh-hans.tld-list.com/"
+        }
+      ]
+    },
+    {
+      "class": "Picture",
       "content": [
         {
           "title": "Foter",
@@ -1405,6 +1459,12 @@
           "desc": "在线图片去底工具-背景变透明|图片底色去除去掉",
           "tag": "Tool",
           "url": "http://www.aigei.com/bgremover"
+        },
+        {
+          "title": "表情锅",
+          "desc": "在线生成表情包",
+          "tag": "Tool",
+          "url": "https://sorry.xuty.tk"
         }
       ]
     },
@@ -1487,98 +1547,18 @@
           "desc": "convert video, images, audio and documents for free",
           "tag": "Tool",
           "url": "https://online-convert.com"
-        }
-      ]
-    },
-    {
-      "class": "Music",
-      "content": [
-        {
-          "title": "Spotify.me",
-          "desc": "You are what you stream",
-          "tag": "Tool",
-          "url": "https://spotify.me"
-        }
-      ]
-    },
-    {
-      "class": "Anime",
-      "content": [
+        },
         {
           "title": "WAIT",
           "desc": "What Anime Is This? - Anime Scene Search Engine",
-          "tag": "Tool",
+          "tag": "Anime",
           "url": "https://whatanime.ga/"
         },
         {
           "title": "AGE动漫",
           "desc": "在线动画 动漫下载",
-          "tag": "Tool",
+          "tag": "Anime",
           "url": "http://donghua.agefans.com/"
-        }
-      ]
-    },
-    {
-      "class": "Emoticon",
-      "content": [
-        {
-          "title": "表情锅",
-          "desc": "在线生成表情包",
-          "tag": "Tool",
-          "url": "https://sorry.xuty.tk"
-        }
-      ]
-    },
-    {
-      "class": "Website Tools",
-      "content": [
-        {
-          "title": "Domcomp",
-          "desc": "Domain Name Price and Availability",
-          "tag": "Tool",
-          "url": "https://www.domcomp.com/"
-        },
-        {
-          "title": "BrowserFrame",
-          "desc": "Wrap screenshots in browser frames",
-          "tag": "Tool",
-          "url": "https://browserframe.com/"
-        },
-        {
-          "title": "Google Analytics",
-          "desc": "SEO",
-          "tag": "Tool",
-          "url": "https://analytics.google.com"
-        },
-        {
-          "title": "闲聊么",
-          "desc": "社交+盈利=每个网站的成功",
-          "tag": "Tool",
-          "url": "https://www.xianliao.me/"
-        },
-        {
-          "title": "域名",
-          "desc": "通过 Name.com 注册域名等",
-          "tag": "Tool",
-          "url": "https://www.name.com"
-        },
-        {
-          "title": "Gauges",
-          "desc": "Real Time Web Analytics & Marketing Attribution Tools",
-          "tag": "Tool",
-          "url": "https://get.gaug.es/"
-        },
-        {
-          "title": "Uptime Robot",
-          "desc": "Downtime Happens. Get Notified!",
-          "tag": "Tool",
-          "url": "https://uptimerobot.com"
-        },
-        {
-          "title": "TLD List",
-          "desc": "比较所有顶级域名的价格",
-          "tag": "Tool",
-          "url": "https://zh-hans.tld-list.com/"
         }
       ]
     },
