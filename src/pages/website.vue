@@ -1,36 +1,32 @@
 <template>
-  <div class="wrapper">
-    <div class="content">
-      <Tabs>
-        <TabPane :label="website.class" v-for="(website, index) in websites" :key="index" ref="tabPane">
-          <div class="navigation">
-            <div class="cls-header">
-              <h2 class="title">{{ website.class }}</h2>
-            </div>
-            <div class="cls-content">
-              <Card :bordered="false" :padding="0" v-for="(item, index) in website.content" :key="index">
-                <!-- https://ico.mikelin.cn -->
-                <!-- https://www.google.com/s2/favicons?domain= -->
-                <a class="link" :href="item.url">
-                  <span class="tag">{{ item.tag }}</span>
-                  <img :src="'https://ico.mikelin.cn/'+item.url" :alt="item.title">
-                  <h3>{{ item.title }}</h3>
-                  <p v-if="item.desc">{{ item.desc }}</p>
-                </a>
-              </Card>
+  <div class="content">
+    <el-tabs>
+      <el-tab-pane :label="website.class" v-for="(website, index) in websites" :key="index" ref="tabPane">
+        <div class="navigation">
+          <div class="cls-header">
+            <h1 class="title">{{ website.class }}</h1>
+          </div>
+          <div class="cls-content">
+            <div class="card" v-for="(item, index) in website.content" :key="index">
+              <!-- https://ico.mikelin.cn -->
+              <!-- https://www.google.com/s2/favicons?domain= -->
+              <a class="link" :href="item.url">
+                <!-- <span class="tag">{{ item.tag }}</span> -->
+                <img :src="'https://ico.mikelin.cn/'+item.url" :alt="item.title">
+                <h2>{{ item.title }}</h2>
+                <!-- <p v-if="item.desc">{{ item.desc }}</p> -->
+              </a>
             </div>
           </div>
-        </TabPane>
-      </Tabs>
-    </div>
-    <looter></looter>
+        </div>
+      </el-tab-pane>
+    </el-tabs>
   </div>
 </template>
 
 <script>
 
 import $ from 'jquery'
-import footer from '@/components/footer'
 
 export default {
   data () {
@@ -49,77 +45,80 @@ export default {
         this.websites = response.websites
       })
     }
-  },
-  components: {
-    'looter': footer
   }
 }
 </script>
 
 <style lang="stylus" rel="stylesheet/stylus">
-.wrapper
-  width: 100%
-  height: 100%
-  display: flex
-  flex-direction: column
-  justify-content: space-around
-  .content
-    background: #efefef
-    .ivu-tabs-bar
-      background: #ffffff
-      .ivu-tabs-nav-scrollable
-        padding: 0 26px
-    .ivu-tabs-nav-prev,
-    .ivu-tabs-nav-next
-      padding: 0 5px
-      line-height: 40px
-      font-size: 16px
-      background: #ffffff
-      z-index: 4
-    .ivu-tabs-nav
-      .ivu-tabs-tab
-        padding: 10px
-        font-size: 16px
-    .navigation
-      width: 96vw
-      margin: 10px auto
-      .cls-header
-        padding: 10px
+.content
+  flex: 1
+  padding: 5vh 5vw
+  background: #F5F5F5
+  .el-tabs__header
+    background: #FFFFFF
+    .el-tabs__nav-wrap.is-scrollable
+      padding: 0 30px
+    .el-tabs__nav-prev,
+    .el-tabs__nav-next
+      width: 30px
+      text-align: center
+    .el-tabs__nav-prev,
+    .el-tabs__nav-next,
+    .el-tabs__item
+      height: 50px
+      line-height: 50px
+  .navigation
+    margin: 10px auto
+    .cls-header
+      margin: 20px 0
+      text-align: center
+      h1
+        line-height: 1.8
+        font-size: 18px
+    .cls-content
+      display: flex
+      flex-wrap: wrap
+      justify-content: space-around
+      .card
+        margin: 10px 0
+        background: #FFFFFF
         text-align: center
-      .cls-content
-        display: flex
-        justify-content: space-around
-        flex-wrap: wrap
-        .ivu-card
-          margin: 10px
-          text-align: center
-          border-radius: 2px
-          .link
-            position: relative
-            display: block
-            width: 280px
-            padding: 20px 10px
-            .tag
-              position: absolute
-              top: 0
-              left: 0
-              width: 50px
-              height: 25px
-              line-height: 25px
-              text-align: center
-              color: #ffffff
-              border-top-left-radius: 2px
-              background: #2db7f5
-            img, h3
-              display: inline-block
-              height: 24px
-            img
-              padding: 4px 2px
-              vertical-align: top
-            h3
-              line-height: 24px
-              color: #334455
-            p
-              margin-top: 5px
-              color: #556677
+        border-radius: 2px
+        border: 1px solid #eee
+        transition: background .3s ease-in-out
+        &:hover, &:focus
+          background: #EEEEEE
+        .link
+          position: relative
+          display: block
+          width: 180px
+          padding: 15px 5px
+          box-sizing: border-box
+          text-decoration: none
+          .tag
+            position: absolute
+            top: 0
+            left: 0
+            width: 40px
+            height: 20px
+            line-height: 20px
+            text-align: center
+            color: #ffffff
+            border-top-left-radius: 2px
+            background: #2db7f5
+          img, h2
+            display: inline-block
+          img
+            vertical-align: top
+          h2
+            margin: 0
+            line-height: 1
+            font-size: 16px
+            color: #222333
+            font-weight: 500
+          p
+            margin: 10px 0 0
+            line-height: 1.4
+            font-size: 14px
+            color: #556677
 </style>

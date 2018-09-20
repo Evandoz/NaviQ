@@ -13,6 +13,7 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "element-ui": "^2.4.7",
     "growl": "^1.10.5",
     "http-proxy-agent": "^2.1.0",
     "https-proxy-agent": "^2.2.1",

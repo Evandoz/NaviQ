@@ -27,8 +27,14 @@ export default {
 <style lang="stylus" rel="stylesheet/stylus">
 .footer
   padding: 20px 0
-  line-height: 2
-  text-align: center
-  font-size: 14px
   background: #fff
+  p
+    margin: 0
+    line-height: 1.8
+    font-size: 14px
+    color: #334455
+    text-align: center
+  a
+    color: #223344
+    text-decoration: none
 </style>

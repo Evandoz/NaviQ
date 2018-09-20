@@ -1,12 +1,7 @@
 <template>
-  <div class="search">
-    <el-form :model="formSearch" :rules="ruleSearch" ref="formSearch">
-      <el-form-item prop="keyword">
-        <el-input type="text" v-model="formSearch.keyword" @on-click="handleSubmit('formSearch')" suffix-icon="el-icon-search"></el-input>
-      </el-form-item>
-    </el-form>
+  <div class="content">
     <div class="nonclass">
-      <div class="card" v-for="(item, index) in engines" :key="index">
+      <div class="card" v-for="(item, index) in navsites" :key="index">
         <!-- https://ico.mikelin.cn -->
         <!-- https://www.google.com/s2/favicons?domain= -->
         <a class="link" :href="item.url">
@@ -24,20 +19,10 @@
 
 import $ from 'jquery'
 
-import footer from '@/components/footer'
-
 export default {
   data () {
     return {
-      formSearch: {
-        keyword: ''
-      },
-      ruleSearch: {
-        keyword: [
-          // { required: true, message: 'Please input keyword to search', trigger: 'blur' }
-        ]
-      },
-      engines: {}
+      navsites: {}
     }
   },
   created () {
@@ -48,37 +33,23 @@ export default {
   methods: {
     _loadSite () {
       $.getJSON('static/json/websites.json', (response) => {
-        this.engines = response.search
-      })
-    },
-    handleSubmit (name) {
-      this.$refs[name].validate((valid) => {
-        if (valid) {
-          window.open('https://www.baidu.com/s?wd=' + this.formSearch.keyword)
-        } else {
-          this.$message.error('Error Input !')
-        }
+        this.navsites = response.navsites
       })
     }
-  },
-  components: {
-    'looter': footer
   }
 }
 </script>
 
 <style lang="stylus" rel="stylesheet/stylus">
-.search
+.content
   flex: 1
   padding: 5vh 5vw
-  background: #ffffff
-  .el-form
-    max-width: 600px
+  background: #F5F5F5
   .nonclass
+    flex: 1
     display: flex
     flex-wrap: wrap
     justify-content: space-around
-    padding: 5vh 0
     .card
       margin: 10px 0
       background: #FFFFFF

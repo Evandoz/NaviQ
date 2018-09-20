@@ -60,7 +60,7 @@
           "url": "https://github-ranking.anytao.net"
         },
         {
-          "title": "Github Rank (China)",
+          "title": "Github Rank",
           "desc": "Github Users Ranking in China",
           "tag": "Tool",
           "url": "http://www.githubrank.com/"
@@ -113,7 +113,7 @@
           "url": "https://cnodejs.org/"
         },
         {
-          "title": "SegmentFault 思否",
+          "title": "SegmentFault",
           "desc": "SegmentFault 思否",
           "tag": "Tool",
           "url": "https://segmentfault.com/"
@@ -155,7 +155,7 @@
           "url": "https://githuber.cn/"
         },
         {
-          "title": "LaTeX科技排版工作室",
+          "title": "LaTeX排版工作室",
           "desc": "分享与学习LaTeX的王国",
           "tag": "Tool",
           "url": "http://www.latexstudio.net/"
@@ -280,16 +280,10 @@
           "url": "http://www.zealer.com/"
         },
         {
-          "title": "ZEALER",
-          "desc": "科技生活方式第一站",
-          "tag": "Tool",
-          "url": "http://liqi.io/"
-        },
-        {
           "title": "利器",
           "desc": "创造者和他们的工具",
           "tag": "Tool",
-          "url": "http://www.zealer.com/"
+          "url": "http://liqi.io/"
         },
         {
           "title": "数字尾巴 ",
@@ -339,7 +333,7 @@
           "url": "http://www.ui.cn/"
         },
         {
-          "title": "站酷 (ZCOOL)",
+          "title": "站酷",
           "desc": "设计师互动平台 - 打开站酷，发现更好的设计！",
           "tag": "Tool",
           "url": "https://www.zcool.com.cn"
@@ -351,7 +345,7 @@
           "url": "https://www.seeseed.com/"
         },
         {
-          "title": "[字由]",
+          "title": "字由",
           "desc": "设计师必备字体利器",
           "tag": "Tool",
           "url": "http://www.hellofont.cn/"
@@ -446,7 +440,7 @@
           "url": "https://75team.com/"
         },
         {
-          "title": "Aotu.io「凹凸实验室」",
+          "title": "凹凸实验室",
           "desc": "京东前端-凹凸实验室",
           "tag": "Tool",
           "url": "https://aotu.io/"
@@ -464,7 +458,7 @@
           "url": "https://tgideas.qq.com"
         },
         {
-          "title": "阿里中间件团队博客",
+          "title": "阿里中间件团队",
           "desc": "阿里中间件团队博客",
           "tag": "Tool",
           "url": "http://jm.taobao.org/"
@@ -600,13 +594,13 @@
           "url": "http://animista.net/"
         },
         {
-          "title": "Unicode®字符百科",
+          "title": "Unicode字符百科",
           "desc": "",
           "tag": "Tool",
           "url": "https://unicode-table.com"
         },
         {
-          "title": "favicon.ico Generator",
+          "title": "Favicon Generator",
           "desc": "",
           "tag": "Tool",
           "url": "https://www.favicon.cc/"
@@ -630,7 +624,7 @@
           "url": "http://www.jqhtml.com/"
         },
         {
-          "title": "易百教程™",
+          "title": "易百教程",
           "desc": "专注于IT教程和实例",
           "tag": "Tool",
           "url": "https://www.yiibai.com/"
@@ -648,19 +642,13 @@
           "url": "https://www.beyondcow.com/"
         },
         {
-          "title": "DevDocs API Documentation",
-          "desc": "",
-          "tag": "Tool",
-          "url": "http://devdocs.io/"
-        },
-        {
-          "title": "Libraries.io",
+          "title": "Libraries",
           "desc": "The Open Source Discovery Service",
           "tag": "Tool",
           "url": "https://libraries.io/"
         },
         {
-          "title": "DevDocs API Documentation",
+          "title": "DevDocs API",
           "desc": "",
           "tag": "Tool",
           "url": "http://devdocs.io/"
@@ -678,13 +666,13 @@
           "url": "https://www.cacher.io/"
         },
         {
-          "title": "Dash for macOS",
+          "title": "Dash",
           "desc": "API Documentation Browser, Snippet Manager - Kapeli",
           "tag": "Tool",
           "url": "https://kapeli.com"
         },
         {
-          "title": "Python Extension Packages",
+          "title": "Python Extension",
           "desc": "Unofficial Windows Binaries for Python Extension Packages",
           "tag": "Tool",
           "url": "https://www.lfd.uci.edu/~gohlke/pythonlibs/"
@@ -702,7 +690,7 @@
           "url": "https://htmlreference.io/"
         },
         {
-          "title": "explainshell.com",
+          "title": "explainshell",
           "desc": "match command-line arguments to their help text",
           "tag": "Tool",
           "url": "https://explainshell.com/"
@@ -732,7 +720,7 @@
           "url": "https://isotope.metafizzy.co/"
         },
         {
-          "title": "Swiper中文网",
+          "title": "Swiper",
           "desc": "一款免费以及轻量级的移动设备触控滑块的js框架",
           "tag": "Tool",
           "url": "https://www.swiper.com.cn/"
@@ -744,7 +732,7 @@
           "url": "https://www.pgyer.com/"
         },
         {
-          "title": "UZER.ME",
+          "title": "UZER",
           "desc": "您的云端超级应用空间",
           "tag": "Tool",
           "url": "https://uzer.me/"
@@ -784,8 +772,8 @@
       "class": "Coding",
       "content": [
         {
-          "title": "Sphere Online Judge (SPOJ)",
-          "desc": "",
+          "title": "SPOJ",
+          "desc": "Sphere Online Judge",
           "tag": "Tool",
           "url": "https://www.spoj.com/"
         },
@@ -897,14 +885,14 @@
           "url": "http://it-ebooks.info/"
         },
         {
-          "title": "IT eBooks Download",
+          "title": "IT eBooks",
           "desc": "Free Trial information technology ebook download pdf or read online",
           "tag": "Tool",
           "url": "http://itebook.org/"
         },
         {
-          "title": "书伴（Kindle 伴侣）",
-          "desc": "为静心阅读而生",
+          "title": "书伴",
+          "desc": "原Kindle伴侣，为静心阅读而生",
           "tag": "Tool",
           "url": "https://bookfere.com/"
         },
@@ -921,19 +909,19 @@
           "url": "https://kgbook.com/"
         },
         {
-          "title": "Kindle人社区",
+          "title": "Kindle人",
           "desc": "Kindle人都爱的Kindle论坛",
           "tag": "Tool",
           "url": "https://kindleren.com"
         },
         {
-          "title": "Blah 书库",
+          "title": "Blah书库",
           "desc": "",
           "tag": "Tool",
           "url": "http://blah.me/"
         },
         {
-          "title": "亚马逊免费Kindle电子书",
+          "title": "亚马逊免费电子书",
           "desc": "免费Kindle电子书下载_Kindle免费资源_txt电子书免费下载",
           "tag": "Tool",
           "url": "https://www.amazon.cn/Kindle%E5%85%8D%E8%B4%B9%E7%94%B5%E5%AD%90%E4%B9%A6/b/ref=amb_link_30927692_12?ie=UTF8&node=116175071&pf_rd_m=A1AJ19PSB66TGU&pf_rd_s=left-2&pf_rd_r=019VVFFWQYQAVAHCRP80&pf_rd_t=101&pf_rd_p=81488872&pf_rd"
@@ -945,7 +933,7 @@
           "url": "http://mebook.cc/"
         },
         {
-          "title": "ePUBee电子书库",
+          "title": "ePUBee书库",
           "desc": "最大的电子书库，对外开放，免费使用",
           "tag": "Tool",
           "url": "http://gplayspace.com/"
@@ -986,8 +974,8 @@
           "url": "http://www.norse-corp.com/map/"
         },
         {
-          "title": "Submarine Cable Map",
-          "desc": "A free and regularly updated resource from TeleGeography",
+          "title": "Cable Map",
+          "desc": "Submarine Cable Map is a free and regularly updated resource from TeleGeography",
           "tag": "Tool",
           "url": "https://www.submarinecablemap.com/"
         },
@@ -998,13 +986,13 @@
           "url": "https://www.flightradar24.com"
         },
         {
-          "title": "Variflight 航线图",
+          "title": "Variflight航线图",
           "desc": "航线网络图",
           "tag": "Tool",
           "url": "http://map.variflight.com/"
         },
         {
-          "title": "全球最有趣的在线地图网站",
+          "title": "在线地图收集",
           "desc": "全球最有趣的在线地图网站收集",
           "tag": "Tool",
           "url": "http://blog.sina.com.cn/s/blog_571641ee0102x0pg.html"
@@ -1045,7 +1033,7 @@
           "url": "https://smsreceivefree.com/"
         },
         {
-          "title": "Receive Free SMS Online",
+          "title": "Free SMS Online",
           "desc": "Virtual Phone Number Verification",
           "tag": "Tool",
           "url": "http://www.freesmsverifications.com/"
@@ -1069,19 +1057,19 @@
           "url": "https://www.reg007.com/"
         },
         {
-          "title": "找回你,注册过哪些网站",
-          "desc": "",
+          "title": "找回你",
+          "desc": "找回你,注册过哪些网站",
           "tag": "Tool",
           "url": "http://www.zhaohuini.com/"
         },
         {
-          "title": "上海卓安科技官网",
+          "title": "卓安科技",
           "desc": "旗下拥有双开助手、Google空间、微信助手等多款工具类产品",
           "tag": "Tool",
           "url": "https://www.excean.com/"
         },
         {
-          "title": "Raindrop.io",
+          "title": "Raindrop",
           "desc": " All in One Bookmarks Manager",
           "tag": "Tool",
           "url": "https://raindrop.io/"
@@ -1123,7 +1111,7 @@
           "url": "https://www.yoo.la"
         },
         {
-          "title": "Geometrize Web Demo",
+          "title": "Geometrize",
           "desc": "geometrizing images into geometric primitives",
           "tag": "Tool",
           "url": "http://www.samcodes.co.uk/project/geometrize-haxe-web/"
@@ -1159,13 +1147,13 @@
           "url": "http://painter.crick.wang/"
         },
         {
-          "title": "Sketch.IO",
+          "title": "Sketch",
           "desc": "The Maker of Sketchpad",
           "tag": "Tool",
           "url": "https://sketch.io"
         },
         {
-          "title": "国内首家在线屏幕测试网站",
+          "title": "在线屏幕测试",
           "desc": "屏幕检测工具 - 显示器检测软件 - 手机屏幕测试图片",
           "tag": "Tool",
           "url": "http://pingmu.zh-ang.com/"
@@ -1199,7 +1187,7 @@
           "url": "https://webgradients.com/"
         },
         {
-          "title": "CoolHue 2.0",
+          "title": "CoolHue",
           "desc": "Coolest Gradient Hues and Swatches",
           "tag": "Tool",
           "url": "https://webkul.github.io/coolhue/"
@@ -1217,8 +1205,8 @@
       "class": "Excellent Website",
       "content": [
         {
-          "title": "Phoenix Startup UI kit",
-          "desc": "a tool based on Bootstrap",
+          "title": "Phoenix",
+          "desc": "Phoenix Startup UI kit | A tool based on Bootstrap",
           "tag": "Tool",
           "url": "https://phoenix-startup.com/"
         },
@@ -1235,14 +1223,14 @@
           "url": "https://www.marie-morelle.com"
         },
         {
-          "title": "HTML5 Demos and Examples",
-          "desc": "HTML5 Demos and Examples",
+          "title": "HTML5 UP",
+          "desc": "Responsive HTML5 and CSS3 Site Templates",
           "tag": "Tool",
           "url": "https://html5up.net/"
         },
         {
-          "title": "HTML5 UP!",
-          "desc": "Responsive HTML5 and CSS3 Site Templates",
+          "title": "HTML5 Demo",
+          "desc": "HTML5 Demos and Examples",
           "tag": "Tool",
           "url": "https://html5demos.com/"
         },
@@ -1407,13 +1395,13 @@
           "url": "https://www.pixiv.net/"
         },
         {
-          "title": "avogadr.io",
+          "title": "avogadr",
           "desc": "Molecular Wallpaper Generator",
           "tag": "Tool",
           "url": "https://avogadr.io"
         },
         {
-          "title": "Free PNG images clipart",
+          "title": "Free PNG clipart",
           "desc": "PNG images with transparent background",
           "tag": "Tool",
           "url": "http://pngimg.com/"
@@ -1443,7 +1431,7 @@
           "url": "https://www.iloveimg.com"
         },
         {
-          "title": "Image Converter Online",
+          "title": "Image Converter",
           "desc": "Convert image format Online",
           "tag": "Tool",
           "url": "https://jinaconvert.com/"
@@ -1679,7 +1667,7 @@
           "url": "https://www.aeontimeline.com/"
         },
         {
-          "title": "Tiki-Toki Timeline Maker",
+          "title": "Tiki-Toki Timeline",
           "desc": "Beautiful web-based timeline software",
           "tag": "Tool",
           "url": "https://www.tiki-toki.com/"
@@ -1702,7 +1690,7 @@
           "url": "https://floretten.com/Evandoz"
         },
         {
-          "title": "张鑫旭-鑫空间-鑫生活",
+          "title": "鑫空间-鑫生活",
           "desc": "张鑫旭的个人主页",
           "tag": "Tool",
           "url": "https://www.zhangxinxu.com/"
@@ -1964,7 +1952,7 @@
       "url": "https://fulck.com/"
     },
     {
-      "title": "IT专业领域导航网站",
+      "title": "IT专业领域导航",
       "desc": "IT领域垂直导航 | IT人的导航网站",
       "tag": "Tool",
       "url": "http://www.its368.com/"
@@ -1988,7 +1976,7 @@
       "url": "http://www.quqiaoqiao.com/"
     },
     {
-      "title": "医学导航(Meddir.cn)",
+      "title": "医学导航",
       "desc": "最全最专业的医学网址导航网站",
       "tag": "Tool",
       "url": "http://www.meddir.cn/"
@@ -2006,19 +1994,19 @@
       "url": "https://www.ifanqiang.com/"
     },
     {
-      "title": "Best of the Web Directory",
+      "title": "Web Directory",
       "desc": "",
       "tag": "Tool",
       "url": "https://botw.org/"
     },
     {
-      "title": "海外导航网",
+      "title": "海外导航",
       "desc": "海外华人网站大全",
       "tag": "Tool",
       "url": "http://www.hhlink.com/"
     },
     {
-      "title": "学术网站大全",
+      "title": "学术网站",
       "desc": "",
       "tag": "Tool",
       "url": "http://kbs.cnki.net/"
@@ -2114,7 +2102,7 @@
       "url": "https://s.eallion.com/"
     },
     {
-      "title": "FAKE 果壳任意门",
+      "title": "FAKE果壳任意门",
       "desc": "发现你最爱的网站",
       "tag": "Tool",
       "url": "http://terest.top/gate/"
