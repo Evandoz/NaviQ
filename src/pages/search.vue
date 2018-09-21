@@ -1,12 +1,19 @@
 <template>
-  <div class="search">
-    <el-form :model="formSearch" :rules="ruleSearch" ref="formSearch">
-      <el-form-item prop="keyword">
-        <el-input type="text" v-model="formSearch.keyword" @on-click="handleSubmit('formSearch')" suffix-icon="el-icon-search"></el-input>
-      </el-form-item>
-    </el-form>
+  <div class="content">
+    <div class="search">
+      <el-form :model="formSearch" :rules="ruleSearch" ref="formSearch">
+        <el-form-item prop="keyword">
+          <el-input type="text" v-model="formSearch.keyword">
+            <el-select v-model="select" slot="prepend">
+              <el-option v-for="(item, index) in engines" :label="item.name" :value="item.site" :key="index"></el-option>
+            </el-select>
+            <el-button slot="append" icon="el-icon-search" @click.native.prevent="handleSubmit('formSearch')"></el-button>
+          </el-input>
+        </el-form-item>
+      </el-form>
+    </div>
     <div class="nonclass">
-      <div class="card" v-for="(item, index) in engines" :key="index">
+      <div class="card" v-for="(item, index) in search" :key="index">
         <!-- https://ico.mikelin.cn -->
         <!-- https://www.google.com/s2/favicons?domain= -->
         <a class="link" :href="item.url">
@@ -37,7 +44,22 @@ export default {
           // { required: true, message: 'Please input keyword to search', trigger: 'blur' }
         ]
       },
-      engines: {}
+      engines: [
+        {
+          name: 'Google',
+          site: 'https://www.google.com/search?q='
+        },
+        {
+          name: 'Bing',
+          site: 'https://www.bing.com/search?q='
+        },
+        {
+          name: 'Baidu',
+          site: 'https://www.baidu.com/s?wd='
+        }
+      ],
+      select: 'https://www.google.com/search?q=',
+      search: {}
     }
   },
   created () {
@@ -48,13 +70,13 @@ export default {
   methods: {
     _loadSite () {
       $.getJSON('static/json/websites.json', (response) => {
-        this.engines = response.search
+        this.search = response.search
       })
     },
     handleSubmit (name) {
       this.$refs[name].validate((valid) => {
         if (valid) {
-          window.open('https://www.baidu.com/s?wd=' + this.formSearch.keyword)
+          window.open(this.select + this.formSearch.keyword)
         } else {
           this.$message.error('Error Input !')
         }
@@ -68,26 +90,30 @@ export default {
 </script>
 
 <style lang="stylus" rel="stylesheet/stylus">
-.search
+.content
   flex: 1
   padding: 5vh 5vw
-  background: #ffffff
-  .el-form
-    max-width: 600px
+  background: #F5F5F5
+  .search
+    .el-form
+      max-width: 600px
+      margin: 0 auto
+      .el-form-item
+        margin: 0!important
+      .el-select
+        .el-input
+          width: 100px
   .nonclass
     display: flex
     flex-wrap: wrap
-    justify-content: space-around
-    padding: 5vh 0
+    justify-content: space-between
+    padding: 4vh 0
     .card
-      margin: 10px 0
+      margin-bottom: 20px
       background: #FFFFFF
       text-align: center
-      border-radius: 2px
-      border: 1px solid #eee
-      transition: background .3s ease-in-out
-      &:hover, &:focus
-        background: #EEEEEE
+      border-radius: 1px
+      // border: 1px solid #EEEEEE
       .link
         position: relative
         display: block

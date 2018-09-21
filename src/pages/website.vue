@@ -3,9 +3,9 @@
     <el-tabs>
       <el-tab-pane :label="website.class" v-for="(website, index) in websites" :key="index" ref="tabPane">
         <div class="navigation">
-          <div class="cls-header">
+          <!-- <div class="cls-header">
             <h1 class="title">{{ website.class }}</h1>
-          </div>
+          </div> -->
           <div class="cls-content">
             <div class="card" v-for="(item, index) in website.content" :key="index">
               <!-- https://ico.mikelin.cn -->
@@ -52,7 +52,7 @@ export default {
 <style lang="stylus" rel="stylesheet/stylus">
 .content
   flex: 1
-  padding: 5vh 5vw
+  padding: 4vh 4vw
   background: #F5F5F5
   .el-tabs__header
     background: #FFFFFF
@@ -78,16 +78,13 @@ export default {
     .cls-content
       display: flex
       flex-wrap: wrap
-      justify-content: space-around
+      justify-content: space-between
       .card
-        margin: 10px 0
+        margin-bottom: 20px
         background: #FFFFFF
         text-align: center
-        border-radius: 2px
-        border: 1px solid #eee
-        transition: background .3s ease-in-out
-        &:hover, &:focus
-          background: #EEEEEE
+        border-radius: 1px
+        // border: 1px solid #EEEEEE
         .link
           position: relative
           display: block

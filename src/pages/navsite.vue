@@ -49,16 +49,13 @@ export default {
     flex: 1
     display: flex
     flex-wrap: wrap
-    justify-content: space-around
+    justify-content: space-between
     .card
-      margin: 10px 0
+      margin-bottom: 20px
       background: #FFFFFF
       text-align: center
-      border-radius: 2px
-      border: 1px solid #eee
-      transition: background .3s ease-in-out
-      &:hover, &:focus
-        background: #EEEEEE
+      border-radius: 1px
+      // border: 1px solid #EEEEEE
       .link
         position: relative
         display: block

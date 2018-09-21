@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import website from '@/pages/website'
 import navsite from '@/pages/navsite'
 import search from '@/pages/search'
+import about from '@/pages/about'
 
 Vue.use(Router)
 
@@ -25,6 +26,11 @@ const routes = [
     path: '/other',
     name: 'navsite',
     component: navsite
+  },
+  {
+    path: '/about',
+    name: 'about',
+    component: about
   }
 ]
 
