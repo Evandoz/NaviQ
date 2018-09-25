@@ -1,9 +1,7 @@
 <template>
   <div class="footer">
-    <div class="copyright">
-      <p>Copyright &copy; 2018 <a href="https://Evandoz.github.io">Levan</a></p>
-      <p>Thanks to <a href="https://ico.mikelin.cn/">ICO_API</a> for Providing Favicon API</p>
-    </div>
+    <p>&copy; 2018 <a href="https://Evandoz.github.io">Levan</a></p>
+    <p>Thanks to <a href="https://ico.mikelin.cn/">ICO_API</a> for Providing Favicon API</p>
   </div>
 </template>
 
@@ -15,8 +13,10 @@ export default {
 
     }
   },
-  created () {
+  mounted () {
+    this.$nextTick(() => {
 
+    })
   },
   methods: {
 
@@ -26,8 +26,7 @@ export default {
 
 <style lang="stylus" rel="stylesheet/stylus">
 .footer
-  padding: 20px 0
-  background: #fff
+  padding: 15px 2%
   p
     margin: 0
     line-height: 1.8

@@ -1,32 +1,55 @@
 <template>
   <div id="app">
-    <elheader></elheader>
-    <keep-alive>
-      <router-view></router-view>
-    </keep-alive>
-    <elfooter></elfooter>
+    <Layout>
+      <Header>
+        <elheader></elheader>
+      </Header>
+      <Content>
+        <keep-alive>
+          <router-view></router-view>
+        </keep-alive>
+      </Content>
+      <Footer>
+        <elfooter></elfooter>
+      </Footer>
+    </Layout>
   </div>
 </template>
 
 <script>
 
-import footer from '@/components/footer'
 import header from '@/components/header'
+import footer from '@/components/footer'
 
 export default {
   name: 'App',
   components: {
-    'elfooter': footer,
-    'elheader': header
+    'elheader': header,
+    'elfooter': footer
   }
 }
 </script>
 
 <style lang="stylus" rel="stylesheet/stylus">
-#app
-  width: 100%
+.ivu-layout
   min-height: 100vh
-  display: flex
-  flex-direction: column
-  justify-content: space-between
+  background: transparent
+  .ivu-layout-header,
+  .ivu-layout-content,
+  .ivu-layout-footer
+    padding: 0 3vw
+  .ivu-layout-header
+    height: 60px
+    line-height: 60px
+    background: #FFFFFF
+  .ivu-layout-content
+    flex: 1
+    background: #EEEEEE
+    .content
+      margin: 50px auto
+      @media screen and (min-width: 768px)
+        width: 90%
+        min-width: 738px
+  .ivu-layout-footer
+    background: #EEEEEE
 </style>

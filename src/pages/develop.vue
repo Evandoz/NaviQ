@@ -11,7 +11,7 @@ import list from '@/components/list'
 export default {
   data () {
     return {
-      cls: 'navsite'
+      cls: 'develop'
     }
   },
   created () {

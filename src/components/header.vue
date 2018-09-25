@@ -1,72 +1,156 @@
 <template>
   <div class="header">
+    <div class="icon" @click="showMobile"><Icon type="ios-menu" /></div>
     <h1 class="title"><a href="/">NaviQ</a></h1>
-    <el-menu :default-active="activeIndex" class="nav-menu" mode="horizontal">
-      <el-menu-item index="/so"><router-link to="/so" class="item-link">搜索</router-link></el-menu-item>
-      <el-menu-item index="/all"><router-link to="/all" class="item-link">所有站点</router-link></el-menu-item>
-      <el-menu-item index="/other"><router-link to="/other" class="item-link">其他导航</router-link></el-menu-item>
-      <el-menu-item index="/about"><router-link to="/about" class="item-link">关于</router-link></el-menu-item>
-    </el-menu>
+    <elmenu :mode="horMode"></elmenu>
+    <transition name="slide">
+      <div class="mobile" v-show="mobileShow">
+        <elmenu :mode="verMode"></elmenu>
+        <div class="icon" @click="hideMobile"><Icon type="ios-close" /></div>
+      </div>
+    </transition>
+    <transition name="fade">
+      <div class="mask" v-show="mobileShow" @click="hideMobile"></div>
+    </transition>
   </div>
 </template>
 
 <script>
 
+import menu from './menu'
+
 export default {
   data () {
     return {
-      websites: {}
+      horMode: 'horizontal',
+      verMode: 'vertical',
+      websites: {},
+      mobileShow: false
     }
   },
-  created () {
+  mounted () {
     this.$nextTick(() => {
 
     })
   },
+  watch: {
+    $route () {
+      this.hideMobile()
+    }
+  },
   computed: {
-    activeIndex () {
-      let activeIndex = this.$route.path
-      let index = activeIndex.indexOf('/', 1)
+    activeName () {
+      let activeName = this.$route.path
+      let index = activeName.indexOf('/', 1)
       if (index !== -1) {
-        return activeIndex.substring(0, index)
+        return activeName.substring(0, index)
       }
-      return activeIndex
+      return activeName
     }
   },
   methods: {
-
+    showMobile () {
+      this.mobileShow = true
+    },
+    hideMobile () {
+      this.mobileShow = false
+    }
+  },
+  components: {
+    'elmenu': menu
   }
 }
 </script>
 
 <style lang="stylus" rel="stylesheet/stylus">
 .header
+  position: relative
   display: flex
-  justify-content: space-between
+  margin: 0 auto
+  justify-content: center
   align-items: center
-  padding: 0 4vw
-  .title
+  z-index: 4
+  @media screen and (min-width: 768px)
+    width: 90%
+    min-width: 722px
+    justify-content: space-between
+  >.icon
+    position: absolute
+    top: 14px
+    left: 0
+    width: 32px
+    height: 32px
+    font-size: 32px
+    .ivu-icon
+      vertical-align: top
+    @media screen and (min-width: 768px)
+      display: none
+  >.title
+    height: 60px
     margin: 0
     font-size: 24px
     font-weight: 500
+    background: #FFFFFF
+    box-sizing: border-box
     a
+      color: #223344
       text-decoration: none
-  .nav-menu
+  >.menu
     margin: 0 -20px
-    border-bottom: none!important
-    .el-menu-item
-      position: relative
-      border-bottom: none!important
-      &.is-active
+    @media screen and (max-width: 767px)
+      display: none
+    .ivu-menu-horizontal
+      &.ivu-menu-light
         &:after
-          content: ''
-          position: absolute
-          left: calc(50% - 6px)
-          bottom: 9px
-          height: 4px
-          width: 12px
-          background: #409EFF
-      .item-link
-        text-decoration: none
-
+          content: none
+  .mobile
+    position: fixed
+    top: 0
+    left: 0
+    width: 210px
+    height: 100%
+    background: #FFFFFF
+    transform: translate3d(0, 0, 0)
+    overflow: auto
+    z-index: 4
+    &.slide-enter-active
+      transition: all 0.4s
+    &.slide-enter, &.slide-leave-active
+      transform: translate3d(-100%, 0, 0)
+    &.slide-leave-active
+      transition: all 0.2s
+    >.menu
+      min-height: 100%
+      >.ivu-menu
+        padding-top: 6vh
+        padding-bottom: calc(6vh + 32px)
+        &.ivu-menu-vertical
+          &.ivu-menu-light
+            background: transparent
+            &:after
+              content: none
+          .ivu-menu-item,
+          .ivu-menu-submenu-title
+            line-height: 1.5
+            background: transparent!important
+            &:after
+              content: none
+    >.icon
+      position: relative
+      width: 32px
+      height: 32px
+      margin: calc(-6vh - 32px) auto 0 auto
+      font-size: 32px
+      clear: both
+      .ivu-icon
+        vertical-align: top
+  .mask
+    position: fixed
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+    background: rgba(0, 0, 0, .5)
+    &.fade-enter-active, &.fade-leave-active
+      transition: all .3s
 </style>

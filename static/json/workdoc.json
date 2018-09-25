@@ -1,0 +1,93 @@
+{
+  "websites": [
+    {
+      "class": "Work & Doc",
+      "content": [
+        {
+          "title": "Worktile",
+          "desc": "更好的企业协作平台",
+          "tag": "Tool",
+          "url": "https://worktile.com/"
+        },
+        {
+          "title": "一起写",
+          "desc": "可能是最好用的实时协作文档",
+          "tag": "Tool",
+          "url": "https://yiqixie.com/"
+        },
+        {
+          "title": "我的文档",
+          "desc": "百度文库下载工具，某宝购买",
+          "tag": "Tool",
+          "url": "https://wenkubao.cc/"
+        },
+        {
+          "title": "石墨文档",
+          "desc": "可多人实时协作的云端文档与表格",
+          "tag": "Tool",
+          "url": "https://shimo.im/"
+        },
+        {
+          "title": "氢",
+          "desc": "基于Git的笔记、任务、待办管理工具",
+          "tag": "Tool",
+          "url": "http://origingroup.tech"
+        },
+        {
+          "title": "Laverna",
+          "desc": "keep your notes private",
+          "tag": "Tool",
+          "url": "https://laverna.cc/"
+        },
+        {
+          "title": "轻流",
+          "desc": "无需开发，快速搭建业务流程",
+          "tag": "Tool",
+          "url": "https://qingflow.com/"
+        },
+        {
+          "title": "Apowersoft",
+          "desc": "为您提供专业的商务办公及日常生活的桌面软件和在线应用",
+          "tag": "Tool",
+          "url": "https://www.apowersoft.cn/"
+        },
+        {
+          "title": "PA口袋动画",
+          "desc": "一款让PPT动画炫酷起来的插件",
+          "tag": "Tool",
+          "url": "http://www.papocket.com/"
+        },
+        {
+          "title": "PPT美化大师",
+          "desc": "PPT模版|PPT图示|PPT素材|PPT形状|PPT画册|图片素材",
+          "tag": "Tool",
+          "url": "http://meihua.docer.com/"
+        },
+        {
+          "title": "Online converter",
+          "desc": "convert video, images, audio and documents for free",
+          "tag": "Tool",
+          "url": "https://online-convert.com"
+        },
+        {
+          "title": "免费在线文件转换器",
+          "desc": "免费在线转换视频,在线音频转换,在线图形转换,在线文档转换和在线压缩格式",
+          "tag": "Tool",
+          "url": "https://cn.office-converter.com/"
+        },
+        {
+          "title": "Paper Sizes",
+          "desc": "The best resource for International Paper Sizes, Dimensions & Formats",
+          "tag": "Tool",
+          "url": "https://papersizes.io/"
+        },
+        {
+          "title": "Free Online OCR",
+          "desc": "convert PDF to Word or Image to text",
+          "tag": "Tool",
+          "url": "https://www.onlineocr.net/"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "websites": [
+    {
+      "class": "search",
+      "content": [
+        {
+          "title": "DuckDuckGo",
+          "desc": "Privacy, simplified.",
+          "tag": "Tool",
+          "url": "https://duckduckgo.com/"
+        },
+        {
+          "title": "Рамблер/поиск",
+          "desc": "Рамблер/поиск",
+          "tag": "Tool",
+          "url": "https://r0.ru/"
+        },
+        {
+          "title": "Yandex",
+          "desc": "Primarily serves audiences in Russia and the CIS",
+          "tag": "Tool",
+          "url": "https://yandex.com/"
+        },
+        {
+          "title": "Wolfram|Alpha",
+          "desc": "Computational Intelligence",
+          "tag": "Tool",
+          "url": "https://www.wolframalpha.com/"
+        },
+        {
+          "title": "MEZW搜索",
+          "desc": "聚合搜索引擎，提供准确、干净的网页内容搜索服务",
+          "tag": "Tool",
+          "url": "https://so.mezw.com/"
+        },
+        {
+          "title": "Listen Notes",
+          "desc": "Best podcast search engine & podcast database",
+          "tag": "Tool",
+          "url": "https://www.listennotes.com/"
+        }
+      ]
+    }
+  ]
+}

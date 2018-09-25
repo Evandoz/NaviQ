@@ -1,0 +1,265 @@
+{
+  "websites": [
+    {
+      "class": "Picture",
+      "content": [
+        {
+          "title": "Foter",
+          "desc": "Premium Royalty-Free Stock Photos From The Foter Community",
+          "tag": "Tool",
+          "url": "https://foter.com/"
+        },
+        {
+          "title": "别样网-沙沙野",
+          "desc": "免费背景图片素材_网页设计图片素材网站",
+          "tag": "Tool",
+          "url": "https://www.ssyer.com/"
+        },
+        {
+          "title": "Unsplash",
+          "desc": "Beautiful Free Images & Pictures",
+          "tag": "Tool",
+          "url": "https://unsplash.com/"
+        },
+        {
+          "title": "wallhaven.cc",
+          "desc": "Awesome Wallpapers",
+          "tag": "Tool",
+          "url": "https://alpha.wallhaven.cc/"
+        },
+        {
+          "title": "Life of Pix",
+          "desc": "Free high resolution photography",
+          "tag": "Tool",
+          "url": "https://www.lifeofpix.com/"
+        },
+        {
+          "title": "FreeImages.com",
+          "desc": "Explore over 300,000 free stock photos and royalty free images",
+          "tag": "Tool",
+          "url": "https://cn.freeimages.com/"
+        },
+        {
+          "title": "500px",
+          "desc": "最出色的摄影社区",
+          "tag": "Tool",
+          "url": "https://500px.com/"
+        },
+        {
+          "title": "必应每日高清壁纸",
+          "desc": "精彩，从这里开始",
+          "tag": "Tool",
+          "url": "https://bing.ioliu.cn/"
+        },
+        {
+          "title": "Avatars.io",
+          "desc": "Every app needs an avatar. We make it hassle free",
+          "tag": "Tool",
+          "url": "https://www.avatars.io/"
+        },
+        {
+          "title": "Lorem Picsum",
+          "desc": "Random Photo Service",
+          "tag": "Tool",
+          "url": "https://picsum.photos/"
+        },
+        {
+          "title": "Placeholder.com",
+          "desc": "Quick & Simple Placeholder Images, Text & Mo",
+          "tag": "Tool",
+          "url": "https://placeholder.com/"
+        },
+        {
+          "title": "Z4A图床",
+          "desc": "Z4A图床-做国内最良心的免费图床",
+          "tag": "Tool",
+          "url": "https://www.z4a.net/"
+        },
+        {
+          "title": "SM.MS",
+          "desc": "Simple Free Image Hosting",
+          "tag": "Tool",
+          "url": "https://sm.ms/"
+        },
+        {
+          "title": "ArtStation",
+          "desc": "艺术作品社区",
+          "tag": "Tool",
+          "url": "https://www.artstation.com/"
+        },
+        {
+          "title": "pixiv",
+          "desc": "插画交流网站",
+          "tag": "Tool",
+          "url": "https://www.pixiv.net/"
+        },
+        {
+          "title": "avogadr",
+          "desc": "Molecular Wallpaper Generator",
+          "tag": "Tool",
+          "url": "https://avogadr.io"
+        },
+        {
+          "title": "Free PNG clipart",
+          "desc": "PNG images with transparent background",
+          "tag": "Tool",
+          "url": "http://pngimg.com/"
+        },
+        {
+          "title": "DeviantArt",
+          "desc": "Browse Popular 24 Hours",
+          "tag": "Tool",
+          "url": "https://www.deviantart.com/"
+        },
+        {
+          "title": "Smart Resize",
+          "desc": "最智能的在线批量图片裁剪工具",
+          "tag": "Tool",
+          "url": "https://www.smartresize.com/zh-cn"
+        },
+        {
+          "title": "img.top",
+          "desc": "智能在线图像压缩",
+          "tag": "Tool",
+          "url": "https://img.top/"
+        },
+        {
+          "title": "iLoveIMG",
+          "desc": "图像文件在线编辑工具",
+          "tag": "Tool",
+          "url": "https://www.iloveimg.com"
+        },
+        {
+          "title": "Image Converter",
+          "desc": "Convert image format Online",
+          "tag": "Tool",
+          "url": "https://jinaconvert.com/"
+        },
+        {
+          "title": "TinyPNG",
+          "desc": "Compress PNG images while preserving transparency",
+          "tag": "Tool",
+          "url": "https://tinypng.com/"
+        },
+        {
+          "title": "BgRemover",
+          "desc": "在线图片去底工具-背景变透明|图片底色去除去掉",
+          "tag": "Tool",
+          "url": "http://www.aigei.com/bgremover"
+        },
+        {
+          "title": "表情锅",
+          "desc": "在线生成表情包",
+          "tag": "Tool",
+          "url": "https://sorry.xuty.tk"
+        },
+        {
+          "title": "路过图床",
+          "desc": "免费公共图床, 专业图片外链, 全球CDN分发",
+          "tag": "Tool",
+          "url": "https://imgchr.com/"
+        },
+        {
+          "title": "SM.MS",
+          "desc": "Simple Free Image Hosting",
+          "tag": "Tool",
+          "url": "https://sm.ms/"
+        }
+      ]
+    },
+    {
+      "class": "Icon",
+      "content": [
+        {
+          "title": "草莓图标库",
+          "desc": "A Free and Open Source Iconic Font Library for Developers",
+          "tag": "Tool",
+          "url": "http://chuangzaoshi.com/icon/"
+        },
+        {
+          "title": "IcoMoon",
+          "desc": "Icon Font & SVG Icon Sets",
+          "tag": "Tool",
+          "url": "https://icomoon.io/"
+        }
+      ]
+    },
+    {
+      "class": "Video",
+      "content": [
+        {
+          "title": "来画",
+          "desc": "AI动画短视频制作平台",
+          "tag": "Tool",
+          "url": "https://www.laihua.com/"
+        },
+        {
+          "title": "coverr",
+          "desc": "Beautiful, free stock video footage for your homepage",
+          "tag": "Tool",
+          "url": "http://www.coverr.co/"
+        },
+        {
+          "title": "Soda Player",
+          "desc": "Introducing the most feature-packed video player ever made.",
+          "tag": "Tool",
+          "url": "https://www.sodaplayer.com/"
+        },
+        {
+          "title": "WebTorrent",
+          "desc": "Streaming browser torrent client",
+          "tag": "Tool",
+          "url": "https://webtorrent.io/"
+        },
+        {
+          "title": "Shotcut",
+          "desc": "A free, open source, cross-platform video editor",
+          "tag": "Tool",
+          "url": "https://shotcut.org/"
+        },
+        {
+          "title": "Stampede.it",
+          "desc": "Free audio-visual packs",
+          "tag": "Source",
+          "url": "http://stampede.it/"
+        },
+        {
+          "title": "小视频下载",
+          "desc": "",
+          "tag": "Tool",
+          "url": "http://www.downfi.com/video/"
+        },
+        {
+          "title": "视频解析网",
+          "desc": "微博、秒拍、汤不热视频解析下载网站",
+          "tag": "Tool",
+          "url": "https://www.parsevideo.com/"
+        },
+        {
+          "title": "悟空视频",
+          "desc": "最新电视剧,高清电影下载,免费在线观看",
+          "tag": "Source",
+          "url": "http://www.wukongshipin.com/"
+        },
+        {
+          "title": "Online converter",
+          "desc": "convert video, images, audio and documents for free",
+          "tag": "Tool",
+          "url": "https://online-convert.com"
+        },
+        {
+          "title": "WAIT",
+          "desc": "What Anime Is This? - Anime Scene Search Engine",
+          "tag": "Anime",
+          "url": "https://whatanime.ga/"
+        },
+        {
+          "title": "AGE动漫",
+          "desc": "在线动画 动漫下载",
+          "tag": "Anime",
+          "url": "http://donghua.agefans.com/"
+        }
+      ]
+    }
+  ]
+}

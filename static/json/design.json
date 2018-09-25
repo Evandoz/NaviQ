@@ -1,0 +1,111 @@
+{
+  "websites": [
+    {
+      "class": "Design",
+      "content": [
+        {
+          "title": "UI中国",
+          "desc": "专业用户体验设计平台",
+          "tag": "Tool",
+          "url": "http://www.ui.cn/"
+        },
+        {
+          "title": "站酷",
+          "desc": "设计师互动平台 - 打开站酷，发现更好的设计！",
+          "tag": "Tool",
+          "url": "https://www.zcool.com.cn"
+        },
+        {
+          "title": "Seeseed",
+          "desc": "无穷尽设计可能",
+          "tag": "Tool",
+          "url": "https://www.seeseed.com/"
+        },
+        {
+          "title": "字由",
+          "desc": "设计师必备字体利器",
+          "tag": "Tool",
+          "url": "http://www.hellofont.cn/"
+        },
+        {
+          "title": "DesignMunk",
+          "desc": "Best Homepage Design Inspiration",
+          "tag": "Tool",
+          "url": "https://designmunk.com"
+        },
+        {
+          "title": "创造狮",
+          "desc": "创意工作者导航",
+          "tag": "Tool",
+          "url": "http://chuangzaoshi.com/"
+        },
+        {
+          "title": "牛大拿导航",
+          "desc": "牛大拿设计师导航",
+          "tag": "Tool",
+          "url": "http://www.niudana.com/"
+        },
+        {
+          "title": "Ant Design",
+          "desc": "蚂蚁金服设计平台",
+          "tag": "Tool",
+          "url": "http://design.alipay.com/"
+        },
+        {
+          "title": "优设-UISDC",
+          "desc": "优秀设计联盟-SDC",
+          "tag": "Tool",
+          "url": "http://www.uisdc.com/"
+        },
+        {
+          "title": "Novapattern",
+          "desc": "Curated Collection of High-Quality Patterns",
+          "tag": "Tool",
+          "url": "https://www.novapattern.com/"
+        },
+        {
+          "title": "优设导航",
+          "desc": "学设计从这里开始",
+          "tag": "Tool",
+          "url": "https://hao.uisdc.com/"
+        },
+        {
+          "title": "优优教程网",
+          "desc": "设计教程-马了再练不如马上练",
+          "tag": "Tool",
+          "url": "https://uiiiuiii.com/"
+        },
+        {
+          "title": "图说设计模式",
+          "desc": "Graphic Design Patterns",
+          "tag": "Tool",
+          "url": "https://design-patterns.readthedocs.io/zh_CN/latest/index.html"
+        },
+        {
+          "title": "STUDIO",
+          "desc": "Create your website from scratch without coding",
+          "tag": "Tool",
+          "url": "https://studio.design/"
+        },
+        {
+          "title": "MDUI",
+          "desc": "Material Design User Interface",
+          "tag": "UI",
+          "url": "https://www.mdui.org/"
+        },
+        {
+          "title": "SUI Mobile",
+          "desc": "阿里巴巴国际UED前端出品移动端UI",
+          "tag": "UI",
+          "url": "http://m.sui.taobao.org/"
+        },
+        {
+          "title": "Taro",
+          "desc": "一套遵循 React 语法规范的多端统一开发框架-凹凸实验室",
+          "tag": "UI",
+          "url": "https://taro.aotu.io/"
+        }
+      ]
+    }
+  ]
+}
