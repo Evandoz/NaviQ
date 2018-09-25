@@ -53,12 +53,15 @@ export default {
 <style lang="stylus" rel="stylesheet/stylus">
 .cls-list
   margin: 0 auto
-  @media screen and (min-width: 379px)
+  @media screen and (min-width: 341px)
     width: 320px
-  @media screen and (min-width: 580px)
+  @media screen and (min-width: 523px)
     width: 490px
-  @media screen and (min-width: 781px)
+  @media screen and (min-width: 703px)
     width: 660px
+  // screen = 768px -> width = 100% -> 660 / 0.94 = 703
+  // @media screen and (min-width: 781px)
+  //   width: 660px
   @media screen and (min-width: 981px)
     width: 830px
   @media screen and (min-width: 1182px)
