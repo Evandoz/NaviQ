@@ -141,6 +141,7 @@ export default {
       height: 32px
       margin: calc(-6vh - 32px) auto 0 auto
       font-size: 32px
+      color: #000000
       clear: both
       .ivu-icon
         vertical-align: top

@@ -1,20 +1,20 @@
 <template>
   <div class="menu">
     <Menu :mode="mode" :active-name="activeName" width="auto">
-      <MenuItem name="/so" to="/so">搜索</MenuItem>
+      <MenuItem name="/so" to="/so">{{$t('Search')}}</MenuItem>
       <Submenu name="/dev">
-          <template slot="title" to="">所有站点</template>
-          <MenuItem name="/design" to="/design">设计</MenuItem>
-          <MenuItem name="/develop" to="/develop">开发</MenuItem>
-          <MenuItem name="/history" to="/history">历史</MenuItem>
-          <MenuItem name="/reading" to="/reading">阅读</MenuItem>
-          <MenuItem name="/media" to="/media">媒体</MenuItem>
-          <MenuItem name="/workdoc" to="/workdoc">工作&文档</MenuItem>
-          <MenuItem name="/lifeservice" to="/lifeservice">生活服务</MenuItem>
-          <MenuItem name="/all" to="/all">其他</MenuItem>
+          <template slot="title" to="">{{$t('All')}}</template>
+          <MenuItem name="/design" to="/design">{{$t('Design')}}</MenuItem>
+          <MenuItem name="/develop" to="/develop">{{$t('Develop')}}</MenuItem>
+          <MenuItem name="/history" to="/history">{{$t('History')}}</MenuItem>
+          <MenuItem name="/reading" to="/reading">{{$t('Reading')}}</MenuItem>
+          <MenuItem name="/media" to="/media">{{$t('Media')}}</MenuItem>
+          <MenuItem name="/workdoc" to="/workdoc">{{$t('Work')}}</MenuItem>
+          <MenuItem name="/lifeservice" to="/lifeservice">{{$t('Life')}}</MenuItem>
+          <MenuItem name="/all" to="/all">{{$t('Other')}}</MenuItem>
       </Submenu>
-      <MenuItem name="/other" to="/other">其他导航</MenuItem>
-      <MenuItem name="/about" to="/about">关于</MenuItem>
+      <MenuItem name="/other" to="/other">{{$t('Navi')}}</MenuItem>
+      <MenuItem name="/about" to="/about">{{$t('About')}}</MenuItem>
     </Menu>
   </div>
 </template>

@@ -2,7 +2,7 @@
   <div class="cls-list">
     <div class="cls-item" v-for="(website, index) in websites" :key="index">
       <div class="cls-header">
-        <h1 class="title">{{ website.class }}</h1>
+        <h1 class="title">{{$t(website.class)}}</h1>
       </div>
       <div class="cls-content">
         <div class="card" v-for="(item, index) in website.content" :key="index">
@@ -71,13 +71,13 @@ export default {
   @media screen and (min-width: 1584px)
     width: 1340px
   .cls-item
-    margin: 10px auto
     .cls-header
       margin: 20px 0
-      text-align: center
       h1
         line-height: 1.8
         font-size: 18px
+        font-weight: 500
+        color: #112233
     .cls-content
       display: flex
       flex-wrap: wrap

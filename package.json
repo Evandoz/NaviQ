@@ -13,7 +13,6 @@
     "build": "node build/build.js"
   },
   "dependencies": {
-    "element-ui": "^2.4.7",
     "growl": "^1.10.5",
     "http-proxy-agent": "^2.1.0",
     "https-proxy-agent": "^2.2.1",
@@ -23,6 +22,7 @@
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.2",
     "vue": "^2.5.2",
+    "vue-i18n": "^8.1.0",
     "vue-router": "^3.0.1"
   },
   "devDependencies": {
