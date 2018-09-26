@@ -126,13 +126,11 @@ export default {
         padding-bottom: calc(6vh + 32px)
         &.ivu-menu-vertical
           &.ivu-menu-light
-            background: transparent
             &:after
               content: none
           .ivu-menu-item,
           .ivu-menu-submenu-title
             line-height: 1.5
-            background: transparent!important
             &:after
               content: none
     >.icon
@@ -143,6 +141,7 @@ export default {
       font-size: 32px
       color: #000000
       clear: both
+      z-index： 999
       .ivu-icon
         vertical-align: top
   .mask
