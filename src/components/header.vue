@@ -141,7 +141,7 @@ export default {
       font-size: 32px
       color: #000000
       clear: both
-      z-index： 999
+      z-index: 999
       .ivu-icon
         vertical-align: top
   .mask
