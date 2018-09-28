@@ -134,6 +134,12 @@
           "desc": "Easy-to-make, beautiful timelines",
           "tag": "Tool",
           "url": "http://timeline.knightlab.com/"
+        },
+        {
+          "title": "地图云集",
+          "desc": "在线地图 历史地图 专题地图 在线历史地图 中国历史地图 云GIS WebGIS 地图画板 Maplet",
+          "tag": "Tool",
+          "url": "http://www.maphub.cn/"
         }
       ]
     }

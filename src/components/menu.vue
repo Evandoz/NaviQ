@@ -11,8 +11,11 @@
           <MenuItem name="/media" to="/media">{{$t('Media')}}</MenuItem>
           <MenuItem name="/workdoc" to="/workdoc">{{$t('Work')}}</MenuItem>
           <MenuItem name="/lifeservice" to="/lifeservice">{{$t('Life')}}</MenuItem>
-          <MenuItem name="/all" to="/all">{{$t('Other')}}</MenuItem>
+          <MenuItem name="/map" to="/map">{{$t('Map')}}</MenuItem>
+          <MenuItem name="/netool" to="/netool">{{$t('Netool')}}</MenuItem>
+          <MenuItem name="/markdown" to="/markdown">{{$t('Markdown')}}</MenuItem>
       </Submenu>
+      <MenuItem name="/fav" to="/fav">{{$t('Fav')}}</MenuItem>
       <MenuItem name="/other" to="/other">{{$t('Navi')}}</MenuItem>
       <MenuItem name="/about" to="/about">{{$t('About')}}</MenuItem>
     </Menu>

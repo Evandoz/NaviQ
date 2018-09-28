@@ -176,6 +176,12 @@
           "url": "https://toutiao.io/"
         },
         {
+          "title": "产品汇",
+          "desc": "互联网产品和最新科技资讯、海量高清壁纸下载",
+          "tag": "Tool",
+          "url": "https://www.prohui.com/"
+        },
+        {
           "title": "饭否精选",
           "desc": "饭否每日精选",
           "tag": "Tool",
@@ -502,6 +508,30 @@
           "desc": "您的云端超级应用空间",
           "tag": "Tool",
           "url": "https://uzer.me/"
+        },
+        {
+          "title": "TablePlus",
+          "desc": "Modern, Native Tool for Database Management",
+          "tag": "Tool",
+          "url": "https://tableplus.io/"
+        },
+        {
+          "title": "Draw.io",
+          "desc": "A free online diagramming application  and flowchart maker",
+          "tag": "Tool",
+          "url": "https://www.draw.io/"
+        },
+        {
+          "title": "聚合数据",
+          "desc": "API数据接口_免费数据调用",
+          "tag": "Tool",
+          "url": "https://www.juhe.cn/"
+        },
+        {
+          "title": "Tables Generator",
+          "desc": "Create LaTeX tables online",
+          "tag": "Tool",
+          "url": "https://www.tablesgenerator.com/"
         }
       ]
     },

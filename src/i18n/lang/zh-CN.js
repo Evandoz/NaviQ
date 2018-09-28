@@ -13,7 +13,6 @@ export default {
   Color: '配色',
   Site: '网站',
   Icon: '图标',
-  Blog: '博客',
   History: '历史',
   Life: '生活服务',
   Media: '多媒体',
@@ -23,8 +22,10 @@ export default {
   Reading: '阅读',
   Map: '地图',
   Work: '工作&文档',
+  Netool: '网络工具',
+  Markdown: 'Markdown',
   All: '所有站点',
-  Other: '其他',
+  Fav: '收藏夹',
   Navi: '其他导航',
   About: '关于'
 }

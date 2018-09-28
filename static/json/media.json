@@ -258,6 +258,42 @@
           "desc": "在线动画 动漫下载",
           "tag": "Anime",
           "url": "http://donghua.agefans.com/"
+        },
+        {
+          "title": "爱看站",
+          "desc": "新视觉影院_神马电影网_青苹果影院_被窝电影网",
+          "tag": "Video",
+          "url": "http://www.aikanzhan.com/"
+        },
+        {
+          "title": "52爱看电影网",
+          "desc": "全网领先的在线视频媒体平台,海量超清VIP收费视频免费在线观看",
+          "tag": "Anime",
+          "url": "http://www.52aikan.cn/"
+        },
+        {
+          "title": "不太灵",
+          "desc": "BT天堂 - 1080P电影 - bt0.com",
+          "tag": "Anime",
+          "url": "http://bt0.com/"
+        },
+        {
+          "title": "牛电影",
+          "desc": "2018最新电影,最好看的电影电视剧免费在线观看",
+          "tag": "Anime",
+          "url": "https://www.niudy.com/"
+        },
+        {
+          "title": "AGE动漫",
+          "desc": "在线动画 动漫下载",
+          "tag": "Anime",
+          "url": "http://donghua.agefans.com/"
+        },
+        {
+          "title": "AGE动漫",
+          "desc": "在线动画 动漫下载",
+          "tag": "Anime",
+          "url": "http://donghua.agefans.com/"
         }
       ]
     }
