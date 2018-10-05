@@ -822,6 +822,12 @@
           "desc": "发音指南，世界上所有词语的母语发音",
           "tag": "Tool",
           "url": "https://zh.forvo.com/"
+        },
+        {
+          "title": "Vocabulary",
+          "desc": "Learn Words - English Dictionary",
+          "tag": "Tool",
+          "url": "https://www.vocabulary.com/"
         }
       ]
     },
