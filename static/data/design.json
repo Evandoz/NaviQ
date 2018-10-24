@@ -52,6 +52,24 @@
           "url": "http://design.alipay.com/"
         },
         {
+          "title": "学UI网",
+          "desc": "UI设计师导航网，最专业的UI设计网站",
+          "tag": "Tool",
+          "url": "http://hao.xueui.cn/"
+        },
+        {
+          "title": "比格张",
+          "desc": "发现更好的网站",
+          "tag": "Tool",
+          "url": "https://bigezhang.com/"
+        },
+        {
+          "title": "设计导航",
+          "desc": "精选最好的设计网站大全",
+          "tag": "Tool",
+          "url": "http://hao.shejidaren.com/"
+        },
+        {
           "title": "优设-UISDC",
           "desc": "优秀设计联盟-SDC",
           "tag": "Tool",
@@ -104,6 +122,99 @@
           "desc": "一套遵循 React 语法规范的多端统一开发框架-凹凸实验室",
           "tag": "UI",
           "url": "https://taro.aotu.io/"
+        }
+      ]
+    },
+    {
+      "class": "Color",
+      "content": [
+        {
+          "title": "Trianglify",
+          "desc": "Low Poly Pattern Generator",
+          "tag": "Tool",
+          "url": "https://trianglify.io/"
+        },
+        {
+          "title": "WebGradients",
+          "desc": "Fresh Background Gradients",
+          "tag": "Tool",
+          "url": "https://webgradients.com/"
+        },
+        {
+          "title": "CoolHue",
+          "desc": "Coolest Gradient Hues and Swatches",
+          "tag": "Tool",
+          "url": "https://webkul.github.io/coolhue/"
+        },
+        {
+          "title": "HSL Color Picker",
+          "desc": "CREATED FOR YOUR ENJOYMENT",
+          "tag": "Tool",
+          "url": "http://hslpicker.com/"
+        }
+      ]
+    },
+    {
+      "class": "Site",
+      "content": [
+        {
+          "title": "Phoenix",
+          "desc": "Phoenix Startup UI kit | A tool based on Bootstrap",
+          "tag": "Tool",
+          "url": "https://phoenix-startup.com/"
+        },
+        {
+          "title": "Airnauts",
+          "desc": "Creativity meets technology",
+          "tag": "Tool",
+          "url": "https://airnauts.com/"
+        },
+        {
+          "title": "Marie Morelle",
+          "desc": "Illustratrice",
+          "tag": "Tool",
+          "url": "https://www.marie-morelle.com"
+        },
+        {
+          "title": "HTML5 UP",
+          "desc": "Responsive HTML5 and CSS3 Site Templates",
+          "tag": "Tool",
+          "url": "https://html5up.net/"
+        },
+        {
+          "title": "HTML5 Demo",
+          "desc": "HTML5 Demos and Examples",
+          "tag": "Tool",
+          "url": "https://html5demos.com/"
+        },
+        {
+          "title": "stacksort",
+          "desc": "",
+          "tag": "Tool",
+          "url": "http://gkoberger.github.io/stacksort/"
+        },
+        {
+          "title": "xkcd",
+          "desc": "A webcomic of romance,sarcasm, math, and language",
+          "tag": "Tool",
+          "url": "https://xkcd.com/"
+        }
+      ]
+    },
+    {
+      "class": "Icon",
+      "content": [
+        {
+          "title": "草莓图标库",
+          "desc": "A Free and Open Source Iconic Font Library for Developers",
+          "tag": "Tool",
+          "url": "http://chuangzaoshi.com/icon/"
+        },
+        {
+          "title": "IcoMoon",
+          "desc": "Icon Font & SVG Icon Sets",
+          "tag": "Tool",
+          "url": "https://icomoon.io/"
         }
       ]
     }
