@@ -6,13 +6,13 @@
           <template slot="title" to="">{{$t('All')}}</template>
           <MenuItem name="/design" to="/design">{{$t('Design')}}</MenuItem>
           <MenuItem name="/develop" to="/develop">{{$t('Develop')}}</MenuItem>
-          <MenuItem name="/history" to="/history">{{$t('History')}}</MenuItem>
           <MenuItem name="/reading" to="/reading">{{$t('Reading')}}</MenuItem>
+          <MenuItem name="/history" to="/history">{{$t('History')}}</MenuItem>
+          <MenuItem name="/markdown" to="/markdown">{{$t('Markdown')}}</MenuItem>
           <MenuItem name="/media" to="/media">{{$t('Media')}}</MenuItem>
           <MenuItem name="/workdoc" to="/workdoc">{{$t('Work')}}</MenuItem>
-          <MenuItem name="/lifeservice" to="/lifeservice">{{$t('Life')}}</MenuItem>
           <MenuItem name="/map" to="/map">{{$t('Map')}}</MenuItem>
-          <MenuItem name="/markdown" to="/markdown">{{$t('Markdown')}}</MenuItem>
+          <MenuItem name="/lifeservice" to="/lifeservice">{{$t('Life')}}</MenuItem>
       </Submenu>
       <MenuItem name="/tool" to="/tool">{{$t('Tool')}}</MenuItem>
       <MenuItem name="/smsol" to="/smsol">{{$t('SMSOL')}}</MenuItem>
