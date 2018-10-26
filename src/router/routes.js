@@ -6,8 +6,9 @@ import workdoc from '@/pages/workdoc'
 import media from '@/pages/media'
 import lifeservice from '@/pages/lifeservice'
 import map from '@/pages/map'
-import netool from '@/pages/netool'
+import tool from '@/pages/tool'
 import markdown from '@/pages/markdown'
+import smsol from '@/pages/smsol'
 import fav from '@/pages/fav'
 import navsite from '@/pages/navsite'
 import search from '@/pages/search'
@@ -64,9 +65,9 @@ const routes = [
     component: map
   },
   {
-    path: '/netool',
-    name: 'netool',
-    component: netool
+    path: '/tool',
+    name: 'tool',
+    component: tool
   },
   {
     path: '/markdown',
@@ -77,6 +78,11 @@ const routes = [
     path: '/fav',
     name: 'fav',
     component: fav
+  },
+  {
+    path: '/smsol',
+    name: 'smsol',
+    component: smsol
   },
   {
     path: '/other',

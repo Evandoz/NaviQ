@@ -22,10 +22,11 @@ export default {
   Reading: '阅读',
   Map: '地图',
   Work: '工作&文档',
-  Netool: '网络工具',
+  Tool: '工具',
   Markdown: 'Markdown',
   All: '所有站点',
   Fav: '收藏夹',
+  SMSOL: '在线SMS',
   Navi: '其他导航',
   About: '关于'
 }

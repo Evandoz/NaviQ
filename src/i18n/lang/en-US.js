@@ -22,10 +22,11 @@ export default {
   Reading: 'Reading',
   Map: 'Map',
   Work: 'Work',
-  Netool: 'Net Tool',
+  Tool: 'Tool',
   Markdown: 'Markdown',
   All: 'All Site',
   Fav: 'Fav',
+  SMSOL: 'SMS Online',
   Navi: 'Navi',
   About: 'About'
 }
