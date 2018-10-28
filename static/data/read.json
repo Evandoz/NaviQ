@@ -1,7 +1,7 @@
 {
   "websites": [
     {
-      "class": "Reading",
+      "class": "Read",
       "content": [
         {
           "title": "异步社区",
@@ -44,6 +44,12 @@
           "desc": "Books on natural science disciplines and engineering.",
           "tag": "Tool",
           "url": "http://gen.lib.rus.ec/"
+        },
+        {
+          "title": "书格",
+          "desc": "有品格的数字估计图书馆",
+          "tag": "Tool",
+          "url": "https://www.packtpub.com"
         },
         {
           "title": "Planet eBook",

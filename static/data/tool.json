@@ -1,7 +1,65 @@
 {
   "websites": [
     {
-      "class": "Netool",
+      "class": "Markdown",
+      "content": [
+        {
+          "title": "StackEdit",
+          "desc": "In-browser Markdown editor",
+          "tag": "Tool",
+          "url": "https://stackedit.io/"
+        },
+        {
+          "title": "Online Markdown",
+          "desc": "Dillinger, the Last Markdown Editor ever",
+          "tag": "Tool",
+          "url": "https://dillinger.io/"
+        },
+        {
+          "title": "thisDaveJ",
+          "desc": "Copy Table in Excel and Paste as a Markdown Table",
+          "tag": "Tool",
+          "url": "https://thisdavej.com/copy-table-in-excel-and-paste-as-a-markdown-table/"
+        }
+      ]
+    },
+    {
+      "class": "SMS",
+      "content": [
+        {
+          "title": "SMS Online",
+          "desc": "Temporary SMS and Disposable Numbers",
+          "tag": "Tool",
+          "url": "https://smsreceivefree.com/"
+        },
+        {
+          "title": "Free SMS Online",
+          "desc": "Virtual Phone Number Verification",
+          "tag": "Tool",
+          "url": "http://www.freesmsverifications.com/"
+        },
+        {
+          "title": "Formspree",
+          "desc": "A Contact Form to Email Service",
+          "tag": "Tool",
+          "url": "https://formspree.io/"
+        },
+        {
+          "title": "易码",
+          "desc": "手机短信验证码接收平台",
+          "tag": "Tool",
+          "url": "http://www.51ym.me/"
+        },
+        {
+          "title": "云短信",
+          "desc": "在线短信接收",
+          "tag": "Tool",
+          "url": "https://www.pdflibr.com/"
+        }
+      ]
+    },
+    {
+      "class": "Tool",
       "content": [
         {
           "title": "Anydoor",

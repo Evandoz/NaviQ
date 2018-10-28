@@ -21,12 +21,7 @@
           "tag": "Tool",
           "url": "https://www.seeseed.com/"
         },
-        {
-          "title": "字由",
-          "desc": "设计师必备字体利器",
-          "tag": "Tool",
-          "url": "http://www.hellofont.cn/"
-        },
+
         {
           "title": "DesignMunk",
           "desc": "Best Homepage Design Inspiration",
@@ -62,6 +57,12 @@
           "desc": "发现更好的网站",
           "tag": "Tool",
           "url": "https://bigezhang.com/"
+        },
+        {
+          "title": "Behance",
+          "desc": "Behance 作品精选",
+          "tag": "Tool",
+          "url": "https://www.behance.net/"
         },
         {
           "title": "设计导航",
@@ -198,6 +199,89 @@
           "desc": "A webcomic of romance,sarcasm, math, and language",
           "tag": "Tool",
           "url": "https://xkcd.com/"
+        }
+      ]
+    },
+    {
+      "class": "Font",
+      "content": [
+        {
+          "title": "方正字库",
+          "desc": "免费字体_PS字体_方正字体",
+          "tag": "Source",
+          "url": "http://www.foundertype.com/"
+        },
+        {
+          "title": "造字工房",
+          "desc": "造字工房",
+          "tag": "Source",
+          "url": "http://www.makefont.com/"
+        },
+        {
+          "title": "汉仪字库",
+          "desc": "用心绽放文字之美",
+          "tag": "Source",
+          "url": "http://www.hanyi.com.cn/"
+        },
+        {
+          "title": "华康字型",
+          "desc": "华康字型",
+          "tag": "Source",
+          "url": "https://www.dynacw.com.cn/"
+        },
+        {
+          "title": "文悦字库",
+          "desc": "Timeline",
+          "tag": "Source",
+          "url": "https://wytype.com/"
+        },
+        {
+          "title": "Google Fonts",
+          "desc": "Google Fonts",
+          "tag": "Source",
+          "url": "https://fonts.google.com/"
+        },
+        {
+          "title": "站酷字体合集",
+          "desc": "站酷网（ZCOOL）",
+          "tag": "Source",
+          "url": "https://www.zcool.com.cn/special/zcoolfonts/"
+        },
+        {
+          "title": "思源宋体",
+          "desc": "思源宋体",
+          "tag": "Source",
+          "url": "https://source.typekit.com"
+        },
+        {
+          "title": "字由",
+          "desc": "设计师必备字体利器",
+          "tag": "Tool",
+          "url": "http://www.hellofont.cn/"
+        },
+        {
+          "title": "Adobe Fonts",
+          "desc": "Explore unlimited fonts",
+          "tag": "Source",
+          "url": "https://fonts.adobe.com/"
+        },
+        {
+          "title": "Font Squirrel",
+          "desc": "Free Fonts! Legit Free & Quality",
+          "tag": "Source",
+          "url": "https://www.fontsquirrel.com/"
+        },
+        {
+          "title": "Font Library",
+          "desc": "Font Library",
+          "tag": "Source",
+          "url": "https://fontlibrary.org/"
+        },
+        {
+          "title": "DejaVu Fonts",
+          "desc": "DejaVu Fonts",
+          "tag": "Source",
+          "url": "https://dejavu-fonts.github.io/"
         }
       ]
     },

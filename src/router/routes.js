@@ -1,14 +1,12 @@
 import design from '@/pages/design'
 import develop from '@/pages/develop'
 import history from '@/pages/history'
-import reading from '@/pages/reading'
-import workdoc from '@/pages/workdoc'
+import read from '@/pages/read'
+import doc from '@/pages/doc'
 import media from '@/pages/media'
-import lifeservice from '@/pages/lifeservice'
+import service from '@/pages/service'
 import map from '@/pages/map'
 import tool from '@/pages/tool'
-import markdown from '@/pages/markdown'
-import smsol from '@/pages/smsol'
 import fav from '@/pages/fav'
 import navsite from '@/pages/navsite'
 import search from '@/pages/search'
@@ -40,14 +38,14 @@ const routes = [
     component: history
   },
   {
-    path: '/reading',
-    name: 'reading',
-    component: reading
+    path: '/read',
+    name: 'read',
+    component: read
   },
   {
-    path: '/workdoc',
-    name: 'workdoc',
-    component: workdoc
+    path: '/doc',
+    name: 'doc',
+    component: doc
   },
   {
     path: '/media',
@@ -55,9 +53,9 @@ const routes = [
     component: media
   },
   {
-    path: '/lifeservice',
-    name: 'lifeservice',
-    component: lifeservice
+    path: '/service',
+    name: 'service',
+    component: service
   },
   {
     path: '/map',
@@ -70,19 +68,9 @@ const routes = [
     component: tool
   },
   {
-    path: '/markdown',
-    name: 'markdown',
-    component: markdown
-  },
-  {
     path: '/fav',
     name: 'fav',
     component: fav
-  },
-  {
-    path: '/smsol',
-    name: 'smsol',
-    component: smsol
   },
   {
     path: '/other',
