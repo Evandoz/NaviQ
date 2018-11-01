@@ -6,7 +6,7 @@
           <template slot="title" to="">{{$t('All')}}</template>
           <MenuItem name="/design" to="/design">{{$t('Design')}}</MenuItem>
           <MenuItem name="/develop" to="/develop">{{$t('Develop')}}</MenuItem>
-          <MenuItem name="/read" to="/reading">{{$t('Read')}}</MenuItem>
+          <MenuItem name="/read" to="/read">{{$t('Read')}}</MenuItem>
           <MenuItem name="/history" to="/history">{{$t('History')}}</MenuItem>
           <MenuItem name="/media" to="/media">{{$t('Media')}}</MenuItem>
           <MenuItem name="/doc" to="/doc">{{$t('Doc')}}</MenuItem>
