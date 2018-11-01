@@ -588,6 +588,29 @@
       ]
     },
     {
+      "class": "CDN",
+      "content": [
+        {
+          "title": "UNPKG",
+          "desc": "The CDN for everything on npm",
+          "tag": "Tool",
+          "url": "https://unpkg.com"
+        },
+        {
+          "title": "RawGit",
+          "desc": "",
+          "tag": "Tool",
+          "url": "https://rawgit.com/"
+        },
+        {
+          "title": "jsDelivr",
+          "desc": "A free, fast, and reliable Open Source CDN for npm & GitHub",
+          "tag": "Tool",
+          "url": "https://www.jsdelivr.com"
+        }
+      ]
+    },
+    {
       "class": "Learn",
       "content": [
         {

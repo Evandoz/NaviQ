@@ -4,6 +4,18 @@
       "class": "History",
       "content":[
         {
+          "title": "今日诗词API",
+          "desc": "今日诗词 - 诗词实时智能推荐 - 今日诗词开放接口 - ",
+          "tag": "Source",
+          "url": "https://www.jinrishici.com/"
+        },
+        {
+          "title": "一言古诗词API",
+          "desc": "可以随机获取一句古诗词名句的接口",
+          "tag": "Source",
+          "url": "https://gushi.ci/"
+        },
+        {
           "title": "唯历史",
           "desc": "关注中国历史",
           "tag": "Source",
