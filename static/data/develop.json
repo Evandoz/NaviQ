@@ -34,12 +34,6 @@
           "url": "https://www.staticgen.com/"
         },
         {
-          "title": "Libscore",
-          "desc": "Collect stats on JavaScript library usage",
-          "tag": "Tool",
-          "url": "http://libscore.com/"
-        },
-        {
           "title": "HelloGitHub",
           "desc": "分享 GitHub 入门级、有趣的开源项目",
           "tag": "Tool",
@@ -75,12 +69,6 @@
           "url": "https://cnodejs.org/"
         },
         {
-          "title": "SegmentFault",
-          "desc": "SegmentFault 思否",
-          "tag": "Tool",
-          "url": "https://segmentfault.com/"
-        },
-        {
           "title": "Stack Overflow",
           "desc": "Where Developers Learn, Share, & Build Careers",
           "tag": "Tool",
@@ -105,12 +93,6 @@
           "url": "https://ruby-china.org/"
         },
         {
-          "title": "V2EX",
-          "desc": "一个关于分享和探索的地方",
-          "tag": "Tool",
-          "url": "https://www.v2ex.com/"
-        },
-        {
           "title": "GitHuber",
           "desc": "Github 开发者社区",
           "tag": "Tool",
@@ -121,18 +103,6 @@
           "desc": "分享与学习LaTeX的王国",
           "tag": "Tool",
           "url": "http://www.latexstudio.net/"
-        },
-        {
-          "title": "泡在网上的日子",
-          "desc": "做最好的移动开发社区",
-          "tag": "Tool",
-          "url": "http://www.jcodecraeer.com/"
-        },
-        {
-          "title": "Quora",
-          "desc": "A place to share knowledge and better understand the world",
-          "tag": "Tool",
-          "url": "https://www.quora.com/"
         }
       ]
     },
@@ -146,46 +116,16 @@
           "url": "https://www.jiqizhixin.com/"
         },
         {
-          "title": "反斗软件",
-          "desc": "新奇，有趣，免费",
-          "tag": "Source",
-          "url": "http://www.apprcn.com/"
-        },
-        {
           "title": "Hacker News",
           "desc": "News",
           "tag": "Tool",
           "url": "https://news.ycombinator.com/"
         },
         {
-          "title": "AppSo",
-          "desc": "App推荐",
-          "tag": "Tool",
-          "url": "https://www.ifanr.com/app"
-        },
-        {
           "title": "Echo JS",
           "desc": "JavaScript News",
           "tag": "Tool",
           "url": "http://www.echojs.com/"
-        },
-        {
-          "title": "开发者头条",
-          "desc": "程序员分享平台",
-          "tag": "Tool",
-          "url": "https://toutiao.io/"
-        },
-        {
-          "title": "产品汇",
-          "desc": "互联网产品和最新科技资讯、海量高清壁纸下载",
-          "tag": "Tool",
-          "url": "https://www.prohui.com/"
-        },
-        {
-          "title": "干货集中营",
-          "desc": "又双叒叕攒攒攒了一波",
-          "tag": "Tool",
-          "url": "https://gank.io/"
         },
         {
           "title": "Product Hunt",
@@ -198,24 +138,6 @@
           "desc": "Startup News",
           "tag": "Tool",
           "url": "http://news.dbanotes.net/"
-        },
-        {
-          "title": "奇舞周刊",
-          "desc": "来自奇虎360前端团队",
-          "tag": "Tool",
-          "url": "https://weekly.75team.com/"
-        },
-        {
-          "title": "湾区日报",
-          "desc": "关注创业与技术，每天推送5篇优质英文文章",
-          "tag": "Tool",
-          "url": "https://wanqu.co/"
-        },
-        {
-          "title": "酷壳",
-          "desc": "CoolShell.cn",
-          "tag": "Tool",
-          "url": "https://coolshell.cn/"
         },
         {
           "title": "One App",
@@ -236,12 +158,6 @@
           "url": "https://itsfoss.com/"
         },
         {
-          "title": "利器",
-          "desc": "创造者和他们的工具",
-          "tag": "Tool",
-          "url": "http://liqi.io/"
-        },
-        {
           "title": "Medium",
           "desc": "a place to read and write big ideas and important stories",
           "tag": "Tool",
@@ -258,59 +174,6 @@
           "desc": "引领web前沿，打造前端精品教程",
           "tag": "Tool",
           "url": "https://www.w3cplus.com/"
-        },
-        {
-          "title": "知晓程序",
-          "desc": "小程序商店",
-          "tag": "Source",
-          "url": "https://minapp.com"
-        },
-        {
-          "title": "特赞营销日历",
-          "desc": "一份时时更新的营销热点日历",
-          "tag": "Tool",
-          "url": "https://event.tezign.com"
-        }
-      ]
-    },
-    {
-      "class": "Team",
-      "content": [
-        {
-          "title": "奇舞团",
-          "desc": "奇虎360最大的前端团队",
-          "tag": "Tool",
-          "url": "https://75team.com/"
-        },
-        {
-          "title": "凹凸实验室",
-          "desc": "京东前端-凹凸实验室",
-          "tag": "Tool",
-          "url": "https://aotu.io/"
-        },
-        {
-          "title": "JDC",
-          "desc": "京东设计中心",
-          "tag": "Tool",
-          "url": "http://jdc.jd.com/"
-        },
-        {
-          "title": "TGideas",
-          "desc": "腾讯互动娱乐创意设计团队",
-          "tag": "Tool",
-          "url": "https://tgideas.qq.com"
-        },
-        {
-          "title": "阿里中间件团队",
-          "desc": "阿里中间件团队博客",
-          "tag": "Tool",
-          "url": "http://jm.taobao.org/"
-        },
-        {
-          "title": "前端先生",
-          "desc": "前端技术分享学习",
-          "tag": "Tool",
-          "url": "http://www.mrfront.com/"
         }
       ]
     },

@@ -4,18 +4,6 @@
       "class": "Design",
       "content": [
         {
-          "title": "UI中国",
-          "desc": "专业用户体验设计平台",
-          "tag": "Tool",
-          "url": "http://www.ui.cn/"
-        },
-        {
-          "title": "站酷",
-          "desc": "设计师互动平台 - 打开站酷，发现更好的设计！",
-          "tag": "Tool",
-          "url": "https://www.zcool.com.cn"
-        },
-        {
           "title": "Seeseed",
           "desc": "无穷尽设计可能",
           "tag": "Tool",
@@ -45,12 +33,6 @@
           "desc": "蚂蚁金服设计平台",
           "tag": "Tool",
           "url": "http://design.alipay.com/"
-        },
-        {
-          "title": "学UI网",
-          "desc": "UI设计师导航网，最专业的UI设计网站",
-          "tag": "Tool",
-          "url": "http://hao.xueui.cn/"
         },
         {
           "title": "比格张",
@@ -159,46 +141,10 @@
       "class": "Site",
       "content": [
         {
-          "title": "Phoenix",
-          "desc": "Phoenix Startup UI kit | A tool based on Bootstrap",
-          "tag": "Tool",
-          "url": "https://phoenix-startup.com/"
-        },
-        {
-          "title": "Airnauts",
-          "desc": "Creativity meets technology",
-          "tag": "Tool",
-          "url": "https://airnauts.com/"
-        },
-        {
-          "title": "Marie Morelle",
-          "desc": "Illustratrice",
-          "tag": "Tool",
-          "url": "https://www.marie-morelle.com"
-        },
-        {
           "title": "HTML5 UP",
           "desc": "Responsive HTML5 and CSS3 Site Templates",
           "tag": "Tool",
           "url": "https://html5up.net/"
-        },
-        {
-          "title": "HTML5 Demo",
-          "desc": "HTML5 Demos and Examples",
-          "tag": "Tool",
-          "url": "https://html5demos.com/"
-        },
-        {
-          "title": "stacksort",
-          "desc": "",
-          "tag": "Tool",
-          "url": "http://gkoberger.github.io/stacksort/"
-        },
-        {
-          "title": "xkcd",
-          "desc": "A webcomic of romance,sarcasm, math, and language",
-          "tag": "Tool",
-          "url": "https://xkcd.com/"
         }
       ]
     },
