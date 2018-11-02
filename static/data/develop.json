@@ -4,28 +4,10 @@
       "class": "Statistics",
       "content": [
         {
-          "title": "Diycode Trends",
-          "desc": "GitHub 全球 Developers, Organizations and Repositories 排行榜",
-          "tag": "Tool",
-          "url": "https://www.diycode.cc/trends"
-        },
-        {
           "title": "GitHub Trending",
           "desc": "Trending repositories on GitHub today",
           "tag": "Tool",
           "url": "https://github.com/trending"
-        },
-        {
-          "title": "GitHub Ranking",
-          "desc": "Repositories & Users Ranking",
-          "tag": "Tool",
-          "url": "https://github-ranking.anytao.net"
-        },
-        {
-          "title": "Github Rank",
-          "desc": "Github Users Ranking in China",
-          "tag": "Tool",
-          "url": "http://www.githubrank.com/"
         },
         {
           "title": "StaticGen",
@@ -57,12 +39,6 @@
           "url": "https://juejin.im/"
         },
         {
-          "title": "DiyCode",
-          "desc": "致力于构建开发工程师高端交流分享社区",
-          "tag": "Tool",
-          "url": "https://www.diycode.cc/"
-        },
-        {
           "title": "CNode",
           "desc": "Node.js专业中文社区",
           "tag": "Tool",
@@ -73,24 +49,6 @@
           "desc": "Where Developers Learn, Share, & Build Careers",
           "tag": "Tool",
           "url": "https://stackoverflow.com/"
-        },
-        {
-          "title": "黑客派",
-          "desc": "为未来而构建的社区",
-          "tag": "Tool",
-          "url": "https://hacpai.com/"
-        },
-        {
-          "title": "小专栏",
-          "desc": "专业人士的创作知识社区",
-          "tag": "Tool",
-          "url": "https://xiaozhuanlan.com/"
-        },
-        {
-          "title": "Ruby China",
-          "desc": "由众多爱好者共同维护的 Ruby 中文社区",
-          "tag": "Tool",
-          "url": "https://ruby-china.org/"
         },
         {
           "title": "GitHuber",
@@ -122,34 +80,10 @@
           "url": "https://news.ycombinator.com/"
         },
         {
-          "title": "Echo JS",
-          "desc": "JavaScript News",
-          "tag": "Tool",
-          "url": "http://www.echojs.com/"
-        },
-        {
           "title": "Product Hunt",
           "desc": "The best new products in tech.",
           "tag": "Tool",
           "url": "https://www.producthunt.com/"
-        },
-        {
-          "title": "Startup News",
-          "desc": "Startup News",
-          "tag": "Tool",
-          "url": "http://news.dbanotes.net/"
-        },
-        {
-          "title": "One App",
-          "desc": "All In One",
-          "tag": "Tool",
-          "url": "http://reader.one/"
-        },
-        {
-          "title": "Readhub",
-          "desc": "Readhub",
-          "tag": "Tool",
-          "url": "https://readhub.cn"
         },
         {
           "title": "It's FOSS",
@@ -158,22 +92,10 @@
           "url": "https://itsfoss.com/"
         },
         {
-          "title": "Medium",
-          "desc": "a place to read and write big ideas and important stories",
-          "tag": "Tool",
-          "url": "https://medium.com"
-        },
-        {
           "title": "W3Schools",
           "desc": "Online Web Tutorials",
           "tag": "Tool",
           "url": "https://www.w3schools.com/"
-        },
-        {
-          "title": "w3cplus",
-          "desc": "引领web前沿，打造前端精品教程",
-          "tag": "Tool",
-          "url": "https://www.w3cplus.com/"
         }
       ]
     },
@@ -187,30 +109,6 @@
           "url": "http://www.codesnippet.cn/"
         },
         {
-          "title": "开发者酷站",
-          "desc": "DiyCode",
-          "tag": "Tool",
-          "url": "https://www.diycode.cc/sites"
-        },
-        {
-          "title": "程序员的网站",
-          "desc": "网址导航",
-          "tag": "Tool",
-          "url": "http://fm126.xyz/"
-        },
-        {
-          "title": "GitNavi",
-          "desc": "你的专属生活网址导航 - Sharing All The World",
-          "tag": "Tool",
-          "url": "http://www.gitnavi.com/u/verizonwu/"
-        },
-        {
-          "title": "开源中国社区",
-          "desc": "开源项目大全",
-          "tag": "Tool",
-          "url": "https://www.oschina.net/project"
-        },
-        {
           "title": "Linux网站导航",
           "desc": "做个有用的导航",
           "tag": "Tool",
@@ -221,18 +119,6 @@
           "desc": "机器学习导航站",
           "tag": "Tool",
           "url": "https://www.mlhub123.com/"
-        },
-        {
-          "title": "钛导航",
-          "desc": "运营工作者专业导航网站",
-          "tag": "Tool",
-          "url": "https://web.geekji.cn/"
-        },
-        {
-          "title": "nodei.co",
-          "desc": "classy node.js badges, that's all",
-          "tag": "Tool",
-          "url": "https://nodei.co/"
         },
         {
           "title": "CodePen",
@@ -259,12 +145,6 @@
           "url": "https://unicode-table.com"
         },
         {
-          "title": "Favicon",
-          "desc": "Favicon Generator",
-          "tag": "Tool",
-          "url": "https://www.favicon.cc/"
-        },
-        {
           "title": "Carbon",
           "desc": "",
           "tag": "Tool",
@@ -275,18 +155,6 @@
           "desc": "Algorithm Visualizer",
           "tag": "Tool",
           "url": "http://algo-visualizer.jasonpark.me"
-        },
-        {
-          "title": "前端库",
-          "desc": "前端开发，JQUERY特效，全栈开发，vue开发",
-          "tag": "Tool",
-          "url": "http://www.jqhtml.com/"
-        },
-        {
-          "title": "易百教程",
-          "desc": "专注于IT教程和实例",
-          "tag": "Tool",
-          "url": "https://www.yiibai.com/"
         },
         {
           "title": "RegExr",
@@ -355,18 +223,6 @@
           "url": "https://explainshell.com/"
         },
         {
-          "title": "Tutorialspoint",
-          "desc": "You are browsing the best resource for Online Education",
-          "tag": "Tool",
-          "url": "http://www.tutorialspoint.com/"
-        },
-        {
-          "title": "Kaggle",
-          "desc": "Your Home for Data Science",
-          "tag": "Tool",
-          "url": "https://www.kaggle.com/"
-        },
-        {
           "title": "Mergely",
           "desc": "Diff text documents online",
           "tag": "Tool",
@@ -379,18 +235,6 @@
           "url": "https://isotope.metafizzy.co/"
         },
         {
-          "title": "Swiper",
-          "desc": "一款免费以及轻量级的移动设备触控滑块的js框架",
-          "tag": "Tool",
-          "url": "https://www.swiper.com.cn/"
-        },
-        {
-          "title": "UZER",
-          "desc": "您的云端超级应用空间",
-          "tag": "Tool",
-          "url": "https://uzer.me/"
-        },
-        {
           "title": "TablePlus",
           "desc": "Modern, Native Tool for Database Management",
           "tag": "Tool",
@@ -401,12 +245,6 @@
           "desc": "A free online diagramming application  and flowchart maker",
           "tag": "Tool",
           "url": "https://www.draw.io/"
-        },
-        {
-          "title": "聚合数据",
-          "desc": "API数据接口_免费数据调用",
-          "tag": "Tool",
-          "url": "https://www.juhe.cn/"
         },
         {
           "title": "Tables Generator",
@@ -430,84 +268,6 @@
           "desc": "无穷尽设计可能",
           "tag": "Tool",
           "url": "https://www.seeseed.com/"
-        },
-        {
-          "title": "DesignMunk",
-          "desc": "Best Homepage Design Inspiration",
-          "tag": "Tool",
-          "url": "https://designmunk.com"
-        },
-        {
-          "title": "Web前端导航",
-          "desc": "腾讯Web前端团队家的",
-          "tag": "Tool",
-          "url": "http://www.alloyteam.com/nav/"
-        },
-        {
-          "title": "前端网址导航",
-          "desc": "H-ui前端框架官方网站",
-          "tag": "Tool",
-          "url": "http://www.h-ui.net/site.shtml"
-        },
-        {
-          "title": "前端氪导航",
-          "desc": "站在前方，为你导航",
-          "tag": "Tool",
-          "url": "https://csskr.com/"
-        },
-        {
-          "title": "创造狮",
-          "desc": "创意工作者导航",
-          "tag": "Tool",
-          "url": "http://chuangzaoshi.com/"
-        },
-        {
-          "title": "牛大拿导航",
-          "desc": "牛大拿设计师导航",
-          "tag": "Tool",
-          "url": "http://www.niudana.com/"
-        },
-        {
-          "title": "比格张",
-          "desc": "发现更好的网站",
-          "tag": "Tool",
-          "url": "https://bigezhang.com/"
-        },
-        {
-          "title": "Behance",
-          "desc": "Behance 作品精选",
-          "tag": "Tool",
-          "url": "https://www.behance.net/"
-        },
-        {
-          "title": "设计导航",
-          "desc": "精选最好的设计网站大全",
-          "tag": "Tool",
-          "url": "http://hao.shejidaren.com/"
-        },
-        {
-          "title": "优设-UISDC",
-          "desc": "优秀设计联盟-SDC",
-          "tag": "Tool",
-          "url": "http://www.uisdc.com/"
-        },
-        {
-          "title": "Novapattern",
-          "desc": "Curated Collection of High-Quality Patterns",
-          "tag": "Tool",
-          "url": "https://www.novapattern.com/"
-        },
-        {
-          "title": "优设导航",
-          "desc": "学设计从这里开始",
-          "tag": "Tool",
-          "url": "https://hao.uisdc.com/"
-        },
-        {
-          "title": "优优教程网",
-          "desc": "设计教程-马了再练不如马上练",
-          "tag": "Tool",
-          "url": "https://uiiiuiii.com/"
         },
         {
           "title": "图说设计模式",
@@ -610,12 +370,6 @@
           "url": "https://fonts.google.com/"
         },
         {
-          "title": "站酷字体合集",
-          "desc": "站酷网（ZCOOL）",
-          "tag": "Source",
-          "url": "https://www.zcool.com.cn/special/zcoolfonts/"
-        },
-        {
           "title": "思源宋体",
           "desc": "思源宋体",
           "tag": "Source",
@@ -644,12 +398,6 @@
           "desc": "Font Library",
           "tag": "Source",
           "url": "https://fontlibrary.org/"
-        },
-        {
-          "title": "DejaVu Fonts",
-          "desc": "DejaVu Fonts",
-          "tag": "Source",
-          "url": "https://dejavu-fonts.github.io/"
         }
       ]
     },
