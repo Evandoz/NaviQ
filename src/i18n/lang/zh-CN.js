@@ -27,6 +27,5 @@ export default {
   All: '分类',
   Fav: '收藏',
   SMS: 'SMS',
-  Nav: '其他',
-  About: '关于'
+  Nav: '导航'
 }

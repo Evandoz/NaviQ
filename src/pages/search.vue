@@ -27,10 +27,6 @@ export default {
         {
           name: 'Bing',
           site: 'https://www.bing.com/search?q='
-        },
-        {
-          name: 'Baidu',
-          site: 'https://www.baidu.com/s?wd='
         }
       ],
       select: 'https://www.google.com/search?q=',
