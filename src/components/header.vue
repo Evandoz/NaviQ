@@ -121,9 +121,11 @@ export default {
       transition: all 0.2s
     >.menu
       min-height: 100%
+      display: flex
+      flex-direction: column
+      justify-content: center
       >.ivu-menu
-        padding-top: 6vh
-        padding-bottom: calc(6vh + 32px)
+        padding-bottom: 32px
         &.ivu-menu-vertical
           &.ivu-menu-light
             &:after
@@ -131,6 +133,7 @@ export default {
           .ivu-menu-item,
           .ivu-menu-submenu-title
             line-height: 1.5
+            text-align: center
             &:after
               content: none
     >.icon

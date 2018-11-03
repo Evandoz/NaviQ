@@ -26,6 +26,12 @@
           "desc": "TechLookup - Find the websites using certain technologies",
           "tag": "Tool",
           "url": "https://techlookup.hunter.io/"
+        },
+        {
+          "title": "GitHuber",
+          "desc": "Github 开发者社区",
+          "tag": "Tool",
+          "url": "https://githuber.cn/"
         }
       ]
     },
@@ -51,22 +57,11 @@
           "url": "https://stackoverflow.com/"
         },
         {
-          "title": "GitHuber",
-          "desc": "Github 开发者社区",
-          "tag": "Tool",
-          "url": "https://githuber.cn/"
-        },
-        {
           "title": "LaTeX工作室",
           "desc": "分享与学习LaTeX的王国",
           "tag": "Tool",
           "url": "http://www.latexstudio.net/"
-        }
-      ]
-    },
-    {
-      "class": "News",
-      "content": [
+        },
         {
           "title": "机器之心",
           "desc": "全球人工智能信息服务",
@@ -78,29 +73,11 @@
           "desc": "News",
           "tag": "Tool",
           "url": "https://news.ycombinator.com/"
-        },
-        {
-          "title": "Product Hunt",
-          "desc": "The best new products in tech.",
-          "tag": "Tool",
-          "url": "https://www.producthunt.com/"
-        },
-        {
-          "title": "It's FOSS",
-          "desc": "A Linux and Open Source Web Portal",
-          "tag": "Tool",
-          "url": "https://itsfoss.com/"
-        },
-        {
-          "title": "W3Schools",
-          "desc": "Online Web Tutorials",
-          "tag": "Tool",
-          "url": "https://www.w3schools.com/"
         }
       ]
     },
     {
-      "class": "Develop",
+      "class": "Resource",
       "content": [
         {
           "title": "代码片段",
@@ -121,82 +98,10 @@
           "url": "https://www.mlhub123.com/"
         },
         {
-          "title": "CodePen",
-          "desc": "Create a New Pen",
-          "tag": "Tool",
-          "url": "https://codepen.io"
-        },
-        {
-          "title": "Console Compiler",
-          "desc": "Console Compiler",
-          "tag": "Tool",
-          "url": "https://compiler.run/"
-        },
-        {
-          "title": "Animista",
-          "desc": "CSS Animations",
-          "tag": "Tool",
-          "url": "http://animista.net/"
-        },
-        {
           "title": "Unicode字符百科",
           "desc": "",
           "tag": "Tool",
           "url": "https://unicode-table.com"
-        },
-        {
-          "title": "Carbon",
-          "desc": "",
-          "tag": "Tool",
-          "url": "https://carbon.now.sh"
-        },
-        {
-          "title": "Algo-Visualizer",
-          "desc": "Algorithm Visualizer",
-          "tag": "Tool",
-          "url": "http://algo-visualizer.jasonpark.me"
-        },
-        {
-          "title": "RegExr",
-          "desc": "Learn, Build, & Test RegEx",
-          "tag": "Tool",
-          "url": "https://regexr.com/"
-        },
-        {
-          "title": "Beyondcow",
-          "desc": "",
-          "tag": "Tool",
-          "url": "https://www.beyondcow.com/"
-        },
-        {
-          "title": "Libraries",
-          "desc": "The Open Source Discovery Service",
-          "tag": "Tool",
-          "url": "https://libraries.io/"
-        },
-        {
-          "title": "DevDocs API",
-          "desc": "",
-          "tag": "Tool",
-          "url": "http://devdocs.io/"
-        },
-        {
-          "title": "Zeal",
-          "desc": "Offline Documentation Browser",
-          "tag": "Tool",
-          "url": "https://zealdocs.org/"
-        },
-        {
-          "title": "Cacher",
-          "desc": "Code snippet organizer for pros",
-          "tag": "Tool",
-          "url": "https://www.cacher.io/"
-        },
-        {
-          "title": "Dash",
-          "desc": "API Documentation Browser, Snippet Manager - Kapeli",
-          "tag": "Tool",
-          "url": "https://kapeli.com"
         },
         {
           "title": "Python Extension",
@@ -223,16 +128,16 @@
           "url": "https://explainshell.com/"
         },
         {
+          "title": "Draw.io",
+          "desc": "A free online diagramming application  and flowchart maker",
+          "tag": "Tool",
+          "url": "https://www.draw.io/"
+        },
+        {
           "title": "Mergely",
           "desc": "Diff text documents online",
           "tag": "Tool",
           "url": "http://www.mergely.com/"
-        },
-        {
-          "title": "Isotope",
-          "desc": "Filter & sort magical layouts",
-          "tag": "Tool",
-          "url": "https://isotope.metafizzy.co/"
         },
         {
           "title": "TablePlus",
@@ -241,16 +146,70 @@
           "url": "https://tableplus.io/"
         },
         {
-          "title": "Draw.io",
-          "desc": "A free online diagramming application  and flowchart maker",
+          "title": "DevDocs API",
+          "desc": "",
           "tag": "Tool",
-          "url": "https://www.draw.io/"
+          "url": "http://devdocs.io/"
+        },
+        {
+          "title": "Dash",
+          "desc": "API Documentation Browser, Snippet Manager - Kapeli",
+          "tag": "Tool",
+          "url": "https://kapeli.com"
+        },
+        {
+          "title": "Zeal",
+          "desc": "Offline Documentation Browser",
+          "tag": "Tool",
+          "url": "https://zealdocs.org/"
+        },
+        {
+          "title": "Carbon",
+          "desc": "",
+          "tag": "Tool",
+          "url": "https://carbon.now.sh"
+        },
+        {
+          "title": "CodePen",
+          "desc": "Create a New Pen",
+          "tag": "Tool",
+          "url": "https://codepen.io"
+        },
+        {
+          "title": "Cacher",
+          "desc": "Code snippet organizer for pros",
+          "tag": "Tool",
+          "url": "https://www.cacher.io/"
+        },
+        {
+          "title": "Beyondcow",
+          "desc": "",
+          "tag": "Tool",
+          "url": "https://www.beyondcow.com/"
+        },
+        {
+          "title": "Animista",
+          "desc": "CSS Animations",
+          "tag": "Tool",
+          "url": "http://animista.net/"
+        },
+        {
+          "title": "Libraries",
+          "desc": "The Open Source Discovery Service",
+          "tag": "Tool",
+          "url": "https://libraries.io/"
         },
         {
           "title": "Tables Generator",
           "desc": "Create LaTeX tables online",
           "tag": "Tool",
           "url": "https://www.tablesgenerator.com/"
+        },
+        {
+          "title": "Console Compiler",
+          "desc": "Console Compiler",
+          "tag": "Tool",
+          "url": "https://compiler.run/"
         }
       ]
     },
@@ -274,12 +233,6 @@
           "desc": "Graphic Design Patterns",
           "tag": "Tool",
           "url": "https://design-patterns.readthedocs.io/zh_CN/latest/index.html"
-        },
-        {
-          "title": "STUDIO",
-          "desc": "Create your website from scratch without coding",
-          "tag": "Tool",
-          "url": "https://studio.design/"
         },
         {
           "title": "MDUI",

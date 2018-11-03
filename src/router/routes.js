@@ -1,22 +1,16 @@
 import develop from '@/pages/develop'
 import read from '@/pages/read'
 import media from '@/pages/media'
-import fav from '@/pages/fav'
-import search from '@/pages/search'
+import other from '@/pages/other'
 
 const routes = [
   {
     path: '/',
-    redirect: '/develop'
+    redirect: '/dev'
   },
   {
-    path: '/so',
-    name: 'search',
-    component: search
-  },
-  {
-    path: '/develop',
-    name: 'develop',
+    path: '/dev',
+    name: 'dev',
     component: develop
   },
   {
@@ -30,9 +24,9 @@ const routes = [
     component: media
   },
   {
-    path: '/fav',
-    name: 'fav',
-    component: fav
+    path: '/other',
+    name: 'other',
+    component: other
   }
 ]
 

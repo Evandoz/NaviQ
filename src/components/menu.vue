@@ -1,11 +1,10 @@
 <template>
   <div class="menu">
     <Menu :mode="mode" :active-name="activeName" width="auto">
-      <MenuItem name="/so" to="/so">{{$t('Search')}}</MenuItem>
-      <MenuItem name="/develop" to="/develop">{{$t('Develop')}}</MenuItem>
+      <MenuItem name="/dev" to="/dev">{{$t('Develop')}}</MenuItem>
       <MenuItem name="/read" to="/read">{{$t('Read')}}</MenuItem>
       <MenuItem name="/media" to="/media">{{$t('Media')}}</MenuItem>
-      <MenuItem name="/fav" to="/fav">{{$t('Fav')}}</MenuItem>
+      <MenuItem name="/other" to="/other">{{$t('Other')}}</MenuItem>
     </Menu>
   </div>
 </template>

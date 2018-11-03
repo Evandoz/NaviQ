@@ -1,5 +1,5 @@
 export default {
-  Search: 'Search',
+  Search: 'Search Engine',
   Design: 'Design',
   Statistics: 'Statistics',
   Community: 'Community',
