@@ -1,10 +1,10 @@
-// The Vue build version to load with the `import` command
-// (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 import Vue from 'vue'
 import iView from 'iview'
 
-import App from './App'
-import router from './router'
+import App from './App.vue'
+import router from './router/index'
+import store from './store'
+
 import i18n from './i18n'
 
 import 'normalize.css'
@@ -17,11 +17,9 @@ Vue.use(iView, {
   i18n: (key, value) => i18n.t(key, value)
 })
 
-/* eslint-disable no-new */
 new Vue({
-  el: '#app',
   router,
+  store,
   i18n,
-  components: { App },
-  template: '<App/>'
-})
+  render: h => h(App)
+}).$mount('#app')

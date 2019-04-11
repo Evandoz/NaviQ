@@ -6,7 +6,7 @@
       </Header>
       <Content>
         <keep-alive>
-          <router-view></router-view>
+          <router-view/>
         </keep-alive>
       </Content>
       <Footer>
@@ -30,7 +30,7 @@ export default {
 }
 </script>
 
-<style lang="stylus" rel="stylesheet/stylus">
+<style lang="stylus">
 .ivu-layout
   min-height: 100vh
   background: transparent

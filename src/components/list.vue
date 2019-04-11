@@ -42,7 +42,7 @@ export default {
   },
   methods: {
     _loadSite () {
-      $.getJSON('static/data/' + this.cls + '.json', (response) => {
+      $.getJSON('data/' + this.cls + '.json', (response) => {
         this.websites = response.websites
       })
     }

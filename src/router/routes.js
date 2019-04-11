@@ -1,7 +1,7 @@
-import develop from '@/pages/develop'
-import read from '@/pages/read'
-import media from '@/pages/media'
-import other from '@/pages/other'
+import develop from '@/views/develop'
+import read from '@/views/read'
+import media from '@/views/media'
+import other from '@/views/other'
 
 const routes = [
   {
