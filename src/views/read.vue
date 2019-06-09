@@ -1,29 +1,22 @@
 <template>
   <div class="content">
-    <list :cls="cls"></list>
+    <list :websites="websites"></list>
   </div>
 </template>
 
 <script>
 
+import read from "@/assets/read";
 import list from '@/components/list'
 
 export default {
+  components: {
+    list
+  },
   data () {
     return {
-      cls: 'read'
+      websites: read
     }
-  },
-  created () {
-    this.$nextTick(() => {
-
-    })
-  },
-  methods: {
-
-  },
-  components: {
-    'list': list
   }
 }
 </script>

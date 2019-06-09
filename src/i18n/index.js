@@ -33,7 +33,8 @@ const messages = {
 
 const i18n = new VueI18n({
   locale: lang, // 语言标识，通过切换locale（this.$i18n.locale）的值来实现语言切换
-  messages
+  messages,
+  silentTranslationWarn: true
 })
 
 export default i18n

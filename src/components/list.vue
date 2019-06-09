@@ -22,29 +22,10 @@
 
 <script>
 
-import $ from 'jquery'
-
 export default {
   props: {
-    cls: {
-      type: String
-    }
-  },
-  data () {
-    return {
-      websites: {}
-    }
-  },
-  mounted () {
-    this.$nextTick(() => {
-      this._loadSite()
-    })
-  },
-  methods: {
-    _loadSite () {
-      $.getJSON('data/' + this.cls + '.json', (response) => {
-        this.websites = response.websites
-      })
+    websites: {
+      type: Array
     }
   }
 }
