@@ -49,7 +49,7 @@ export default {
       margin: 50px auto
       @media screen and (min-width: 768px)
         width: 90%
-        min-width: 723px
+        min-width: 722px
   .ivu-layout-footer
     background: #EEEEEE
 </style>

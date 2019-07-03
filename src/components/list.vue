@@ -31,15 +31,15 @@ export default {
 }
 </script>
 
-<style lang="stylus" rel="stylesheet/stylus">
+<style lang="stylus" scoped>
 .cls-list
   margin: 0 auto
-  @media screen and (min-width: 341px)
-    width: 320px
-  @media screen and (min-width: 523px)
-    width: 490px
-  @media screen and (min-width: 703px)
-    width: 660px
+  @media screen and (min-width: 362px)
+    width: 340px
+  @media screen and (min-width: 554px)
+    width: 520px
+  @media screen and (min-width: 745  px)
+    width: 700px
   // screen = 768px -> width = 100% -> 660 / 0.94 = 703
   // @media screen and (min-width: 781px)
   //   width: 660px
@@ -67,11 +67,12 @@ export default {
         margin: 0 20px 20px 0
         background: #FFFFFF
         text-align: center
-        border-radius: 1px
+        border-radius: 3px
         .link
           position: relative
-          display: block
-          width: 150px
+          display: flex
+          justify-content center
+          width: 160px
           height: 46px
           padding: 15px 5px
           box-sizing: border-box
@@ -87,12 +88,11 @@ export default {
             color: #ffffff
             border-top-left-radius: 2px
             background: #2db7f5
-          img, h2
-            display: inline-block
           img
+            display: block
             vertical-align: top
           h2
-            margin: 0
+            margin: 0 0 0 5px
             line-height: 16px
             font-size: 15px
             color: #222333
