@@ -4,18 +4,20 @@
       <div class="cls-header">
         <h1 class="title">{{$t(website.class)}}</h1>
       </div>
-      <div class="cls-content">
-        <div class="card" v-for="(item, index) in website.content" :key="index">
-          <!-- https://ico.mikelin.cn -->
-          <!-- https://www.google.com/s2/favicons?domain= -->
-          <a class="link" :href="item.url">
-            <!-- <span class="tag">{{ item.tag }}</span> -->
-            <img :src="'https://ico.mikelin.cn/'+item.url" :alt="item.title">
-            <h2>{{ item.title }}</h2>
-            <!-- <p v-if="item.desc">{{ item.desc }}</p> -->
-          </a>
-        </div>
-      </div>
+      <!-- <div class="cls-content"> -->
+        <transition-group class="cls-content" name="card" tag="div">
+          <div class="card" v-for="(item, index) in website.content" :key="index">
+            <!-- https://ico.mikelin.cn -->
+            <!-- https://www.google.com/s2/favicons?domain= -->
+            <a class="link" :href="item.url" target="_blank">
+              <!-- <span class="tag">{{ item.tag }}</span> -->
+              <img :src="'https://ico.mikelin.cn/'+item.url" :alt="item.title">
+              <h2>{{ item.title }}</h2>
+              <!-- <p v-if="item.desc">{{ item.desc }}</p> -->
+            </a>
+          </div>
+        </transition-group>
+      <!-- </div> -->
     </div>
   </div>
 </template>
@@ -32,25 +34,34 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
+.card-enter,
+.card-leave-to
+/* .list-complete-leave-active for below version 2.1.8 */
+  opacity: 0;
+  transform: translate3d(10px, 10px, 0);
+
+.card-move
+  transition transform 1s
+
 .cls-list
   margin: 0 auto
   @media screen and (min-width: 362px)
     width: 340px
   @media screen and (min-width: 554px)
     width: 520px
-  @media screen and (min-width: 745  px)
+  @media screen and (min-width: 745px)
     width: 700px
-  // screen = 768px -> width = 100% -> 660 / 0.94 = 703
-  // @media screen and (min-width: 781px)
-  //   width: 660px
-  @media screen and (min-width: 981px)
-    width: 830px
-  @media screen and (min-width: 1182px)
-    width: 1000px
-  @media screen and (min-width: 1383px)
-    width: 1170px
-  @media screen and (min-width: 1584px)
-    width: 1340px
+  // screen = 768px -> width = 100% -> 700 / 0.94 = 745
+  // @media screen and (min-width: 830px)
+  //   width: 700px
+  @media screen and (min-width: 1041px)
+    width: 880px
+  @media screen and (min-width: 1253px)
+    width: 1060px
+  @media screen and (min-width: 1466px)
+    width: 1240px
+  @media screen and (min-width: 1679px)
+    width: 1420px
   .cls-item
     .cls-header
       margin: 20px 0
