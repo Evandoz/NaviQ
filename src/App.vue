@@ -1,18 +1,20 @@
 <template>
   <div id="app">
-    <Layout>
-      <Header>
-        <elheader></elheader>
-      </Header>
-      <Content>
-        <keep-alive>
-          <router-view/>
-        </keep-alive>
-      </Content>
-      <Footer>
-        <elfooter></elfooter>
-      </Footer>
-    </Layout>
+    <div class="container">
+      <Layout>
+        <Header>
+          <elheader></elheader>
+        </Header>
+        <Content>
+            <keep-alive>
+              <router-view/>
+            </keep-alive>
+        </Content>
+        <Footer>
+          <elfooter></elfooter>
+        </Footer>
+      </Layout>
+    </div>
   </div>
 </template>
 
@@ -29,10 +31,16 @@ export default {
   }
 }
 </script>
-
 <style lang="stylus">
+#app
+  height 100vh
+  overflow: hidden
+.container
+  margin-right: -20px
+  overflow: auto
 .ivu-layout
-  min-height: 100vh
+  width: 100vw
+  height: 100vh
   background: transparent
   .ivu-layout-header,
   .ivu-layout-content,

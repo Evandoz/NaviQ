@@ -191,6 +191,24 @@ const read = [
         desc: "Learn Words - English Dictionary",
         tag: "Tool",
         url: "https://www.vocabulary.com/"
+      },
+      {
+        title: "Aboboo",
+        desc: "学外语必备神器",
+        tag: "Tool",
+        url: "http://www.aboboo.com/"
+      },
+      {
+        title: "猿学",
+        desc: "你所学的，不仅是技术",
+        tag: "Tool",
+        url: "https://www.yuanxue365.com/"
+      },
+      {
+        title: "译学馆",
+        desc: "知识无疆界",
+        tag: "Tool",
+        url: "https://www.yxgapp.com/"
       }
     ]
   }

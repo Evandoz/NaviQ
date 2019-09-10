@@ -26,10 +26,11 @@ export default {
 
 <style lang="stylus" scoped>
 .footer
-  padding: 15px 2%
+  padding: 16px 2%
   p
+    height: 24px
     margin: 0
-    line-height: 1.8
+    line-height: @height
     font-size: 14px
     color: #334455
     text-align: center

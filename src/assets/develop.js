@@ -72,6 +72,12 @@ const develop = [
         desc: "News",
         tag: "Tool",
         url: "https://news.ycombinator.com/"
+      },
+      {
+        title: "Product Hunt",
+        desc: "The best new products in tech",
+        tag: "Tool",
+        url: "https://www.producthunt.com/"
       }
     ]
   },
@@ -173,6 +179,12 @@ const develop = [
         desc: "Create a New Pen",
         tag: "Tool",
         url: "https://codepen.io"
+      },
+      {
+        title: "CoderPad",
+        desc: "Help you hire better candidates faster",
+        tag: "Tool",
+        url: "https://coderpad.io/"
       },
       {
         title: "Cacher",

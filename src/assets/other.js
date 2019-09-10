@@ -33,6 +33,12 @@ const other =  [
         url: "https://so.mezw.com/"
       },
       {
+        title: "秘迹搜索",
+        desc: "这是一个不追踪你的搜索引擎",
+        tag: "Tool",
+        url: "https://mijisou.com/"
+      },
+      {
         title: "Qwant",
         desc: "The search engine that respects your privacy",
         tag: "Tool",
@@ -76,7 +82,13 @@ const other =  [
         title: "思行志",
         desc: "胡思乱想·胡编乱造",
         tag: "Tool",
-        url: "https://floretten.com/Evandoz"
+        url: "https://evandoz.github.io/Evandoz"
+      },
+      {
+        title: "底噪",
+        desc: "不疯魔不成活",
+        tag: "Tool",
+        url: "https://zhih.me/"
       },
       {
         title: "SogaSo.ga",

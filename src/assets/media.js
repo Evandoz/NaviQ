@@ -55,6 +55,18 @@ const media = [
         desc: "convert PDF to Word or Image to text",
         tag: "Tool",
         url: "https://www.onlineocr.net/"
+      },
+      {
+        title: "图表秀",
+        desc: "免费在线图表制作工具,数据可视化工具",
+        tag: "Tool",
+        url: "https://www.tubiaoxiu.com/"
+      },
+      {
+        title: "文档翻译器",
+        desc: "免费的在线文档翻译器，保留原文档的排版",
+        tag: "Tool",
+        url: "https://www.onlinedoctranslator.com/"
       }
     ]
   },
