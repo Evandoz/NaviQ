@@ -1,9 +1,9 @@
 import Vue from 'vue'
 import VueI18n from 'vue-i18n'
 
-import zhCnLocale from 'iview/src/locale/lang/zh-CN'
-// import zhTwLocale from 'iview/src/locale/lang/zh-TW'
-import enUsLocale from 'iview/src/locale/lang/en-US'
+import zhCnLocale from 'iview/dist/locale/zh-CN'
+// import zhTwLocale from 'iview/dist/locale/zh-TW'
+import enUsLocale from 'iview/dist/locale/en-US'
 
 import zhCnCustom from './lang/zh-CN'
 // import zhTwcustom from './lang/zh-TW'
