@@ -16,10 +16,6 @@ const navLang = navigator.language
 const localLang = (navLang === 'zh-CN' || navLang === 'en-US') ? navLang : false
 let lang = window.localStorage.lang || localLang || 'zh-CN'
 
-Vue.config.lang = lang
-
-Vue.locale = () => {}
-
 const messages = {
   'zh-CN': { // 中文语言包
     ...zhCnLocale,
