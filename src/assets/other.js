@@ -9,6 +9,71 @@ const other =  [
         url: "https://duckduckgo.com/"
       },
       {
+        title: "DogeDoge 搜索",
+        desc: "不追踪，不误导",
+        tag: "Tool",
+        url: "https://www.dogedoge.com/"
+      },
+      {
+        title: "Рамблер/поиск",
+        desc: "Рамблер/поиск",
+        tag: "Tool",
+        url: "https://r0.ru/"
+      },
+      {
+        title: "Yandex",
+        desc: "Primarily serves audiences in Russia and the CIS",
+        tag: "Tool",
+        url: "https://yandex.com/"
+      },
+      {
+        title: "Wolfram|Alpha",
+        desc: "Computational Intelligence",
+        tag: "Tool",
+        url: "https://www.wolframalpha.com/"
+      },
+      {
+        title: "MEZW搜索",
+        desc: "聚合搜索引擎，提供准确、干净的网页内容搜索服务",
+        tag: "Tool",
+        url: "https://so.mezw.com/"
+      },
+      {
+        title: "秘迹搜索",
+        desc: "这是一个不追踪你的搜索引擎",
+        tag: "Tool",
+        url: "https://mijisou.com/"
+      },
+      {
+        title: "Qwant",
+        desc: "The search engine that respects your privacy",
+        tag: "Tool",
+        url: "https://www.qwant.com/"
+      },
+      {
+        title: "Listen Notes",
+        desc: "Best podcast search engine & podcast database",
+        tag: "Tool",
+        url: "https://www.listennotes.com/"
+      },
+      {
+        title: "ZoomEye",
+        desc: "Cyberspace Search Engine",
+        tag: "Tool",
+        url: "https://www.zoomeye.org/"
+      }
+    ]
+  },
+  {
+    class: "Search",
+    content: [
+      {
+        title: "DogeDoge 搜索",
+        desc: "不追踪，不误导",
+        tag: "Tool",
+        url: "https://www.dogedoge.com/"
+      },
+      {
         title: "Рамблер/поиск",
         desc: "Рамблер/поиск",
         tag: "Tool",
@@ -79,12 +144,6 @@ const other =  [
     class: "Fav",
     content: [
       {
-        title: "思行志",
-        desc: "胡思乱想·胡编乱造",
-        tag: "Tool",
-        url: "https://evandoz.github.io/Evandoz"
-      },
-      {
         title: "底噪",
         desc: "不疯魔不成活",
         tag: "Tool",
@@ -95,6 +154,12 @@ const other =  [
         desc: "SogaSo.ga",
         tag: "Tool",
         url: "https://d.sogaso.ga/"
+      },
+      {
+        title: "Lellansin's 冰森",
+        desc: "Stay hungry, stay foolish, stay patient",
+        tag: "Tool",
+        url: "https://lellansin.wordpress.com/"
       },
       {
         title: "无垠",
@@ -119,6 +184,18 @@ const other =  [
         desc: "The Aha Moments",
         tag: "Tool",
         url: "http://www.matrix67.com/blog/"
+      },
+      {
+        title: "柳比歇夫时间记录法实践手册",
+        desc: "",
+        tag: "Tool",
+        url: "https://shimo.im/docs/yQNvoB7mig0WLHTn/read"
+      },
+      {
+        title: "Alex90",
+        desc: "",
+        tag: "Tool",
+        url: "https://www.jianshu.com/u/5086c9f76fb0"
       },
       {
         title: "w3cTrain",

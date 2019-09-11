@@ -110,8 +110,14 @@ const read = [
     class: "History",
     content: [
       {
+        title: "全历史",
+        desc: "全历史(Allhistory）以AI知识图谱为核心引擎，通过高度时空化、关联化数据的方式构造及展现数字人文内容，尤其是历史知识。让用户沉浸在纵横开阔、左图右史的（历史、人文、社科等）知识海洋中。",
+        tag: "Source",
+        url: "https://www.allhistory.com/"
+      },
+      {
         title: "今日诗词API",
-        desc: "今日诗词 - 诗词实时智能推荐 - 今日诗词开放接口 - ",
+        desc: "今日诗词 - 诗词实时智能推荐 - 今日诗词开放接口",
         tag: "Source",
         url: "https://www.jinrishici.com/"
       },
@@ -193,6 +199,30 @@ const read = [
         url: "https://www.vocabulary.com/"
       },
       {
+        title: "剑桥词典",
+        desc: "查找意思、解释及翻译",
+        tag: "Tool",
+        url: "https://dictionary.cambridge.org/zhs/"
+      },
+      {
+        title: "Online Etymology Dictionary",
+        desc: "Origin, history and meaning of English words",
+        tag: "Tool",
+        url: "https://www.etymonline.com/"
+      },
+      {
+        title: "Collins Online Dictionary",
+        desc: "Definitions, Thesaurus and Translations",
+        tag: "Tool",
+        url: "https://www.collinsdictionary.com/"
+      },
+      {
+        title: "Oxford Dictionaries",
+        desc: "The World's Most Trusted Dictionary Provider",
+        tag: "Tool",
+        url: "https://languages.oup.com/"
+      },
+      {
         title: "Aboboo",
         desc: "学外语必备神器",
         tag: "Tool",
@@ -209,6 +239,12 @@ const read = [
         desc: "知识无疆界",
         tag: "Tool",
         url: "https://www.yxgapp.com/"
+      },
+      {
+        title: "O'Reilly Media",
+        desc: "Technology and Business Training",
+        tag: "Tool",
+        url: "https://www.oreilly.com/"
       }
     ]
   }

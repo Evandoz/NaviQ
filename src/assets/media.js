@@ -3,6 +3,18 @@ const media = [
     class: "Doc",
     content: [
       {
+        title: "Beautiful.ai",
+        desc: "Presentation Software - Basic to Beautiful in Minutes",
+        tag: "Tool",
+        url: "https://www.beautiful.ai/"
+      },
+      {
+        title: "吾道幻灯片",
+        desc: "专业演示文档制作工具，PPT模板，协同办公",
+        tag: "Tool",
+        url: "https://www.woodo.cn/"
+      },
+      {
         title: "Tables Generator",
         desc: "Create LaTeX tables online",
         tag: "Tool",
@@ -13,6 +25,12 @@ const media = [
         desc: "可多人实时协作的云端文档与表格",
         tag: "Tool",
         url: "https://shimo.im/"
+      },
+      {
+        title: "大师笔记",
+        desc: "如大师般 管理智慧",
+        tag: "Tool",
+        url: "https://masterway.cc/"
       },
       {
         title: "Apowersoft",
@@ -63,6 +81,12 @@ const media = [
         url: "https://www.tubiaoxiu.com/"
       },
       {
+        title: "UZER.ME",
+        desc: "您的云端超级应用空间",
+        tag: "Tool",
+        url: "https://uzer.me/"
+      },
+      {
         title: "文档翻译器",
         desc: "免费的在线文档翻译器，保留原文档的排版",
         tag: "Tool",
@@ -96,6 +120,18 @@ const media = [
   {
     class: "Tool",
     content: [
+      {
+        title: "全球直播频道",
+        desc: "高清无插件在线电视直播-TvvGo.com",
+        tag: "Tool",
+        url: "http://tvvgo.com/"
+      },
+      {
+        title: "NICETOOL+",
+        desc: "在线工具大全，用完即走，触手可及_好工具网",
+        tag: "Tool",
+        url: "http://www.nicetool.net/"
+      },
       {
         title: "BrowserFrame",
         desc: "Wrap screenshots in browser frames",
@@ -149,12 +185,24 @@ const media = [
         desc: "The Maker of Sketchpad",
         tag: "Tool",
         url: "https://sketch.io"
+      },
+      {
+        title: "VLC",
+        desc: "全平台的自由多媒体解决方案！ - VideoLAN",
+        tag: "Tool",
+        url: "https://www.videolan.org/"
       }
     ]
   },
   {
     class: "Picture",
     content: [
+      {
+        title: "Pexels",
+        desc: "Free stock photos",
+        tag: "Tool",
+        url: "https://www.pexels.com/"
+      },
       {
         title: "Unsplash",
         desc: "Beautiful Free Images & Pictures",
@@ -192,6 +240,12 @@ const media = [
         url: "https://img.top/"
       },
       {
+        title: "POCO摄影图片社区",
+        desc: "领先的时尚摄影平台，摄影视频，摄影爱好者分享作品和技巧首选，个人空间",
+        tag: "Tool",
+        url: "http://www.poco.cn/"
+      },
+      {
         title: "iLoveIMG",
         desc: "图像文件在线编辑工具",
         tag: "Tool",
@@ -202,6 +256,12 @@ const media = [
         desc: "Convert image format Online",
         tag: "Tool",
         url: "https://jinaconvert.com/"
+      },
+      {
+        title: "Bigjpg",
+        desc: "AI人工智能图片无损放大 - 使用人工智能深度卷积神经网络(CNN)无损放大图片",
+        tag: "Tool",
+        url: "https://bigjpg.com/"
       },
       {
         title: "TinyPNG",

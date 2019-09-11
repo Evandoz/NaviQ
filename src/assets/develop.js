@@ -78,6 +78,18 @@ const develop = [
         desc: "The best new products in tech",
         tag: "Tool",
         url: "https://www.producthunt.com/"
+      },
+      {
+        title: "新趣集",
+        desc: "一起发现有趣的新产品",
+        tag: "Tool",
+        url: "https://xinquji.com/"
+      },
+      {
+        title: "小专栏",
+        desc: "专业人士的创作知识社区",
+        tag: "Tool",
+        url: "https://xiaozhuanlan.com/"
       }
     ]
   },
@@ -85,10 +97,28 @@ const develop = [
     class: "Resource",
     content: [
       {
+        title: "I18n Translation",
+        desc: "I18n Translation Search Engine| Free i18n Tools for App&Web",
+        tag: "Tool",
+        url: "https://i18ns.com"
+      },
+      {
         title: "代码片段",
         desc: "",
         tag: "Tool",
         url: "http://www.codesnippet.cn/"
+      },
+      {
+        title: "Twilio",
+        desc: "Communication APIs for SMS, Voice, Video and Authentication",
+        tag: "Tool",
+        url: "https://www.twilio.com/"
+      },
+      {
+        title: "Syncd",
+        desc: "自动化部署工具",
+        tag: "Tool",
+        url: "https://syncd.cc/"
       },
       {
         title: "Linux网站导航",
@@ -101,6 +131,36 @@ const develop = [
         desc: "机器学习导航站",
         tag: "Tool",
         url: "https://www.mlhub123.com/"
+      },
+      {
+        title: "Scrumpy",
+        desc: "A Beautiful Project Management Tool for Agile Teams",
+        tag: "Tool",
+        url: "https://scrumpy.io/"
+      },
+      {
+        title: "前端导航",
+        desc: "",
+        tag: "Tool",
+        url: "https://javasoho.com/"
+      },
+      {
+        title: "React-UWP",
+        desc: "React-UWP App Developer | Docs",
+        tag: "Tool",
+        url: "https://www.react-uwp.com/"
+      },
+      {
+        title: "Easy Mock",
+        desc: "更简单高效的伪造数据",
+        tag: "Tool",
+        url: "https://easy-mock.com"
+      },
+      {
+        title: "WooYun知识库",
+        desc: "",
+        tag: "Tool",
+        url: "https://wooyun.kieran.top"
       },
       {
         title: "Unicode字符百科",
@@ -221,6 +281,12 @@ const develop = [
         desc: "Console Compiler",
         tag: "Tool",
         url: "https://compiler.run/"
+      },
+      {
+        title: "Linux Kernel",
+        desc: "The Linux Kernel Archives",
+        tag: "Tool",
+        url: "https://www.kernel.org/"
       }
     ]
   },
@@ -232,6 +298,12 @@ const develop = [
         desc: "蚂蚁金服设计平台",
         tag: "Tool",
         url: "http://design.alipay.com/"
+      },
+      {
+        title: "Cleanmock",
+        desc: "Mockup your designs simply and beautifully.",
+        tag: "Tool",
+        url: "https://cleanmock.com/designer"
       },
       {
         title: "Seeseed",
@@ -246,10 +318,28 @@ const develop = [
         url: "https://design-patterns.readthedocs.io/zh_CN/latest/index.html"
       },
       {
+        title: "Awesome Design Tools",
+        desc: "The best design tools for everything — from wireframing and prototyping to animation, accessibility, AR, design systems and sound design.",
+        tag: "Tool",
+        url: "https://flawlessapp.io/designtools"
+      },
+      {
         title: "MDUI",
         desc: "Material Design User Interface",
         tag: "UI",
         url: "https://www.mdui.org/"
+      },
+      {
+        title: "Material Design for Bootstrap",
+        desc: "the most popular & free UI KIT - Material Design for Bootstrap",
+        tag: "UI",
+        url: "https://mdbootstrap.com/"
+      },
+      {
+        title: "UI8",
+        desc: "UI Design Resources, UI Kits, Wireframes, Icons and More",
+        tag: "UI",
+        url: "https://ui8.net/"
       },
       {
         title: "SUI Mobile",
@@ -262,6 +352,18 @@ const develop = [
         desc: "一套遵循 React 语法规范的多端统一开发框架-凹凸实验室",
         tag: "UI",
         url: "https://taro.aotu.io/"
+      },
+      {
+        title: "unDraw",
+        desc: "Open-source illustrations for every project you can imagine and create.",
+        tag: "Illustration",
+        url: "https://undraw.co/"
+      },
+      {
+        title: "Arction",
+        desc: "快速、先进的 .NET图表控件 & LightningChart JS, WEB 图表库",
+        tag: "",
+        url: "http://www.arction.cn/"
       }
     ]
   },
@@ -375,10 +477,22 @@ const develop = [
         url: "http://chuangzaoshi.com/icon/"
       },
       {
+        title: "Iconfont",
+        desc: "阿里巴巴矢量图标库",
+        tag: "Tool",
+        url: "https://www.iconfont.cn/"
+      },
+      {
         title: "IcoMoon",
         desc: "Icon Font & SVG Icon Sets",
         tag: "Tool",
         url: "https://icomoon.io/"
+      },
+      {
+        title: "Remix Icon",
+        desc: "Open source icon library",
+        tag: "Tool",
+        url: "https://remixicon.com/"
       }
     ]
   },
