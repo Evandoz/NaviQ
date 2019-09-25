@@ -1495,12 +1495,10 @@ async-limiter@~1.0.0:
   resolved "https://registry.npm.taobao.org/async-limiter/download/async-limiter-1.0.0.tgz#78faed8c3d074ab81f22b4e985d79e8738f720f8"
   integrity sha1-ePrtjD0HSrgfIrTphdeehzj3IPg=
 
-async-validator@^1.10.0:
-  version "1.11.2"
-  resolved "https://registry.npm.taobao.org/async-validator/download/async-validator-1.11.2.tgz#ca5e2ba31c15e9319cb2d873c2b137b67a198ead"
-  integrity sha1-yl4roxwV6TGcsthzwrE3tnoZjq0=
-  dependencies:
-    babel-runtime "6.x"
+async-validator@^1.12.2:
+  version "1.12.2"
+  resolved "https://registry.npm.taobao.org/async-validator/download/async-validator-1.12.2.tgz#beae671e7174d2938b7b4b69d2fb7e722b7fd72c"
+  integrity sha1-vq5nHnF00pOLe0tp0vt+cit/1yw=
 
 async@^1.5.2:
   version "1.5.2"
@@ -1601,7 +1599,7 @@ babel-plugin-module-resolver@3.2.0:
     reselect "^3.0.1"
     resolve "^1.4.0"
 
-babel-runtime@6.x, babel-runtime@^6.23.0:
+babel-runtime@^6.23.0:
   version "6.26.0"
   resolved "https://registry.npm.taobao.org/babel-runtime/download/babel-runtime-6.26.0.tgz#965c7058668e82b55d7bfe04ff2337bc8b5647fe"
   integrity sha1-llxwWGaOgrVde/4E/yM3vItWR/4=
@@ -3353,10 +3351,10 @@ eslint@^4.19.1:
     table "4.0.2"
     text-table "~0.2.0"
 
-eslint@^6.3.0:
-  version "6.3.0"
-  resolved "https://registry.npm.taobao.org/eslint/download/eslint-6.3.0.tgz#1f1a902f67bfd4c354e7288b81e40654d927eb6a"
-  integrity sha1-HxqQL2e/1MNU5yiLgeQGVNkn62o=
+eslint@^6.4.0:
+  version "6.4.0"
+  resolved "https://registry.npm.taobao.org/eslint/download/eslint-6.4.0.tgz#5aa9227c3fbe921982b2eda94ba0d7fae858611a"
+  integrity sha1-WqkifD++khmCsu2pS6DX+uhYYRo=
   dependencies:
     "@babel/code-frame" "^7.0.0"
     ajv "^6.10.0"
@@ -4953,19 +4951,19 @@ isstream@~0.1.2:
   resolved "https://registry.npm.taobao.org/isstream/download/isstream-0.1.2.tgz#47e63f7af55afa6f92e1500e690eb8b8529c099a"
   integrity sha1-R+Y/evVa+m+S4VAOaQ64uFKcCZo=
 
-iview@^3.5.0:
-  version "3.5.0"
-  resolved "https://registry.npm.taobao.org/iview/download/iview-3.5.0.tgz?cache=0&sync_timestamp=1567567057062&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fiview%2Fdownload%2Fiview-3.5.0.tgz#9aaf0c499a3e9718b453ee545f871cc3f3a1743b"
-  integrity sha1-mq8MSZo+lxi0U+5UX4ccw/OhdDs=
+iview@^3.5.1:
+  version "3.5.1"
+  resolved "https://registry.npm.taobao.org/iview/download/iview-3.5.1.tgz#d15b97126ea89a71f5b3623d6add2fb48f6f44d6"
+  integrity sha1-0VuXEm6omnH1s2I9at0vtI9vRNY=
   dependencies:
-    async-validator "^1.10.0"
+    async-validator "^1.12.2"
     deepmerge "^2.2.1"
     element-resize-detector "^1.2.0"
     js-calendar "^1.2.3"
     lodash.throttle "^4.1.1"
     popper.js "^1.14.6"
     tinycolor2 "^1.4.1"
-    v-click-outside-x "^3.5.6"
+    v-click-outside-x "^4.0.19"
 
 javascript-stringify@^1.6.0:
   version "1.6.0"
@@ -8421,10 +8419,10 @@ uuid@^3.0.1, uuid@^3.3.2:
   resolved "https://registry.npm.taobao.org/uuid/download/uuid-3.3.2.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fuuid%2Fdownload%2Fuuid-3.3.2.tgz#1b4af4955eb3077c501c23872fc6513811587131"
   integrity sha1-G0r0lV6zB3xQHCOHL8ZROBFYcTE=
 
-v-click-outside-x@^3.5.6:
-  version "3.7.1"
-  resolved "https://registry.npm.taobao.org/v-click-outside-x/download/v-click-outside-x-3.7.1.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fv-click-outside-x%2Fdownload%2Fv-click-outside-x-3.7.1.tgz#aa03eaa0e41e44cb5207dcf86c2d9f0dd64084c1"
-  integrity sha1-qgPqoOQeRMtSB9z4bC2fDdZAhME=
+v-click-outside-x@^4.0.19:
+  version "4.0.19"
+  resolved "https://registry.npm.taobao.org/v-click-outside-x/download/v-click-outside-x-4.0.19.tgz#63fc2e68e99b3486fde4209435ac0ed3b67da3fc"
+  integrity sha1-Y/wuaOmbNIb95CCUNawO07Z9o/w=
 
 v8-compile-cache@^2.0.3:
   version "2.1.0"
@@ -8492,10 +8490,10 @@ vue-hot-reload-api@^2.3.0:
   resolved "https://registry.npm.taobao.org/vue-hot-reload-api/download/vue-hot-reload-api-2.3.3.tgz#2756f46cb3258054c5f4723de8ae7e87302a1ccf"
   integrity sha1-J1b0bLMlgFTF9HI96K5+hzAqHM8=
 
-vue-i18n@^8.14.0:
-  version "8.14.0"
-  resolved "https://registry.npm.taobao.org/vue-i18n/download/vue-i18n-8.14.0.tgz?cache=0&sync_timestamp=1565612880763&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fvue-i18n%2Fdownload%2Fvue-i18n-8.14.0.tgz#613cbbc21d71dc608cd085f8a94ea3a40badcd33"
-  integrity sha1-YTy7wh1x3GCM0IX4qU6jpAutzTM=
+vue-i18n@^8.14.1:
+  version "8.14.1"
+  resolved "https://registry.npm.taobao.org/vue-i18n/download/vue-i18n-8.14.1.tgz#0ca0a2742c14e0144481655157fffcc7cc313e50"
+  integrity sha1-DKCidCwU4BREgWVRV//8x8wxPlA=
 
 vue-loader@^15.7.0:
   version "15.7.0"
