@@ -187,10 +187,28 @@ const read = [
     class: "Learn",
     content: [
       {
+        title: "GitHub Lab",
+        desc: "GitHub Learning Lab",
+        tag: "Tool",
+        url: "https://lab.github.com/"
+      },
+      {
         title: "Forvo",
         desc: "发音指南，世界上所有词语的母语发音",
         tag: "Tool",
         url: "https://zh.forvo.com/"
+      },
+      {
+        title: "中国数字科技馆",
+        desc: "中国数字科技馆",
+        tag: "Tool",
+        url: "https://www.cdstm.cn/"
+      },
+      {
+        title: "大学资源网",
+        desc: "大学资源网",
+        tag: "Tool",
+        url: "http://www.dxzy163.com/"
       },
       {
         title: "Vocabulary",

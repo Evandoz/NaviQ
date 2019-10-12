@@ -9,6 +9,12 @@ const media = [
         url: "https://www.beautiful.ai/"
       },
       {
+        title: "Grammarly",
+        desc: "Grammarly: Free Writing Assistant",
+        tag: "Tool",
+        url: "https://www.grammarly.com/"
+      },
+      {
         title: "吾道幻灯片",
         desc: "专业演示文档制作工具，PPT模板，协同办公",
         tag: "Tool",
@@ -121,10 +127,34 @@ const media = [
     class: "Tool",
     content: [
       {
+        title: "全国电视直播",
+        desc: "全国电视直播",
+        tag: "Tool",
+        url: "http://bddn.cn/zb.htm"
+      },
+      {
+        title: "自由钢琴",
+        desc: "最美在线钢琴应用",
+        tag: "Tool",
+        url: "https://www.autopiano.cn/"
+      },
+      {
         title: "全球直播频道",
         desc: "高清无插件在线电视直播-TvvGo.com",
         tag: "Tool",
         url: "http://tvvgo.com/"
+      },
+      {
+        title: "奶牛快传",
+        desc: "文件传输服务",
+        tag: "Tool",
+        url: "https://cowtransfer.com/"
+      },
+      {
+        title: "Firefox Send",
+        desc: "简单、私密的文件分享服务",
+        tag: "Tool",
+        url: "https://send.firefox.com/"
       },
       {
         title: "NICETOOL+",
@@ -208,6 +238,12 @@ const media = [
         desc: "Beautiful Free Images & Pictures",
         tag: "Tool",
         url: "https://unsplash.com/"
+      },
+      {
+        title: "天空之城",
+        desc: "全球航拍爱好者和专业摄影师的社交平台",
+        tag: "Tool",
+        url: "https://www.skypixel.com/"
       },
       {
         title: "wallhaven.cc",

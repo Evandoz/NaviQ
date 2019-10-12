@@ -6,7 +6,7 @@
       </div>
       <!-- <div class="cls-content"> -->
         <transition-group class="cls-content" name="card" tag="div">
-          <div class="card" v-for="(item, index) in website.content" :key="index">
+          <div class="card" v-for="(item, index) in website.content" :key="item-index">
             <!-- https://ico.mikelin.cn -->
             <!-- https://www.google.com/s2/favicons?domain= -->
             <a class="link" :href="item.url" target="_blank">
@@ -74,11 +74,16 @@ export default {
       display: flex
       flex-wrap: wrap
       width: calc(100% + 20px)
+      @media screen and (max-width: 361px)
+        width: 100%
+        justify-content: space-between
       .card
         margin: 0 20px 20px 0
         background: #FFFFFF
         text-align: center
         border-radius: 3px
+        @media screen and (max-width: 361px)
+          margin-right: 0
         .link
           position: relative
           display: flex

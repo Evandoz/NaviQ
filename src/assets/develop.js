@@ -294,6 +294,12 @@ const develop = [
     class: "Design",
     content: [
       {
+        title: "UiforUS",
+        desc: "让UI设计变得更简单",
+        tag: "Tool",
+        url: "https://www.uiforus.com/"
+      },
+      {
         title: "Ant Design",
         desc: "蚂蚁金服设计平台",
         tag: "Tool",
@@ -304,6 +310,12 @@ const develop = [
         desc: "Mockup your designs simply and beautifully.",
         tag: "Tool",
         url: "https://cleanmock.com/designer"
+      },
+      {
+        title: "设计订阅",
+        desc: "腾讯设计导航",
+        tag: "Tool",
+        url: "https://idesign.qq.com"
       },
       {
         title: "Seeseed",

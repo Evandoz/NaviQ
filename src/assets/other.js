@@ -65,59 +65,6 @@ const other =  [
     ]
   },
   {
-    class: "Search",
-    content: [
-      {
-        title: "DogeDoge 搜索",
-        desc: "不追踪，不误导",
-        tag: "Tool",
-        url: "https://www.dogedoge.com/"
-      },
-      {
-        title: "Рамблер/поиск",
-        desc: "Рамблер/поиск",
-        tag: "Tool",
-        url: "https://r0.ru/"
-      },
-      {
-        title: "Yandex",
-        desc: "Primarily serves audiences in Russia and the CIS",
-        tag: "Tool",
-        url: "https://yandex.com/"
-      },
-      {
-        title: "Wolfram|Alpha",
-        desc: "Computational Intelligence",
-        tag: "Tool",
-        url: "https://www.wolframalpha.com/"
-      },
-      {
-        title: "MEZW搜索",
-        desc: "聚合搜索引擎，提供准确、干净的网页内容搜索服务",
-        tag: "Tool",
-        url: "https://so.mezw.com/"
-      },
-      {
-        title: "秘迹搜索",
-        desc: "这是一个不追踪你的搜索引擎",
-        tag: "Tool",
-        url: "https://mijisou.com/"
-      },
-      {
-        title: "Qwant",
-        desc: "The search engine that respects your privacy",
-        tag: "Tool",
-        url: "https://www.qwant.com/"
-      },
-      {
-        title: "Listen Notes",
-        desc: "Best podcast search engine & podcast database",
-        tag: "Tool",
-        url: "https://www.listennotes.com/"
-      }
-    ]
-  },
-  {
     class: "Nav",
     content: [
       {
@@ -137,6 +84,24 @@ const other =  [
         desc: "开阔你的眼界",
         tag: "Tool",
         url: "http://www.yuekaoxue.com/so/"
+      },
+      {
+        title: "iData",
+        desc: "知识检索",
+        tag: "Tool",
+        url: "https://www.cn-ki.net/"
+      },
+      {
+        title: "医学微视",
+        desc: "医学微视",
+        tag: "Tool",
+        url: "https://www.mvyxws.com/"
+      },
+      {
+        title: "Semantic Scholar",
+        desc: "An academic search engine for scientific articles",
+        tag: "Tool",
+        url: "https://www.semanticscholar.org/"
       }
     ]
   },
@@ -144,10 +109,22 @@ const other =  [
     class: "Fav",
     content: [
       {
-        title: "底噪",
-        desc: "不疯魔不成活",
+        title: "I Remember",
+        desc: "I Remember",
         tag: "Tool",
-        url: "https://zhih.me/"
+        url: "http://i-remember.fr/en"
+      },
+      {
+        title: "毒鸡汤",
+        desc: "毒鸡汤",
+        tag: "Tool",
+        url: "https://8zt.cc/"
+      },
+      {
+        title: "渣男:说话的艺术",
+        desc: "渣男:说话的艺术",
+        tag: "Tool",
+        url: "https://lovelive.tools/"
       },
       {
         title: "SogaSo.ga",
