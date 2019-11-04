@@ -109,6 +109,18 @@ const other =  [
     class: "Fav",
     content: [
       {
+        title: "TheMatrix",
+        desc: "TheMatrix",
+        tag: "Tool",
+        url: "https://wangyasai.github.io/TheMatrix/"
+      },
+      {
+        title: "I Remember",
+        desc: "I Remember",
+        tag: "Tool",
+        url: "http://i-remember.fr/en"
+      },
+      {
         title: "I Remember",
         desc: "I Remember",
         tag: "Tool",

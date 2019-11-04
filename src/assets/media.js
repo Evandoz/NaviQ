@@ -145,6 +145,66 @@ const media = [
         url: "http://tvvgo.com/"
       },
       {
+        title: "TMDB",
+        desc: "The Movie Database (TMDb)",
+        tag: "Tool",
+        url: "https://www.themoviedb.org/"
+      },
+      {
+        title: "茶杯狐",
+        desc: "中国最大的影视资源聚合搜索引擎。删繁就简，搜电影从未如此简单！",
+        tag: "Tool",
+        url: "https://www.cupfox.com/"
+      },
+      {
+        title: "疯狂影视搜索",
+        desc: "疯狂影视搜索-最有用的影视搜索引擎",
+        tag: "Tool",
+        url: "http://ifkdy.com/"
+      },
+      {
+        title: "搜片网",
+        desc: "最好用的电影电视剧资源搜索引擎",
+        tag: "Tool",
+        url: "https://www.sopiantv.com/"
+      },
+      {
+        title: "视频智能解析",
+        desc: "视频智能解析",
+        tag: "Tool",
+        url: "http://liubuliu.tk/"
+      },
+      {
+        title: "n8n.io",
+        desc: "n8n.io - Workflow Automation",
+        tag: "Tool",
+        url: "https://n8n.io/"
+      },
+      {
+        title: "在线思维导图",
+        desc: "在线头脑风暴会议",
+        tag: "Tool",
+        url: "https://www.mindmeister.com/zh"
+      },
+      {
+        title: "GitMind",
+        desc: "在线免费思维导图软件",
+        tag: "Tool",
+        url: "https://gitmind.cn/"
+      },
+      {
+        title: "Pinbox",
+        desc: "跨平台网络收藏工具",
+        tag: "Tool",
+        url: "https://withpinbox.com/"
+      },
+      {
+        title: "文叔叔",
+        desc: "永不限速云存储",
+        tag: "Tool",
+        url: "https://www.wenshushu.cn/"
+      },
+      {
         title: "奶牛快传",
         desc: "文件传输服务",
         tag: "Tool",
@@ -221,6 +281,30 @@ const media = [
         desc: "全平台的自由多媒体解决方案！ - VideoLAN",
         tag: "Tool",
         url: "https://www.videolan.org/"
+      },
+      {
+        title: "Timeline maker",
+        desc: "Free online timeline maker",
+        tag: "Tool",
+        url: "https://time.graphics/"
+      },
+      {
+        title: "公众号 MD 编辑器",
+        desc: "微信公众号 Markdown 编辑器",
+        tag: "Tool",
+        url: "https://prod.zkqiang.cn/wxeditor/index.html"
+      },
+      {
+        title: "PanDownload",
+        desc: "PanDownload",
+        tag: "Tool",
+        url: "https://pandownload.com/"
+      },
+      {
+        title: "蓝奏云",
+        desc: "蓝奏云",
+        tag: "Tool",
+        url: "https://www.lanzous.com/"
       }
     ]
   },
@@ -228,10 +312,28 @@ const media = [
     class: "Picture",
     content: [
       {
+        title: "Mathpix Snip",
+        desc: "Convert images to LaTeX",
+        tag: "Tool",
+        url: "https://mathpix.com/"
+      },
+      {
         title: "Pexels",
         desc: "Free stock photos",
         tag: "Tool",
         url: "https://www.pexels.com/"
+      },
+      {
+        title: "Shrink Me",
+        desc: "Compress JPG, PNG, WEBP, and SVG Images",
+        tag: "Tool",
+        url: "https://shrinkme.app/"
+      },
+      {
+        title: "智能人像在线抠图",
+        desc: "智能人像在线抠图",
+        tag: "Tool",
+        url: "http://www.picup.ai/"
       },
       {
         title: "Unsplash",
@@ -258,10 +360,22 @@ const media = [
         url: "https://www.lifeofpix.com/"
       },
       {
+        title: "稿定设计",
+        desc: "稿定设计-做图做视频必备_在线设计神器_海量模板免费用",
+        tag: "Tool",
+        url: "https://www.gaoding.com/"
+      },
+      {
         title: "ArtStation",
         desc: "艺术作品社区",
         tag: "Tool",
         url: "https://www.artstation.com/"
+      },
+      {
+        title: "Space Engine",
+        desc: "Space Engine – the universe simulator",
+        tag: "Tool",
+        url: "http://spaceengine.org/"
       },
       {
         title: "Smart Resize",

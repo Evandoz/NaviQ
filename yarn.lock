@@ -4951,10 +4951,10 @@ isstream@~0.1.2:
   resolved "https://registry.npm.taobao.org/isstream/download/isstream-0.1.2.tgz#47e63f7af55afa6f92e1500e690eb8b8529c099a"
   integrity sha1-R+Y/evVa+m+S4VAOaQ64uFKcCZo=
 
-iview@^3.5.1:
-  version "3.5.1"
-  resolved "https://registry.npm.taobao.org/iview/download/iview-3.5.1.tgz#d15b97126ea89a71f5b3623d6add2fb48f6f44d6"
-  integrity sha1-0VuXEm6omnH1s2I9at0vtI9vRNY=
+iview@^3.5.2:
+  version "3.5.2"
+  resolved "https://registry.npm.taobao.org/iview/download/iview-3.5.2.tgz#3cc80e8c59e470bff09dad4c4b01b449a0ba1142"
+  integrity sha1-PMgOjFnkcL/wna1MSwG0SaC6EUI=
   dependencies:
     async-validator "^1.12.2"
     deepmerge "^2.2.1"
@@ -8490,10 +8490,10 @@ vue-hot-reload-api@^2.3.0:
   resolved "https://registry.npm.taobao.org/vue-hot-reload-api/download/vue-hot-reload-api-2.3.3.tgz#2756f46cb3258054c5f4723de8ae7e87302a1ccf"
   integrity sha1-J1b0bLMlgFTF9HI96K5+hzAqHM8=
 
-vue-i18n@^8.14.1:
-  version "8.14.1"
-  resolved "https://registry.npm.taobao.org/vue-i18n/download/vue-i18n-8.14.1.tgz#0ca0a2742c14e0144481655157fffcc7cc313e50"
-  integrity sha1-DKCidCwU4BREgWVRV//8x8wxPlA=
+vue-i18n@^8.15.0:
+  version "8.15.0"
+  resolved "https://registry.npm.taobao.org/vue-i18n/download/vue-i18n-8.15.0.tgz#9b11ef8e7a124f67cdf788c8c90a81f3606240ed"
+  integrity sha1-mxHvjnoST2fN94jIyQqB82BiQO0=
 
 vue-loader@^15.7.0:
   version "15.7.0"

@@ -294,10 +294,52 @@ const develop = [
     class: "Design",
     content: [
       {
+        title: "灯果可视化",
+        desc: "人工智能驱动的数据可视化BI软件",
+        tag: "Tool",
+        url: "http://bi.shenjian.io/landing/"
+      },
+      {
+        title: "SandDance",
+        desc: "SandDance | Dynamic Visual Data Exploration",
+        tag: "Tool",
+        url: "https://www.sanddance.ms/"
+      },
+      {
+        title: "Generative.fm",
+        desc: "Generative.fm - Ambient Generative Music by Alex Bainter",
+        tag: "Tool",
+        url: "https://generative.fm/"
+      },
+      {
+        title: "Fusion Design",
+        desc: "协助企业设计师与前端构建并使用设计系统",
+        tag: "Tool",
+        url: "https://fusion.design/"
+      },
+      {
         title: "UiforUS",
         desc: "让UI设计变得更简单",
         tag: "Tool",
         url: "https://www.uiforus.com/"
+      },
+      {
+        title: "Culrs",
+        desc: "Culrs | Culrs gives you a simple smart approach to choose color palettes",
+        tag: "Tool",
+        url: "https://culrs.com/#/"
+      },
+      {
+        title: "CSS渐变",
+        desc: "CSS渐变",
+        tag: "Tool",
+        url: "https://www.bestvist.com/css-gradient"
+      },
+      {
+        title: "Colorgg",
+        desc: "Colorgg颜色大全,颜色搭配,颜色代码表查询",
+        tag: "Tool",
+        url: "https://www.colorgg.com/"
       },
       {
         title: "Ant Design",
