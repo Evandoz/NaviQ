@@ -116,6 +116,12 @@ const read = [
         url: "https://www.allhistory.com/"
       },
       {
+        title: "西窗烛中华文库",
+        desc: "中华诗词文库",
+        tag: "Source",
+        url: "http://lib.xcz.im/library"
+      },
+      {
         title: "今日诗词API",
         desc: "今日诗词 - 诗词实时智能推荐 - 今日诗词开放接口",
         tag: "Source",

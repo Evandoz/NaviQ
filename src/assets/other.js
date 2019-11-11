@@ -3,6 +3,12 @@ const other =  [
     class: "Search",
     content: [
       {
+        title: "Magi",
+        desc: "用 AI 梳理互联网的知识引擎 - Magi 通过机器学习将互联网上的海量信息构建成可解析、可检索、可溯源的结构化知识体系。",
+        tag: "Tool",
+        url: "https://magi.com/"
+      },
+      {
         title: "DuckDuckGo",
         desc: "Privacy, simplified.",
         tag: "Tool",

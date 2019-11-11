@@ -211,6 +211,12 @@ const media = [
         url: "https://cowtransfer.com/"
       },
       {
+        title: "拷贝兔(Copytool)",
+        desc: "轻量级纯Web跨平台文件、文字分享工具",
+        tag: "Tool",
+        url: "https://cp.anyknew.com/"
+      },
+      {
         title: "Firefox Send",
         desc: "简单、私密的文件分享服务",
         tag: "Tool",
