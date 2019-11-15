@@ -51,6 +51,12 @@ const media = [
         url: "https://www.islide.cc/"
       },
       {
+        title: "Table Convert Online",
+        desc: "table to markdown,csv,json,latex table,excel,sql,xml",
+        tag: "Tool",
+        url: "https://tableconvert.com/"
+      },
+      {
         title: "PA口袋动画",
         desc: "一款让PPT动画炫酷起来的插件",
         tag: "Tool",
@@ -61,6 +67,12 @@ const media = [
         desc: "convert video, images, audio and documents for free",
         tag: "Tool",
         url: "https://online-convert.com"
+      },
+      {
+        title: "Sejda",
+        desc: "Convert HTML to PDF Online",
+        tag: "Tool",
+        url: "https://www.sejda.com/"
       },
       {
         title: "免费在线文件转换",
@@ -120,6 +132,18 @@ const media = [
         desc: "Copy Table in Excel and Paste as a Markdown Table",
         tag: "Tool",
         url: "https://thisdavej.com/copy-table-in-excel-and-paste-as-a-markdown-table/"
+      },
+      {
+        title: "公众号 MD 编辑器",
+        desc: "微信公众号 Markdown 编辑器",
+        tag: "Tool",
+        url: "https://prod.zkqiang.cn/wxeditor/index.html"
+      },
+      {
+        title: "墨客编辑器",
+        desc: "提供高效写作、多平台排版的 Markdown 编辑器",
+        tag: "Tool",
+        url: "https://www.mkeditor.com/"
       }
     ]
   },
@@ -127,10 +151,28 @@ const media = [
     class: "Tool",
     content: [
       {
-        title: "全国电视直播",
-        desc: "全国电视直播",
+        title: "在线工具网",
+        desc: "工作生活好帮手",
         tag: "Tool",
-        url: "http://bddn.cn/zb.htm"
+        url: "https://www.zxgj.cn/"
+      },
+      {
+        title: "开放知识图谱",
+        desc: "中文通用百科知识图谱（CN-DBpedia）",
+        tag: "Tool",
+        url: "http://openkg.cn/dataset/cndbpedia"
+      },
+      {
+        title: "TimeGraphics",
+        desc: "Free online timeline maker",
+        tag: "Tool",
+        url: "https://time.graphics/"
+      },
+      {
+        title: "typely",
+        desc: "Free online proofreading and essay editor",
+        tag: "Tool",
+        url: "https://typely.com/"
       },
       {
         title: "自由钢琴",
@@ -175,56 +217,14 @@ const media = [
         url: "http://liubuliu.tk/"
       },
       {
-        title: "n8n.io",
-        desc: "n8n.io - Workflow Automation",
-        tag: "Tool",
-        url: "https://n8n.io/"
-      },
-      {
-        title: "在线思维导图",
-        desc: "在线头脑风暴会议",
-        tag: "Tool",
-        url: "https://www.mindmeister.com/zh"
-      },
-      {
-        title: "GitMind",
-        desc: "在线免费思维导图软件",
-        tag: "Tool",
-        url: "https://gitmind.cn/"
-      },
-      {
-        title: "Pinbox",
-        desc: "跨平台网络收藏工具",
-        tag: "Tool",
-        url: "https://withpinbox.com/"
-      },
-      {
-        title: "文叔叔",
-        desc: "永不限速云存储",
-        tag: "Tool",
-        url: "https://www.wenshushu.cn/"
-      },
-      {
-        title: "奶牛快传",
-        desc: "文件传输服务",
-        tag: "Tool",
-        url: "https://cowtransfer.com/"
-      },
-      {
-        title: "拷贝兔(Copytool)",
-        desc: "轻量级纯Web跨平台文件、文字分享工具",
-        tag: "Tool",
-        url: "https://cp.anyknew.com/"
-      },
-      {
-        title: "Firefox Send",
-        desc: "简单、私密的文件分享服务",
-        tag: "Tool",
-        url: "https://send.firefox.com/"
-      },
-      {
         title: "NICETOOL+",
         desc: "在线工具大全，用完即走，触手可及_好工具网",
+        tag: "Tool",
+        url: "http://www.nicetool.net/"
+      },
+      {
+        title: "一个工具箱",
+        desc: "在线工具",
         tag: "Tool",
         url: "http://www.nicetool.net/"
       },
@@ -239,6 +239,12 @@ const media = [
         desc: "Domain Name Price and Availability",
         tag: "Tool",
         url: "https://www.domcomp.com/"
+      },
+      {
+        title: "NameSilo",
+        desc: "Cheap Domain Names-Domain Name Registration-Transfer-Renewal",
+        tag: "Tool",
+        url: "https://www.namesilo.com/"
       },
       {
         title: "域名",
@@ -277,6 +283,12 @@ const media = [
         url: "https://www.yoo.la"
       },
       {
+        title: "Moakt Email",
+        desc: "临时邮箱专业服务",
+        tag: "Tool",
+        url: "https://www.moakt.com/"
+      },
+      {
         title: "Sketch",
         desc: "The Maker of Sketchpad",
         tag: "Tool",
@@ -289,16 +301,100 @@ const media = [
         url: "https://www.videolan.org/"
       },
       {
-        title: "Timeline maker",
-        desc: "Free online timeline maker",
+        title: "突字幕",
+        desc: "上传视频，几分钟内得到字幕",
         tag: "Tool",
-        url: "https://time.graphics/"
+        url: "https://2zimu.com/#/"
       },
       {
-        title: "公众号 MD 编辑器",
-        desc: "微信公众号 Markdown 编辑器",
+        title: "爱资料在线工具",
+        desc: "好用的在线工具箱",
         tag: "Tool",
-        url: "https://prod.zkqiang.cn/wxeditor/index.html"
+        url: "https://www.toolnb.com/"
+      },
+      {
+        title: "突字幕",
+        desc: "上传视频，几分钟内得到字幕",
+        tag: "Tool",
+        url: "https://2zimu.com/#/"
+      },
+      {
+        title: "SONG MAKER",
+        desc: "Song Maker, an experiment in Chrome Music Lab, is a simple way for anyone to make and share a song.",
+        tag: "Tool",
+        url: "https://musiclab.chromeexperiments.com/Song-Maker/"
+      },
+      {
+        title: "Time.is",
+        desc: "所有时区的精确时间",
+        tag: "Tool",
+        url: "https://time.is/zh/"
+      },
+      {
+        title: "Timezown.io",
+        desc: "Intuitive Timezones",
+        tag: "Tool",
+        url: "https://www.timezown.io/"
+      }
+    ]
+  },
+
+  {
+    class: "Mind",
+    content: [
+
+      {
+        title: "n8n.io",
+        desc: "n8n.io - Workflow Automation",
+        tag: "Tool",
+        url: "https://n8n.io/"
+      },
+      {
+        title: "在线思维导图",
+        desc: "在线头脑风暴会议",
+        tag: "Tool",
+        url: "https://www.mindmeister.com/zh"
+      },
+      {
+        title: "GitMind",
+        desc: "在线免费思维导图软件",
+        tag: "Tool",
+        url: "https://gitmind.cn/"
+      }
+    ]
+  },
+  {
+    class: "Cloud",
+    content: [
+      {
+        title: "Pinbox",
+        desc: "跨平台网络收藏工具",
+        tag: "Tool",
+        url: "https://withpinbox.com/"
+      },
+      {
+        title: "文叔叔",
+        desc: "永不限速云存储",
+        tag: "Tool",
+        url: "https://www.wenshushu.cn/"
+      },
+      {
+        title: "奶牛快传",
+        desc: "文件传输服务",
+        tag: "Tool",
+        url: "https://cowtransfer.com/"
+      },
+      {
+        title: "拷贝兔(Copytool)",
+        desc: "轻量级纯Web跨平台文件、文字分享工具",
+        tag: "Tool",
+        url: "https://cp.anyknew.com/"
+      },
+      {
+        title: "Firefox Send",
+        desc: "简单、私密的文件分享服务",
+        tag: "Tool",
+        url: "https://send.firefox.com/"
       },
       {
         title: "PanDownload",
@@ -402,10 +498,34 @@ const media = [
         url: "http://www.poco.cn/"
       },
       {
+        title: "应景图",
+        desc: "Gif图片添加字幕",
+        tag: "Tool",
+        url: "http://www.yingjingtu.com/"
+      },
+      {
+        title: "Brush Ninja",
+        desc: "A FREE Hand-drawn Animated Gif creator.",
+        tag: "Tool",
+        url: "https://brush.ninja/"
+      },
+      {
         title: "iLoveIMG",
         desc: "图像文件在线编辑工具",
         tag: "Tool",
         url: "https://www.iloveimg.com"
+      },
+      {
+        title: "Lorem Picsum",
+        desc: "Easy to use, stylish placeholders",
+        tag: "Tool",
+        url: "https://picsum.photos/"
+      },
+      {
+        title: "waifu2x",
+        desc: "本程序使用卷积神经网络对动漫风格的图片进行放大操作（支持照片）。",
+        tag: "Tool",
+        url: "http://waifu2x.udp.jp/index.zh-CN.html"
       },
       {
         title: "Image Converter",
@@ -426,6 +546,18 @@ const media = [
         url: "https://tinypng.com/"
       },
       {
+        title: "Colorize",
+        desc: "Colorize photos online",
+        tag: "Tool",
+        url: "https://colorize.cc/"
+      },
+      {
+        title: "Photopea",
+        desc: "Online Photo Editor",
+        tag: "Tool",
+        url: "https://www.photopea.com/"
+      },
+      {
         title: "BgRemover",
         desc: "在线图片去底工具-背景变透明|图片底色去除去掉",
         tag: "Tool",
@@ -442,6 +574,12 @@ const media = [
         desc: "免费公共图床, 专业图片外链, 全球CDN分发",
         tag: "Tool",
         url: "https://imgchr.com/"
+      },
+      {
+        title: "Statically",
+        desc: "Imgpx, image acceleration and modification service via custom endpoints",
+        tag: "Tool",
+        url: "https://statically.io/imgpx"
       }
     ]
   }

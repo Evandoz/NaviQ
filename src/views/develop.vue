@@ -1,5 +1,5 @@
 <template>
-  <div class="content">
+  <div class="container">
     <list :websites="websites"></list>
   </div>
 </template>

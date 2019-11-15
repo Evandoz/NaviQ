@@ -1,32 +1,66 @@
-import develop from '@/views/develop'
-import read from '@/views/read'
-import media from '@/views/media'
-import other from '@/views/other'
+import Layout from '@/views/Layout'
 
 const routes = [
   {
     path: '/',
-    redirect: '/dev'
+    component: Layout,
+    redirect: '/dev',
+    children: [
+      {
+        path: 'dev',
+        component: () => import('@/views/develop'),
+        name: 'Develop',
+        meta: { title: 'Programming Development' }
+      }
+    ]
   },
   {
-    path: '/dev',
-    name: 'dev',
-    component: develop
+    path: '/design',
+    component: Layout,
+    children: [
+      {
+        path: '',
+        component: () => import('@/views/Design'),
+        name: 'design',
+        meta: { title: 'Documentation' }
+      }
+    ]
   },
   {
     path: '/read',
-    name: 'read',
-    component: read
+    component: Layout,
+    children: [
+      {
+        path: '',
+        component: () => import('@/views/read'),
+        name: 'read',
+        meta: { title: 'Documentation' }
+      }
+    ]
   },
   {
-    path: '/media',
-    name: 'media',
-    component: media
+    path: '/Tool',
+    component: Layout,
+    children: [
+      {
+        path: '',
+        component: () => import('@/views/Tool'),
+        name: 'Tool',
+        meta: { title: 'Documentation' }
+      }
+    ]
   },
   {
     path: '/other',
-    name: 'other',
-    component: other
+    component: Layout,
+    children: [
+      {
+        path: '',
+        component: () => import('@/views/other'),
+        name: 'other',
+        meta: { title: 'Documentation' }
+      }
+    ]
   }
 ]
 

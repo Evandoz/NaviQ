@@ -103,12 +103,36 @@ const read = [
         desc: "最大的电子书库，对外开放，免费使用",
         tag: "Tool",
         url: "http://gplayspace.com/"
+      },
+      {
+        title: "BookSC",
+        desc: "Electronic library. Download books free. Finding books",
+        tag: "Tool",
+        url: "https://booksc.org/"
+      },
+      {
+        title: "云展网",
+        desc: "caai_在线翻页电子书免费制作平台_云展网",
+        tag: "Tool",
+        url: "http://www.yunzhan365.com/homepage/poui"
       }
     ]
   },
   {
     class: "History",
     content: [
+      {
+        title: "网络的演变",
+        desc: "讲述自 1993 年以来浏览器和网络的发展历程以及一些重要的网络技术研发成果",
+        tag: "Source",
+        url: "http://www.evolutionoftheweb.com/"
+      },
+      {
+        title: "My Internet Explorer",
+        desc: "Internet Explorer Browser Collection",
+        tag: "Source",
+        url: "https://www.my-internet-explorer.com/"
+      },
       {
         title: "全历史",
         desc: "全历史(Allhistory）以AI知识图谱为核心引擎，通过高度时空化、关联化数据的方式构造及展现数字人文内容，尤其是历史知识。让用户沉浸在纵横开阔、左图右史的（历史、人文、社科等）知识海洋中。",
@@ -205,6 +229,12 @@ const read = [
         url: "https://zh.forvo.com/"
       },
       {
+        title: "英语朗读",
+        desc: "英语在线发音",
+        tag: "Tool",
+        url: "https://www.entts.com/"
+      },
+      {
         title: "中国数字科技馆",
         desc: "中国数字科技馆",
         tag: "Tool",
@@ -269,6 +299,12 @@ const read = [
         desc: "Technology and Business Training",
         tag: "Tool",
         url: "https://www.oreilly.com/"
+      },
+      {
+        title: "CS 285",
+        desc: "Deep Reinforcement Learning",
+        tag: "Tool",
+        url: "http://rail.eecs.berkeley.edu/deeprlcourse/"
       }
     ]
   }

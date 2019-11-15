@@ -1,12 +1,12 @@
 <template>
-  <div class="content">
+  <div class="container">
     <list :websites="websites"></list>
   </div>
 </template>
 
 <script>
 
-import media from "@/assets/media";
+import design from "@/assets/design";
 import list from '@/components/list'
 
 export default {
@@ -15,7 +15,7 @@ export default {
   },
   data () {
     return {
-      websites: media
+      websites: design
     }
   }
 }

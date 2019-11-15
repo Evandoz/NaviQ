@@ -6,7 +6,7 @@
 
 <script>
 
-import read from "@/assets/read";
+import tool from "@/assets/tool";
 import list from '@/components/list'
 
 export default {
@@ -15,7 +15,7 @@ export default {
   },
   data () {
     return {
-      websites: read
+      websites: tool
     }
   }
 }

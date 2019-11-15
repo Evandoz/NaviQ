@@ -1,7 +1,20 @@
+// Programming development
 const develop = [
   {
     class: "Statistics",
     content: [
+      {
+        title: "Hacker News",
+        desc: "News",
+        tag: "Tool",
+        url: "https://news.ycombinator.com/"
+      },
+      {
+        title: "机器之心",
+        desc: "全球人工智能信息服务",
+        tag: "Source",
+        url: "https://www.jiqizhixin.com/"
+      },
       {
         title: "GitHub Trending",
         desc: "Trending repositories on GitHub today",
@@ -15,10 +28,28 @@ const develop = [
         url: "https://www.staticgen.com/"
       },
       {
+        title: "独角兽排行榜",
+        desc: "2019 年独角兽企业排名",
+        tag: "Tool",
+        url: "https://dujiaoshou.io/"
+      },
+      {
+        title: "亚马跌",
+        desc: "一个选购参考网站",
+        tag: "Tool",
+        url: "https://www.ymdie.com/"
+      },
+      {
         title: "HelloGitHub",
         desc: "分享 GitHub 入门级、有趣的开源项目",
         tag: "Tool",
         url: "https://hellogithub.com/"
+      },
+      {
+        title: "独立",
+        desc: "中国独立 iOS 和 macOS 开发者图鉴，中国独立开发者项目列表。",
+        tag: "Tool",
+        url: "https://josephchang10.github.io/chinese-indie-hackers/"
       },
       {
         title: "Hunter",
@@ -31,6 +62,18 @@ const develop = [
         desc: "Github 开发者社区",
         tag: "Tool",
         url: "https://githuber.cn/"
+      },
+      {
+        title: "USLD",
+        desc: "User Shares of Linux Distros",
+        tag: "Tool",
+        url: "http://7z.cx/dsc/"
+      },
+      {
+        title: "The Google Cemetery",
+        desc: "Dead Google products",
+        tag: "Tool",
+        url: "https://gcemetery.co/"
       }
     ]
   },
@@ -42,6 +85,12 @@ const develop = [
         desc: "一个帮助开发者成长的社区",
         tag: "Tool",
         url: "https://juejin.im/"
+      },
+      {
+        title: "V2EX",
+        desc: "Way To Explore",
+        tag: "Tool",
+        url: "https://v2ex.com/"
       },
       {
         title: "CNode",
@@ -60,18 +109,6 @@ const develop = [
         desc: "分享与学习LaTeX的王国",
         tag: "Tool",
         url: "http://www.latexstudio.net/"
-      },
-      {
-        title: "机器之心",
-        desc: "全球人工智能信息服务",
-        tag: "Source",
-        url: "https://www.jiqizhixin.com/"
-      },
-      {
-        title: "Hacker News",
-        desc: "News",
-        tag: "Tool",
-        url: "https://news.ycombinator.com/"
       },
       {
         title: "Product Hunt",
@@ -104,9 +141,39 @@ const develop = [
       },
       {
         title: "代码片段",
-        desc: "",
+        desc: "代码片段",
         tag: "Tool",
         url: "http://www.codesnippet.cn/"
+      },
+      {
+        title: "片段",
+        desc: "代码片段",
+        tag: "Tool",
+        url: "https://pianduan.fun/"
+      },
+      {
+        title: "searchcode",
+        desc: "source code search engine",
+        tag: "Tool",
+        url: "https://searchcode.com/"
+      },
+      {
+        title: "程序命令搜索",
+        desc: "程序命令搜索",
+        tag: "Tool",
+        url: "http://cmd.alibt.top/"
+      },
+      {
+        title: "VisuAlgo",
+        desc: "数据结构和算法动态可视化 (Chinese)",
+        tag: "Tool",
+        url: "https://visualgo.net/zh"
+      },
+      {
+        title: "接口大全",
+        desc: "免费API,收集所有免费的API",
+        tag: "Tool",
+        url: "https://www.free-api.com/"
       },
       {
         title: "Twilio",
@@ -287,266 +354,239 @@ const develop = [
         desc: "The Linux Kernel Archives",
         tag: "Tool",
         url: "https://www.kernel.org/"
+      },
+      {
+        title: "CSS Humor",
+        desc: "CSS Humor » Fun with CSS!",
+        tag: "Tool",
+        url: "https://csshumor.com/"
       }
     ]
   },
   {
-    class: "Design",
+    class: "Tool",
     content: [
       {
-        title: "灯果可视化",
-        desc: "人工智能驱动的数据可视化BI软件",
+        title: "I18n Translation",
+        desc: "I18n Translation Search Engine| Free i18n Tools for App&Web",
         tag: "Tool",
-        url: "http://bi.shenjian.io/landing/"
+        url: "https://i18ns.com"
       },
       {
-        title: "SandDance",
-        desc: "SandDance | Dynamic Visual Data Exploration",
+        title: "Git History",
+        desc: "Quickly browse the history of files in any git repo",
         tag: "Tool",
-        url: "https://www.sanddance.ms/"
+        url: "https://github.githistory.xyz/"
       },
       {
-        title: "Generative.fm",
-        desc: "Generative.fm - Ambient Generative Music by Alex Bainter",
+        title: "Github Contributions",
+        desc: "GitHub Contributions Chart Generator",
         tag: "Tool",
-        url: "https://generative.fm/"
+        url: "https://github-contributions.now.sh/"
       },
       {
-        title: "Fusion Design",
-        desc: "协助企业设计师与前端构建并使用设计系统",
+        title: "ngrok 内网穿透",
+        desc: "secure introspectable tunnels to localhost",
         tag: "Tool",
-        url: "https://fusion.design/"
+        url: "https://ngrok.com/"
       },
       {
-        title: "UiforUS",
-        desc: "让UI设计变得更简单",
+        title: "JavaScript Visualizer",
+        desc: "A tool for visualizing Execution Context, Hoisting, Closures, and Scopes in JavaScript.",
         tag: "Tool",
-        url: "https://www.uiforus.com/"
+        url: "https://tylermcginnis.com/javascript-visualizer/"
       },
       {
-        title: "Culrs",
-        desc: "Culrs | Culrs gives you a simple smart approach to choose color palettes",
+        title: "Regexper",
+        desc: "Regular expression visualizer using railroad diagrams",
         tag: "Tool",
-        url: "https://culrs.com/#/"
+        url: "https://regexper.com/"
       },
       {
-        title: "CSS渐变",
-        desc: "CSS渐变",
+        title: "regex101",
+        desc: "Online regex tester and debugger: PHP, PCRE, Python, Golang and JavaScript",
         tag: "Tool",
-        url: "https://www.bestvist.com/css-gradient"
+        url: "https://regex101.com/"
       },
       {
-        title: "Colorgg",
-        desc: "Colorgg颜色大全,颜色搭配,颜色代码表查询",
+        title: "UnCSS Online",
+        desc: "Simply UnCSS your styles online!",
         tag: "Tool",
-        url: "https://www.colorgg.com/"
+        url: "https://uncss-online.com/"
       },
       {
-        title: "Ant Design",
-        desc: "蚂蚁金服设计平台",
+        title: "Clippy",
+        desc: "CSS clip-path maker",
         tag: "Tool",
-        url: "http://design.alipay.com/"
+        url: "https://bennettfeely.com/clippy/"
       },
       {
-        title: "Cleanmock",
-        desc: "Mockup your designs simply and beautifully.",
+        title: "Twilio",
+        desc: "Communication APIs for SMS, Voice, Video and Authentication",
         tag: "Tool",
-        url: "https://cleanmock.com/designer"
+        url: "https://www.twilio.com/"
       },
       {
-        title: "设计订阅",
-        desc: "腾讯设计导航",
+        title: "Syncd",
+        desc: "自动化部署工具",
         tag: "Tool",
-        url: "https://idesign.qq.com"
+        url: "https://syncd.cc/"
       },
       {
-        title: "Seeseed",
-        desc: "无穷尽设计可能",
+        title: "lera.ai",
+        desc: "Visualize and track learning",
         tag: "Tool",
-        url: "https://www.seeseed.com/"
+        url: "https://lera.ai/"
       },
       {
-        title: "图说设计模式",
-        desc: "Graphic Design Patterns",
+        title: "Codeimg.io",
+        desc: "Create and share beautiful images of your source code.",
         tag: "Tool",
-        url: "https://design-patterns.readthedocs.io/zh_CN/latest/index.html"
+        url: "https://codeimg.io/"
       },
       {
-        title: "Awesome Design Tools",
-        desc: "The best design tools for everything — from wireframing and prototyping to animation, accessibility, AR, design systems and sound design.",
+        title: "Scrumpy",
+        desc: "A Beautiful Project Management Tool for Agile Teams",
         tag: "Tool",
-        url: "https://flawlessapp.io/designtools"
+        url: "https://scrumpy.io/"
       },
       {
-        title: "MDUI",
-        desc: "Material Design User Interface",
-        tag: "UI",
-        url: "https://www.mdui.org/"
-      },
-      {
-        title: "Material Design for Bootstrap",
-        desc: "the most popular & free UI KIT - Material Design for Bootstrap",
-        tag: "UI",
-        url: "https://mdbootstrap.com/"
-      },
-      {
-        title: "UI8",
-        desc: "UI Design Resources, UI Kits, Wireframes, Icons and More",
-        tag: "UI",
-        url: "https://ui8.net/"
-      },
-      {
-        title: "SUI Mobile",
-        desc: "阿里巴巴国际UED前端出品移动端UI",
-        tag: "UI",
-        url: "http://m.sui.taobao.org/"
-      },
-      {
-        title: "Taro",
-        desc: "一套遵循 React 语法规范的多端统一开发框架-凹凸实验室",
-        tag: "UI",
-        url: "https://taro.aotu.io/"
-      },
-      {
-        title: "unDraw",
-        desc: "Open-source illustrations for every project you can imagine and create.",
-        tag: "Illustration",
-        url: "https://undraw.co/"
-      },
-      {
-        title: "Arction",
-        desc: "快速、先进的 .NET图表控件 & LightningChart JS, WEB 图表库",
-        tag: "",
-        url: "http://www.arction.cn/"
-      }
-    ]
-  },
-  {
-    class: "Color",
-    content: [
-      {
-        title: "Trianglify",
-        desc: "Low Poly Pattern Generator",
+        title: "web.dev",
+        desc: "Get the web's modern capabilities on your own sites and apps with useful guidance and analysis from web.dev. ",
         tag: "Tool",
-        url: "https://trianglify.io/"
+        url: "https://web.dev/"
       },
       {
-        title: "WebGradients",
-        desc: "Fresh Background Gradients",
+        title: "React-UWP",
+        desc: "React-UWP App Developer | Docs",
         tag: "Tool",
-        url: "https://webgradients.com/"
+        url: "https://www.react-uwp.com/"
       },
       {
-        title: "CoolHue",
-        desc: "Coolest Gradient Hues and Swatches",
+        title: "Easy Mock",
+        desc: "更简单高效的伪造数据",
         tag: "Tool",
-        url: "https://webkul.github.io/coolhue/"
+        url: "https://easy-mock.com"
       },
       {
-        title: "HSL Color Picker",
-        desc: "CREATED FOR YOUR ENJOYMENT",
+        title: "Python Extension",
+        desc: "Unofficial Windows Binaries for Python Extension Packages",
         tag: "Tool",
-        url: "http://hslpicker.com/"
-      }
-    ]
-  },
-  {
-    class: "Font",
-    content: [
-      {
-        title: "方正字库",
-        desc: "免费字体_PS字体_方正字体",
-        tag: "Source",
-        url: "http://www.foundertype.com/"
+        url: "https://www.lfd.uci.edu/~gohlke/pythonlibs/"
       },
       {
-        title: "造字工房",
-        desc: "造字工房",
-        tag: "Source",
-        url: "http://www.makefont.com/"
-      },
-      {
-        title: "汉仪字库",
-        desc: "用心绽放文字之美",
-        tag: "Source",
-        url: "http://www.hanyi.com.cn/"
-      },
-      {
-        title: "华康字型",
-        desc: "华康字型",
-        tag: "Source",
-        url: "https://www.dynacw.com.cn/"
-      },
-      {
-        title: "文悦字库",
-        desc: "Timeline",
-        tag: "Source",
-        url: "https://wytype.com/"
-      },
-      {
-        title: "Google Fonts",
-        desc: "Google Fonts",
-        tag: "Source",
-        url: "https://fonts.google.com/"
-      },
-      {
-        title: "思源宋体",
-        desc: "思源宋体",
-        tag: "Source",
-        url: "https://source.typekit.com"
-      },
-      {
-        title: "字由",
-        desc: "设计师必备字体利器",
+        title: "CSS Reference",
+        desc: "A free visual guide to CSS",
         tag: "Tool",
-        url: "http://www.hellofont.cn/"
+        url: "https://cssreference.io/"
       },
       {
-        title: "Adobe Fonts",
-        desc: "Explore unlimited fonts",
-        tag: "Source",
-        url: "https://fonts.adobe.com/"
-      },
-      {
-        title: "Font Squirrel",
-        desc: "Free Fonts! Legit Free & Quality",
-        tag: "Source",
-        url: "https://www.fontsquirrel.com/"
-      },
-      {
-        title: "Font Library",
-        desc: "Font Library",
-        tag: "Source",
-        url: "https://fontlibrary.org/"
-      }
-    ]
-  },
-  {
-    class: "Icon",
-    content: [
-      {
-        title: "草莓图标库",
-        desc: "A Free and Open Source Iconic Font Library for Developers",
+        title: "HTML Reference",
+        desc: "A free guide to all HTML elements and attributes",
         tag: "Tool",
-        url: "http://chuangzaoshi.com/icon/"
+        url: "https://htmlreference.io/"
       },
       {
-        title: "Iconfont",
-        desc: "阿里巴巴矢量图标库",
+        title: "explainshell",
+        desc: "match command-line arguments to their help text",
         tag: "Tool",
-        url: "https://www.iconfont.cn/"
+        url: "https://explainshell.com/"
       },
       {
-        title: "IcoMoon",
-        desc: "Icon Font & SVG Icon Sets",
+        title: "Draw.io",
+        desc: "A free online diagramming application  and flowchart maker",
         tag: "Tool",
-        url: "https://icomoon.io/"
+        url: "https://www.draw.io/"
       },
       {
-        title: "Remix Icon",
-        desc: "Open source icon library",
+        title: "Mergely",
+        desc: "Diff text documents online",
         tag: "Tool",
-        url: "https://remixicon.com/"
+        url: "http://www.mergely.com/"
+      },
+      {
+        title: "TablePlus",
+        desc: "Modern, Native Tool for Database Management",
+        tag: "Tool",
+        url: "https://tableplus.io/"
+      },
+      {
+        title: "DevDocs API",
+        desc: "",
+        tag: "Tool",
+        url: "http://devdocs.io/"
+      },
+      {
+        title: "Dash",
+        desc: "API Documentation Browser, Snippet Manager - Kapeli",
+        tag: "Tool",
+        url: "https://kapeli.com"
+      },
+      {
+        title: "Zeal",
+        desc: "Offline Documentation Browser",
+        tag: "Tool",
+        url: "https://zealdocs.org/"
+      },
+      {
+        title: "Carbon",
+        desc: "",
+        tag: "Tool",
+        url: "https://carbon.now.sh"
+      },
+      {
+        title: "CodePen",
+        desc: "Create a New Pen",
+        tag: "Tool",
+        url: "https://codepen.io"
+      },
+      {
+        title: "CoderPad",
+        desc: "Help you hire better candidates faster",
+        tag: "Tool",
+        url: "https://coderpad.io/"
+      },
+      {
+        title: "Cacher",
+        desc: "Code snippet organizer for pros",
+        tag: "Tool",
+        url: "https://www.cacher.io/"
+      },
+      {
+        title: "Beyondcow",
+        desc: "",
+        tag: "Tool",
+        url: "https://www.beyondcow.com/"
+      },
+      {
+        title: "Animista",
+        desc: "CSS Animations",
+        tag: "Tool",
+        url: "http://animista.net/"
+      },
+      {
+        title: "Libraries",
+        desc: "The Open Source Discovery Service",
+        tag: "Tool",
+        url: "https://libraries.io/"
+      },
+      {
+        title: "Tables Generator",
+        desc: "Create LaTeX tables online",
+        tag: "Tool",
+        url: "https://www.tablesgenerator.com/"
+      },
+      {
+        title: "Console Compiler",
+        desc: "Console Compiler",
+        tag: "Tool",
+        url: "https://compiler.run/"
+      },
+      {
+        title: "Linux Kernel",
+        desc: "The Linux Kernel Archives",
+        tag: "Tool",
+        url: "https://www.kernel.org/"
       }
     ]
   },
