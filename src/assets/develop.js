@@ -127,18 +127,18 @@ const develop = [
         desc: "专业人士的创作知识社区",
         tag: "Tool",
         url: "https://xiaozhuanlan.com/"
+      },
+      {
+        title: "Gitter",
+        desc: "开发者交谈的地方",
+        tag: "Tool",
+        url: "https://gitter.im/"
       }
     ]
   },
   {
     class: "Resource",
     content: [
-      {
-        title: "I18n Translation",
-        desc: "I18n Translation Search Engine| Free i18n Tools for App&Web",
-        tag: "Tool",
-        url: "https://i18ns.com"
-      },
       {
         title: "代码片段",
         desc: "代码片段",
@@ -180,12 +180,6 @@ const develop = [
         desc: "Communication APIs for SMS, Voice, Video and Authentication",
         tag: "Tool",
         url: "https://www.twilio.com/"
-      },
-      {
-        title: "Syncd",
-        desc: "自动化部署工具",
-        tag: "Tool",
-        url: "https://syncd.cc/"
       },
       {
         title: "Linux网站导航",
@@ -272,48 +266,6 @@ const develop = [
         url: "http://www.mergely.com/"
       },
       {
-        title: "TablePlus",
-        desc: "Modern, Native Tool for Database Management",
-        tag: "Tool",
-        url: "https://tableplus.io/"
-      },
-      {
-        title: "DevDocs API",
-        desc: "",
-        tag: "Tool",
-        url: "http://devdocs.io/"
-      },
-      {
-        title: "Dash",
-        desc: "API Documentation Browser, Snippet Manager - Kapeli",
-        tag: "Tool",
-        url: "https://kapeli.com"
-      },
-      {
-        title: "Zeal",
-        desc: "Offline Documentation Browser",
-        tag: "Tool",
-        url: "https://zealdocs.org/"
-      },
-      {
-        title: "Carbon",
-        desc: "",
-        tag: "Tool",
-        url: "https://carbon.now.sh"
-      },
-      {
-        title: "CodePen",
-        desc: "Create a New Pen",
-        tag: "Tool",
-        url: "https://codepen.io"
-      },
-      {
-        title: "CoderPad",
-        desc: "Help you hire better candidates faster",
-        tag: "Tool",
-        url: "https://coderpad.io/"
-      },
-      {
         title: "Cacher",
         desc: "Code snippet organizer for pros",
         tag: "Tool",
@@ -336,18 +288,6 @@ const develop = [
         desc: "The Open Source Discovery Service",
         tag: "Tool",
         url: "https://libraries.io/"
-      },
-      {
-        title: "Tables Generator",
-        desc: "Create LaTeX tables online",
-        tag: "Tool",
-        url: "https://www.tablesgenerator.com/"
-      },
-      {
-        title: "Console Compiler",
-        desc: "Console Compiler",
-        tag: "Tool",
-        url: "https://compiler.run/"
       },
       {
         title: "Linux Kernel",
@@ -373,10 +313,22 @@ const develop = [
         url: "https://i18ns.com"
       },
       {
+        title: "Codeshare",
+        desc: "Share code in real-time with developers in your browser",
+        tag: "Tool",
+        url: "https://codeshare.io/"
+      },
+      {
         title: "Git History",
         desc: "Quickly browse the history of files in any git repo",
         tag: "Tool",
         url: "https://github.githistory.xyz/"
+      },
+      {
+        title: "Create App",
+        desc: "start a new webpack or Parcel project",
+        tag: "Tool",
+        url: "https://createapp.dev/"
       },
       {
         title: "Github Contributions",
@@ -565,12 +517,6 @@ const develop = [
         url: "http://animista.net/"
       },
       {
-        title: "Libraries",
-        desc: "The Open Source Discovery Service",
-        tag: "Tool",
-        url: "https://libraries.io/"
-      },
-      {
         title: "Tables Generator",
         desc: "Create LaTeX tables online",
         tag: "Tool",
@@ -583,10 +529,16 @@ const develop = [
         url: "https://compiler.run/"
       },
       {
-        title: "Linux Kernel",
-        desc: "The Linux Kernel Archives",
+        title: "ASCIIFlow Infinity",
+        desc: "Infinite ASCII diagrams",
         tag: "Tool",
-        url: "https://www.kernel.org/"
+        url: "http://asciiflow.com/"
+      },
+      {
+        title: "asciinema",
+        desc: "Record and share your terminal sessions, the right way",
+        tag: "Tool",
+        url: "https://asciinema.org/"
       }
     ]
   },

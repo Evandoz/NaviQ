@@ -182,7 +182,7 @@ const media = [
       },
       {
         title: "全球直播频道",
-        desc: "高清无插件在线电视直播-TvvGo.com",
+        desc: "高清无插件在线电视直播",
         tag: "Tool",
         url: "http://tvvgo.com/"
       },
@@ -194,13 +194,13 @@ const media = [
       },
       {
         title: "茶杯狐",
-        desc: "中国最大的影视资源聚合搜索引擎。删繁就简，搜电影从未如此简单！",
+        desc: "影视资源聚合搜索引擎",
         tag: "Tool",
         url: "https://www.cupfox.com/"
       },
       {
         title: "疯狂影视搜索",
-        desc: "疯狂影视搜索-最有用的影视搜索引擎",
+        desc: "影视搜索引擎",
         tag: "Tool",
         url: "http://ifkdy.com/"
       },
@@ -218,7 +218,7 @@ const media = [
       },
       {
         title: "NICETOOL+",
-        desc: "在线工具大全，用完即走，触手可及_好工具网",
+        desc: "在线工具大全，用完即走，触手可及",
         tag: "Tool",
         url: "http://www.nicetool.net/"
       },
@@ -296,7 +296,7 @@ const media = [
       },
       {
         title: "VLC",
-        desc: "全平台的自由多媒体解决方案！ - VideoLAN",
+        desc: "全平台的自由多媒体解决方案",
         tag: "Tool",
         url: "https://www.videolan.org/"
       },
@@ -320,7 +320,7 @@ const media = [
       },
       {
         title: "SONG MAKER",
-        desc: "Song Maker, an experiment in Chrome Music Lab, is a simple way for anyone to make and share a song.",
+        desc: "a simple way for anyone to make and share a song.",
         tag: "Tool",
         url: "https://musiclab.chromeexperiments.com/Song-Maker/"
       },
@@ -356,8 +356,14 @@ const media = [
         url: "https://www.mindmeister.com/zh"
       },
       {
+        title: "MindMaster",
+        desc: "思维导图软件",
+        tag: "Tool",
+        url: "https://mm.edrawsoft.cn/"
+      },
+      {
         title: "GitMind",
-        desc: "在线免费思维导图软件",
+        desc: "免费思维导图软件",
         tag: "Tool",
         url: "https://gitmind.cn/"
       }
@@ -463,7 +469,7 @@ const media = [
       },
       {
         title: "稿定设计",
-        desc: "稿定设计-做图做视频必备_在线设计神器_海量模板免费用",
+        desc: "在线设计神器_海量模板免费用",
         tag: "Tool",
         url: "https://www.gaoding.com/"
       },
@@ -493,7 +499,7 @@ const media = [
       },
       {
         title: "POCO摄影图片社区",
-        desc: "领先的时尚摄影平台，摄影视频，摄影爱好者分享作品和技巧首选，个人空间",
+        desc: "领先的时尚摄影平台，摄影爱好者分享作品和技巧首选",
         tag: "Tool",
         url: "http://www.poco.cn/"
       },
@@ -523,7 +529,7 @@ const media = [
       },
       {
         title: "waifu2x",
-        desc: "本程序使用卷积神经网络对动漫风格的图片进行放大操作（支持照片）。",
+        desc: "卷积神经网络对动漫风格的图片进行放大操作",
         tag: "Tool",
         url: "http://waifu2x.udp.jp/index.zh-CN.html"
       },
@@ -535,7 +541,7 @@ const media = [
       },
       {
         title: "Bigjpg",
-        desc: "AI人工智能图片无损放大 - 使用人工智能深度卷积神经网络(CNN)无损放大图片",
+        desc: "AI人工智能图片无损放大",
         tag: "Tool",
         url: "https://bigjpg.com/"
       },
@@ -559,7 +565,7 @@ const media = [
       },
       {
         title: "BgRemover",
-        desc: "在线图片去底工具-背景变透明|图片底色去除去掉",
+        desc: "在线图片去底工具",
         tag: "Tool",
         url: "http://www.aigei.com/bgremover"
       },
@@ -577,9 +583,15 @@ const media = [
       },
       {
         title: "Statically",
-        desc: "Imgpx, image acceleration and modification service via custom endpoints",
+        desc: "Imgpx, image acceleration and modification service",
         tag: "Tool",
         url: "https://statically.io/imgpx"
+      },
+      {
+        title: "WordArt.com",
+        desc: "Word Cloud Art Creator",
+        tag: "Tool",
+        url: "https://wordart.com/"
       }
     ]
   }

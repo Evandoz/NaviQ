@@ -241,6 +241,12 @@ const design = [
         tag: "Tool",
         url: "https://pixabay.com/"
       },
+      {
+        title: "Collect UI",
+        desc: "Daily inspiration collected",
+        tag: "Tool",
+        url: "http://collectui.com/"
+      },
     ]
   },
   {
@@ -393,6 +399,12 @@ const design = [
         desc: "Home of Emoji Meanings 💁👌🎍😍",
         tag: "Tool",
         url: "https://emojipedia.org/"
+      },
+      {
+        title: "Pichon",
+        desc: "86,000 Icons in a Free App",
+        tag: "Tool",
+        url: "https://icons8.com/app"
       }
     ]
   }

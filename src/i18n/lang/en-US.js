@@ -27,5 +27,6 @@ export default {
   All: 'All Site',
   Fav: 'Fav',
   SMS: 'SMS',
+  Academic: 'Academic',
   Nav: 'Nav'
 }

@@ -214,6 +214,17 @@ const read = [
     ]
   },
   {
+    class: "Academic",
+    content: [
+      {
+        title: "Microsoft Academic",
+        desc: "微软学术搜索引擎",
+        tag: "Tool",
+        url: "https://academic.microsoft.com/"
+      },
+    ]
+  },
+  {
     class: "Learn",
     content: [
       {
@@ -305,6 +316,12 @@ const read = [
         desc: "Deep Reinforcement Learning",
         tag: "Tool",
         url: "http://rail.eecs.berkeley.edu/deeprlcourse/"
+      },
+      {
+        title: "Fox Dict",
+        desc: "福利背单词",
+        tag: "Tool",
+        url: "https://easychen.gitee.io/foxdict/"
       }
     ]
   }

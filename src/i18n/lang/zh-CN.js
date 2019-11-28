@@ -1,5 +1,5 @@
 export default {
-  Develop: '编程开发',
+  Develop: '开发',
   Statistics: '资讯',
   Community: '社区',
   News: '资讯',
@@ -22,5 +22,6 @@ export default {
   Other: '其他',
   Fav: '暂存',
   Nav: '导航',
+  Academic: '学术',
   Search: '搜索引擎'
 }
