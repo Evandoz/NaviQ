@@ -75,6 +75,12 @@ const media = [
         url: "https://www.sejda.com/"
       },
       {
+        title: "docsmall",
+        desc: "免费在线图片压缩、GIF压缩工具、PDF压缩工具、PDF合并工具、PDF分割工具",
+        tag: "Tool",
+        url: "https://docsmall.com/"
+      },
+      {
         title: "免费在线文件转换",
         desc: "免费在线转换视频,在线音频转换,在线图形转换,在线文档转换和在线压缩格式",
         tag: "Tool",
@@ -150,6 +156,12 @@ const media = [
   {
     class: "Tool",
     content: [
+      {
+        title: "小短码",
+        desc: "简单易用的渠道短链接统计工具",
+        tag: "Tool",
+        url: "https://xiaomark.com/"
+      },
       {
         title: "在线工具网",
         desc: "工作生活好帮手",

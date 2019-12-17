@@ -140,6 +140,24 @@ const develop = [
     class: "Resource",
     content: [
       {
+        title: "GitSheet",
+        desc: "A dead simple git cheatsheet.",
+        tag: "Tool",
+        url: "https://gitsheet.wtf/"
+      },
+      {
+        title: "Flex.io",
+        desc: "On-demand data from web services, directly in your spreadsheet.",
+        tag: "Tool",
+        url: "https://www.flex.io/"
+      },
+      {
+        title: "码灵程序员导航",
+        desc: "一个帮助开发者成长的程序员网址导航",
+        tag: "Tool",
+        url: "https://nav.imaring.com/"
+      },
+      {
         title: "代码片段",
         desc: "代码片段",
         tag: "Tool",
@@ -311,6 +329,12 @@ const develop = [
         desc: "I18n Translation Search Engine| Free i18n Tools for App&Web",
         tag: "Tool",
         url: "https://i18ns.com"
+      },
+      {
+        title: "LiveReload",
+        desc: "a happy land where browsers don't need a Refresh button",
+        tag: "Tool",
+        url: "http://livereload.com/"
       },
       {
         title: "Codeshare",

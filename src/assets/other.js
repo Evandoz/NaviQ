@@ -4,7 +4,7 @@ const other =  [
     content: [
       {
         title: "Magi",
-        desc: "用 AI 梳理互联网的知识引擎 - Magi 通过机器学习将互联网上的海量信息构建成可解析、可检索、可溯源的结构化知识体系。",
+        desc: "用 AI 梳理互联网的知识引擎",
         tag: "Tool",
         url: "https://magi.com/"
       },
@@ -108,6 +108,35 @@ const other =  [
         desc: "An academic search engine for scientific articles",
         tag: "Tool",
         url: "https://www.semanticscholar.org/"
+      }
+    ]
+  },
+  {
+    class: "Exciting",
+    content: [
+      {
+        title: "mine clearance",
+        desc: "在线扫雷，UI 很好",
+        tag: "Tool",
+        url: "https://mineclear.vicco.wang/"
+      },
+      {
+        title: "Muscle Wiki",
+        desc: "Understand your body, simplify your workout",
+        tag: "Tool",
+        url: "https://musclewiki.org/"
+      },
+      {
+        title: "_______________🚗_____",
+        desc: "来开车了",
+        tag: "Tool",
+        url: "https://bruno-simon.com/"
+      },
+      {
+        title: "I Ching",
+        desc: "The simple & elegant alternative to QR code",
+        tag: "Tool",
+        url: "https://iching.codes/"
       }
     ]
   },

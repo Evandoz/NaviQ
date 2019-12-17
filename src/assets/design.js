@@ -11,13 +11,13 @@ const design = [
       },
       {
         title: "SandDance",
-        desc: "SandDance | Dynamic Visual Data Exploration",
+        desc: "Dynamic Visual Data Exploration",
         tag: "Tool",
         url: "https://www.sanddance.ms/"
       },
       {
         title: "Generative.fm",
-        desc: "Generative.fm - Ambient Generative Music by Alex Bainter",
+        desc: "Ambient Generative Music by Alex Bainter",
         tag: "Tool",
         url: "https://generative.fm/"
       },
@@ -29,7 +29,7 @@ const design = [
       },
       {
         title: "Culrs",
-        desc: "Culrs | Culrs gives you a simple smart approach to choose color palettes",
+        desc: "a simple smart approach to choose color palettes",
         tag: "Tool",
         url: "https://culrs.com/#/"
       },
@@ -59,19 +59,19 @@ const design = [
       },
       {
         title: "Animista",
-        desc: "Animista is a place where you can play with a collection of ready to use CSS animations, tweak them and download only those you will actually use.",
+        desc: "a collection of CSS animations",
         tag: "UI",
         url: "https://animista.net/play/basic"
       },
       {
         title: "unDraw",
-        desc: "Open-source illustrations for every project you can imagine and create.",
+        desc: "Open-source illustrations for project",
         tag: "Illustration",
         url: "https://undraw.co/"
       },
       {
         title: "Awesome Design Tools",
-        desc: "The best design tools for everything — from wireframing and prototyping to animation, accessibility, AR, design systems and sound design.",
+        desc: "from wireframing and prototyping to animation, accessibility, AR, design systems and sound design.",
         tag: "Tool",
         url: "https://flawlessapp.io/designtools"
       },
@@ -112,15 +112,9 @@ const design = [
       },
       {
         title: "Taro",
-        desc: "一套遵循 React 语法规范的多端统一开发框架-凹凸实验室",
+        desc: "遵循 React 语法规范的多端统一开发框架-凹凸实验室",
         tag: "UI",
         url: "https://taro.aotu.io/"
-      },
-      {
-        title: "Culrs",
-        desc: "Culrs | Culrs gives you a simple smart approach to choose color palettes",
-        tag: "Tool",
-        url: "https://culrs.com/#/"
       },
       {
         title: "Ant Design",
@@ -154,7 +148,7 @@ const design = [
       },
       {
         title: "Material Design for Bootstrap",
-        desc: "the most popular & free UI KIT - Material Design for Bootstrap",
+        desc: "free UI KIT - Material Design for Bootstrap",
         tag: "UI",
         url: "https://mdbootstrap.com/"
       },
@@ -198,12 +192,6 @@ const design = [
         desc: "Free vector illustrations",
         tag: "Tool",
         url: "https://icons8.com/ouch"
-      },
-      {
-        title: "unDraw",
-        desc: "Open-source illustrations for every project you can imagine and create",
-        tag: "Tool",
-        url: "https://undraw.co/"
       },
       {
         title: "Pngtree",
