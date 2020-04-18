@@ -3,7 +3,7 @@
     <div class="header">
       <div class="container">
         <div class="icon" @click="showMobile"><Icon type="ios-menu" /></div>
-        <h1 class="title"><a href="/Navigation/">NaviQ</a></h1>
+        <h1 class="title"><a href="/NaviQ/">NaviQ</a></h1>
         <elmenu :mode="horMode"></elmenu>
         <transition name="slide">
           <div class="mobile" v-show="mobileShow">

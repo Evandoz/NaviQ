@@ -1,4 +1,4 @@
-# navigation
+# NaviQ
 
 ## Project setup
 ```
