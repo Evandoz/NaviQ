@@ -75,6 +75,12 @@ export default {
   }
 }
 </script>
+
+<style lang="stylus">
+.ivu-menu-horizontal.ivu-menu-light:after
+  content: none!important;
+</style>
+
 <style lang="stylus" scoped>
 .wrapper
   width: 100vw
@@ -84,7 +90,7 @@ export default {
   height: 60px
   padding: 0 3vw
   line-height: 60px
-  box-shadow 0 0 50px 20px rgba(0, 0, 0, .05)
+  box-shadow 0px 2px 8px 0px rgba(0, 0, 0, 0.08)
   .container
     position: relative
     display: flex

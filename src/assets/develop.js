@@ -47,13 +47,13 @@ const develop = [
       },
       {
         title: "独立",
-        desc: "中国独立 iOS 和 macOS 开发者图鉴，中国独立开发者项目列表。",
+        desc: "中国独立 iOS 和 macOS 开发者项目列表",
         tag: "Tool",
         url: "https://josephchang10.github.io/chinese-indie-hackers/"
       },
       {
         title: "Hunter",
-        desc: "TechLookup - Find the websites using certain technologies",
+        desc: "Find the websites using certain technologies",
         tag: "Tool",
         url: "https://techlookup.hunter.io/"
       },
@@ -183,13 +183,13 @@ const develop = [
       },
       {
         title: "VisuAlgo",
-        desc: "数据结构和算法动态可视化 (Chinese)",
+        desc: "数据结构和算法动态可视化",
         tag: "Tool",
         url: "https://visualgo.net/zh"
       },
       {
         title: "接口大全",
-        desc: "免费API,收集所有免费的API",
+        desc: "免费API，收集所有免费的API",
         tag: "Tool",
         url: "https://www.free-api.com/"
       },
@@ -273,7 +273,7 @@ const develop = [
       },
       {
         title: "Draw.io",
-        desc: "A free online diagramming application  and flowchart maker",
+        desc: "Online diagramming application  and flowchart maker",
         tag: "Tool",
         url: "https://www.draw.io/"
       },
@@ -338,13 +338,13 @@ const develop = [
       },
       {
         title: "I18n Translation",
-        desc: "I18n Translation Search Engine| Free i18n Tools for App&Web",
+        desc: "I18n Translation Search Engine",
         tag: "Tool",
         url: "https://i18ns.com"
       },
       {
         title: "LiveReload",
-        desc: "a happy land where browsers don't need a Refresh button",
+        desc: "Land where browsers don't need a Refresh button",
         tag: "Tool",
         url: "http://livereload.com/"
       },
@@ -380,7 +380,7 @@ const develop = [
       },
       {
         title: "JavaScript Visualizer",
-        desc: "A tool for visualizing Execution Context, Hoisting, Closures, and Scopes in JavaScript.",
+        desc: "Visualizing Execution Context, Hoisting, Closures, and Scopes in JavaScript.",
         tag: "Tool",
         url: "https://tylermcginnis.com/javascript-visualizer/"
       },
@@ -392,7 +392,7 @@ const develop = [
       },
       {
         title: "regex101",
-        desc: "Online regex tester and debugger: PHP, PCRE, Python, Golang and JavaScript",
+        desc: "Online regex tester and debugger",
         tag: "Tool",
         url: "https://regex101.com/"
       },
@@ -440,7 +440,7 @@ const develop = [
       },
       {
         title: "web.dev",
-        desc: "Get the web's modern capabilities on your own sites and apps with useful guidance and analysis from web.dev. ",
+        desc: "Get the web's modern capabilities on your own sites and apps",
         tag: "Tool",
         url: "https://web.dev/"
       },
@@ -482,7 +482,7 @@ const develop = [
       },
       {
         title: "Draw.io",
-        desc: "A free online diagramming application  and flowchart maker",
+        desc: "Online diagramming application and flowchart maker",
         tag: "Tool",
         url: "https://www.draw.io/"
       },
@@ -589,9 +589,9 @@ const develop = [
       },
       {
         title: "掘金翻译计划",
-        desc: "一个翻译优质互联网技术文章的社区（https://github.com/xitu/gold-miner）",
+        desc: "一个翻译优质互联网技术文章的社区",
         tag: "Tool",
-        url: "https://juejin.im/tag/掘金翻译计划"
+        url: "https://github.com/xitu/gold-miner"
       },
       {
         title: "译言古登堡计划",
@@ -618,13 +618,13 @@ const develop = [
       },
       {
         title: "hihoCoder",
-        desc: "通过高水平的程序设计比赛提升编程水平，得到名企offer",
+        desc: "用高水平的程序设计比赛提升编程水平",
         tag: "Tool",
         url: "http://www.hihocoder.com/"
       },
       {
         title: "LeetCode",
-        desc: "The World's Leading Online Programming Learning Platform",
+        desc: "Online Programming Learning Platform",
         tag: "Tool",
         url: "https://leetcode.com/"
       },
@@ -636,7 +636,7 @@ const develop = [
       },
       {
         title: "牛客网",
-        desc: "专业IT笔试面试备考平台,C++JAVA前端求职题库,全面提升IT编程能力",
+        desc: "专业 IT 笔试面试备考平台，求职题库",
         tag: "Tool",
         url: "https://www.nowcoder.com/"
       },
@@ -665,7 +665,7 @@ const develop = [
       },
       {
         title: "jsDelivr",
-        desc: "A free, fast, and reliable Open Source CDN for npm & GitHub",
+        desc: "Open Source CDN for npm & GitHub",
         tag: "Tool",
         url: "https://www.jsdelivr.com"
       }

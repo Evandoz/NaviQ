@@ -8,7 +8,7 @@ const routes = [
     children: [
       {
         path: 'dev',
-        component: () => import('@/views/develop'),
+        component: () => import('@/views/Develop'),
         name: 'Develop',
         meta: { title: 'Programming Development' }
       }
@@ -32,7 +32,7 @@ const routes = [
     children: [
       {
         path: '',
-        component: () => import('@/views/read'),
+        component: () => import('@/views/Read'),
         name: 'read',
         meta: { title: 'Documentation' }
       }
@@ -56,7 +56,7 @@ const routes = [
     children: [
       {
         path: '',
-        component: () => import('@/views/other'),
+        component: () => import('@/views/Other'),
         name: 'other',
         meta: { title: 'Documentation' }
       }

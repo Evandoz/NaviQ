@@ -81,8 +81,8 @@ export default {
   margin: 0 20px 20px 0
   background: #FFFFFF
   text-align: center
-  border-radius: 4px
-  box-shadow 0 10px 40px 0 rgba(158, 158, 158, .22)
+  border-radius: 2px
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.08)
   @media screen and (max-width: 553px)
     margin-right: 0
 

@@ -112,7 +112,7 @@ const read = [
       },
       {
         title: "云展网",
-        desc: "caai_在线翻页电子书免费制作平台_云展网",
+        desc: "caai_在线翻页电子书免费制作平台",
         tag: "Tool",
         url: "http://www.yunzhan365.com/homepage/poui"
       }
@@ -123,7 +123,7 @@ const read = [
     content: [
       {
         title: "网络的演变",
-        desc: "讲述自 1993 年以来浏览器和网络的发展历程以及一些重要的网络技术研发成果",
+        desc: "浏览器和网络的发展历程及重要网络技术研发成果",
         tag: "Source",
         url: "http://www.evolutionoftheweb.com/"
       },
@@ -135,7 +135,7 @@ const read = [
       },
       {
         title: "全历史",
-        desc: "全历史(Allhistory）以AI知识图谱为核心引擎，通过高度时空化、关联化数据的方式构造及展现数字人文内容，尤其是历史知识。让用户沉浸在纵横开阔、左图右史的（历史、人文、社科等）知识海洋中。",
+        desc: "以 AI 知识图谱为核心引擎，用时空化、关联化的方式构造数字人文内容",
         tag: "Source",
         url: "https://www.allhistory.com/"
       },
@@ -147,7 +147,7 @@ const read = [
       },
       {
         title: "今日诗词API",
-        desc: "今日诗词 - 诗词实时智能推荐 - 今日诗词开放接口",
+        desc: "诗词实时智能推荐 - 今日诗词开放接口",
         tag: "Source",
         url: "https://www.jinrishici.com/"
       },
@@ -201,13 +201,13 @@ const read = [
       },
       {
         title: "故宫历史网",
-        desc: "历史，中国历史，世界历史，历史故事，历史人物，历史朝代，历史传说，野史，老照片",
+        desc: "中国历史，世界历史，历史故事，历史人物，历史朝代，历史传说，历史照片",
         tag: "Source",
         url: "http://www.gugong.net/"
       },
       {
         title: "我们的三国",
-        desc: "我们的三国网专注于为广大三国爱好者们分享三国历史知识，三国人物评点，三国类小说，三国电影电视剧等相关的三国文化题材，致力于打造出一个更专业、更覆盖性更年轻化的三国主题圈",
+        desc: "分享三国文化题材，打造出更专业、更覆盖性的三国主题圈",
         tag: "Source",
         url: "http://www.w3guo.com/"
       }
