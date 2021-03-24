@@ -52,6 +52,12 @@ const design = [
         url: "https://idesign.qq.com"
       },
       {
+        title: "Seeseed",
+        desc: "无穷尽设计可能",
+        tag: "Tool",
+        url: "https://www.seeseed.com/"
+      },
+      {
         title: "图说设计模式",
         desc: "Graphic Design Patterns",
         tag: "Tool",
@@ -117,28 +123,10 @@ const design = [
         url: "https://taro.aotu.io/"
       },
       {
-        title: "Ant Design",
-        desc: "蚂蚁金服设计平台",
-        tag: "Tool",
-        url: "http://design.alipay.com/"
-      },
-      {
         title: "Cleanmock",
         desc: "Mockup your designs simply and beautifully.",
         tag: "Tool",
         url: "https://cleanmock.com/designer"
-      },
-      {
-        title: "设计订阅",
-        desc: "腾讯设计导航",
-        tag: "Tool",
-        url: "https://idesign.qq.com"
-      },
-      {
-        title: "Seeseed",
-        desc: "无穷尽设计可能",
-        tag: "Tool",
-        url: "https://www.seeseed.com/"
       },
       {
         title: "MDUI",
