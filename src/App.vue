@@ -1,22 +1,15 @@
 <template>
-  <div id="app">
-    <div class="hidden-scrollbar">
-      <router-view />
-    </div>
+  <div class="hidden-scrollbar">
+    <router-view />
   </div>
 </template>
 
-<script>
-export default {
-  name: 'App'
+<style lang="scss">
+#app {
+  overflow: hidden;
 }
-</script>
-
-<style lang="stylus">
-#app
-  overflow: hidden
-
-.hidden-scrollbar
-  margin-right: -20px
+.hidden-scrollbar {
+  margin-right: -20px;
   //overflow: auto
+}
 </style>

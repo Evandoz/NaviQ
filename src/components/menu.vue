@@ -1,49 +1,39 @@
 <template>
   <div class="menu">
     <Menu :mode="mode" :active-name="activeName" width="auto">
-      <MenuItem name="/dev" to="/dev">{{$t('Develop')}}</MenuItem>
-      <MenuItem name="/design" to="/design">{{$t('Design')}}</MenuItem>
-      <MenuItem name="/read" to="/read">{{$t('Read')}}</MenuItem>
-      <MenuItem name="/tool" to="/tool">{{$t('Tool')}}</MenuItem>
-      <MenuItem name="/other" to="/other">{{$t('Other')}}</MenuItem>
+      <MenuItem name="/dev" to="/dev">{{ $t('Develop') }}</MenuItem>
+      <MenuItem name="/design" to="/design">{{ $t('Design') }}</MenuItem>
+      <MenuItem name="/read" to="/read">{{ $t('Read') }}</MenuItem>
+      <MenuItem name="/tool" to="/tool">{{ $t('Tool') }}</MenuItem>
+      <MenuItem name="/other" to="/other">{{ $t('Other') }}</MenuItem>
     </Menu>
   </div>
 </template>
 
 <script>
+import { defineComponent } from 'vue'
 
-export default {
+export default defineComponent({
   props: {
     mode: {
-      type: String
-    }
+      type: String,
+    },
   },
-  data () {
-    return {
-
-    }
-  },
-  mounted () {
-    this.$nextTick(() => {
-
-    })
+  data() {
+    return {}
   },
   computed: {
-    activeName () {
+    activeName() {
       let activeName = this.$route.path
       let index = activeName.indexOf('/', 1)
       if (index !== -1) {
         return activeName.substring(0, index)
       }
       return activeName
-    }
+    },
   },
-  methods: {
-
-  }
-}
+  methods: {},
+})
 </script>
 
-<style lang="stylus" scoped>
-
-</style>
+<style lang="stylus" scoped></style>

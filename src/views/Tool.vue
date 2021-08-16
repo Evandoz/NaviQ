@@ -5,22 +5,20 @@
 </template>
 
 <script>
-
-import tool from "@/assets/tool";
+import { defineComponent } from 'vue'
+import tool from '@/assets/tool'
 import list from '@/components/list'
 
-export default {
+export default defineComponent({
   components: {
-    list
+    list,
   },
-  data () {
+  data() {
     return {
-      websites: tool
+      websites: tool,
     }
-  }
-}
+  },
+})
 </script>
 
-<style lang="stylus" scoped>
-
-</style>
+<style lang="scss" scoped></style>

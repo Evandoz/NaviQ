@@ -23,5 +23,5 @@ export default {
   Fav: '暂存',
   Nav: '导航',
   Academic: '学术',
-  Search: '搜索引擎'
+  Search: '搜索引擎',
 }

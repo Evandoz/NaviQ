@@ -2,7 +2,7 @@ module.exports = {
   pages: {
     index: {
       // entry for the page
-      entry: 'src/main.js',
+      entry: 'src/main.ts',
       // the source template
       template: 'public/index.html',
       // output as dist/index.html
@@ -12,11 +12,9 @@ module.exports = {
       title: 'NaviQ',
       // chunks to include on this page, by default includes
       // extracted common chunks and vendor chunks.
-      chunks: ['chunk-vendors', 'chunk-common', 'index']
-    }
+      chunks: ['chunk-vendors', 'chunk-common', 'index'],
+    },
   },
-  publicPath: process.env.NODE_ENV === 'production'
-    ? '/NaviQ/'
-    : '/',
-  assetsDir: 'static'
+  publicPath: process.env.NODE_ENV === 'production' ? '/NaviQ/' : '/',
+  assetsDir: 'static',
 }

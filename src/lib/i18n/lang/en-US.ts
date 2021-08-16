@@ -28,5 +28,5 @@ export default {
   Fav: 'Fav',
   SMS: 'SMS',
   Academic: 'Academic',
-  Nav: 'Nav'
+  Nav: 'Nav',
 }
