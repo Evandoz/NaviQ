@@ -1,64 +1,40 @@
 import { RouteRecordRaw } from 'vue-router'
-import Layout from '@/views/Layout.vue'
+import MainLayout from '../layouts/MainLayout.vue'
 
 const routes: Array<RouteRecordRaw> = [
   {
     path: '/',
-    component: Layout,
+    component: MainLayout,
     redirect: '/dev',
     children: [
       {
+        name: 'Develop',
         path: 'dev',
         component: () => import('../views/Develop.vue'),
-        name: 'Develop',
         meta: { title: 'Programming Development' },
       },
-    ],
-  },
-  {
-    path: '/design',
-    component: Layout,
-    children: [
       {
-        path: '',
+        name: 'Design',
+        path: 'design',
         component: () => import('../views/Design.vue'),
-        name: 'design',
         meta: { title: 'Documentation' },
       },
-    ],
-  },
-  {
-    path: '/read',
-    component: Layout,
-    children: [
       {
-        path: '',
+        name: 'Read',
+        path: 'read',
         component: () => import('../views/Read.vue'),
-        name: 'read',
         meta: { title: 'Documentation' },
       },
-    ],
-  },
-  {
-    path: '/Tool',
-    component: Layout,
-    children: [
       {
-        path: '',
-        component: () => import('../views/Tool.vue'),
         name: 'Tool',
+        path: 'tool',
+        component: () => import('../views/Tool.vue'),
         meta: { title: 'Documentation' },
       },
-    ],
-  },
-  {
-    path: '/other',
-    component: Layout,
-    children: [
       {
-        path: '',
+        name: 'Other',
+        path: 'other',
         component: () => import('../views/Other.vue'),
-        name: 'other',
         meta: { title: 'Documentation' },
       },
     ],
