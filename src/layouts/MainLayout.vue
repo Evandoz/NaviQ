@@ -35,14 +35,14 @@
   </div>
 </template>
 
-<script>
+<script lang="ts">
 import { defineComponent } from 'vue'
-import menu from '@/components/menu'
+import Menu from './components/Menu.vue'
 
 export default defineComponent({
   name: 'Layout',
   components: {
-    elmenu: menu,
+    elmenu: Menu,
   },
   data() {
     return {

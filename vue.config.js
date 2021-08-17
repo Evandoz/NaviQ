@@ -11,6 +11,9 @@ module.exports = {
       chunks: ['chunk-vendors', 'chunk-common', 'index'],
     },
   },
+
   publicPath: process.env.NODE_ENV === 'production' ? '/NaviQ/' : '/',
   assetsDir: 'static',
+
+  transpileDependencies: ['vuetify'],
 }

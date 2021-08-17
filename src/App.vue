@@ -1,15 +1,21 @@
 <template>
-  <div class="hidden-scrollbar">
-    <router-view />
-  </div>
+  <v-app>
+    <v-main>
+      <router-view />
+    </v-main>
+  </v-app>
 </template>
 
-<style lang="scss">
-#app {
-  overflow: hidden;
-}
-.hidden-scrollbar {
-  margin-right: -20px;
-  //overflow: auto
-}
-</style>
+<script lang="ts">
+import { defineComponent } from 'vue'
+
+export default defineComponent({
+  name: 'App',
+
+  data() {
+    return {
+      //
+    }
+  },
+})
+</script>
