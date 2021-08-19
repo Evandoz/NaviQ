@@ -1,28 +1,35 @@
 <template>
-  <div class="wrapper">
-    <div class="header">
-      <div class="container">
-        <div class="icon" @click="showMobile"><Icon type="ios-menu" /></div>
-        <h1 class="title"><a href="/NaviQ/">NaviQ</a></h1>
-        <elmenu :mode="horMode"></elmenu>
-        <transition name="slide">
-          <div class="mobile" v-show="mobileShow">
-            <elmenu :mode="verMode"></elmenu>
-            <div class="icon" @click="hideMobile">
-              <Icon type="ios-close" />
-            </div>
-          </div>
-        </transition>
-        <transition name="fade">
-          <div class="mask" v-show="mobileShow" @click="hideMobile"></div>
-        </transition>
-      </div>
-    </div>
-    <div class="content">
+  <v-app>
+    <v-navigation-drawer color="white">
+      <v-container>
+        <v-btn
+          width="40"
+          height="40"
+          class="my-8 pa-0 rounded-lg"
+          style="min-width: 40px"
+          :to="{ name: 'Home' }"
+          >NaviQ</v-btn
+        >
+        <v-divider></v-divider>
+        <v-btn
+          icon
+          large
+          :ripple="false"
+          active-class="black--text"
+          class="my-8 rounded-lg"
+          v-for="(navRoute, navIndex) in navRoutes"
+          :key="navIndex"
+          :to="{ name: navRoute.name }"
+        >
+          <v-icon>iconfont- icon{{ navRoute.meta.icon }}</v-icon>
+        </v-btn>
+      </v-container>
+    </v-navigation-drawer>
+    <v-main>
       <keep-alive>
         <router-view />
       </keep-alive>
-    </div>
+    </v-main>
     <div class="footer">
       <div class="container">
         <p>&copy; 2018 <a href="https://Evandoz.github.io">Levan</a></p>
@@ -32,48 +39,16 @@
         </p>
       </div>
     </div>
-  </div>
+  </v-app>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import Menu from './components/Menu.vue'
 
 export default defineComponent({
-  name: 'Layout',
-  components: {
-    elmenu: Menu,
-  },
-  data() {
-    return {
-      horMode: 'horizontal',
-      verMode: 'vertical',
-      websites: {},
-      mobileShow: false,
-    }
-  },
-  watch: {
-    $route() {
-      this.hideMobile()
-    },
-  },
-  computed: {
-    activeName() {
-      let activeName = this.$route.path
-      let index = activeName.indexOf('/', 1)
-      if (index !== -1) {
-        return activeName.substring(0, index)
-      }
-      return activeName
-    },
-  },
-  methods: {
-    showMobile() {
-      this.mobileShow = true
-    },
-    hideMobile() {
-      this.mobileShow = false
-    },
+  name: 'Home',
+  setup() {
+    return {}
   },
 })
 </script>

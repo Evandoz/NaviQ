@@ -1,43 +1,25 @@
 import { RouteRecordRaw } from 'vue-router'
-import MainLayout from '../layouts/MainLayout.vue'
 
 const routes: Array<RouteRecordRaw> = [
   {
+    name: 'Home',
     path: '/',
-    component: MainLayout,
-    redirect: '/dev',
+    component: () => import('../views/Home.vue'),
+    meta: { title: '首页' },
     children: [
       {
-        name: 'Develop',
-        path: 'dev',
-        component: () => import('../views/Develop.vue'),
-        meta: { title: 'Programming Development' },
-      },
-      {
-        name: 'Design',
-        path: 'design',
-        component: () => import('../views/Design.vue'),
-        meta: { title: 'Documentation' },
-      },
-      {
-        name: 'Read',
-        path: 'read',
-        component: () => import('../views/Read.vue'),
-        meta: { title: 'Documentation' },
-      },
-      {
-        name: 'Tool',
-        path: 'tool',
-        component: () => import('../views/Tool.vue'),
-        meta: { title: 'Documentation' },
-      },
-      {
-        name: 'Other',
-        path: 'other',
-        component: () => import('../views/Other.vue'),
-        meta: { title: 'Documentation' },
+        name: 'Page',
+        path: ':pageId',
+        props: true,
+        component: () => import('../views/Page.vue'),
       },
     ],
+  },
+  {
+    name: 'About',
+    path: '/about',
+    component: () => import('../views/About.vue'),
+    meta: { title: '关于' },
   },
 ]
 
